@@ -1,0 +1,15 @@
+Cuando se registra un nuevo socio, este tiene la opcion de hacerlo en la propia biblioteca o de manera online. En ambos casos se precisa de cierta informacion que es dada al secretario de la biblioteca. En el caso presencial una vez dada esta informacion se procede a crear el carnet y entregar en el acto, mientras que en el caso online se abren dos posibilidades, que el socio quiera recogerlo en la biblioteca, en cuyo caso procede como en el caso anterior, o que prefiera recibirlo a domicilio con lo que deberá dar informacion adicional para que el servicio de mensajeria pueda entregar el carnet a domicilio.
+
+
+Durante el proceso de prestamo, el socio solicita un libro e informa al personal de la biblioteca de ello.  Esto activa una cadena de eventos que suceden en un orden especifico y pueden dar lugar a tres casos diferenciados.
+Lo primero que se realiza es la comprobacion de su responsabilidad como usuario de la biblioteca, control que de no pasar se le informaria y cumpliria su correspondiente sancion.
+Tras esto se comprueba la disponibilidad del prestamo y se le informaen caso negativo el proceso termina aqui y en caso afirmativo el prestamo es completado con la entrega del ejemplar.
+Tras un tiempo establecido se lleva a cabo la devolucion del ejemplar e inmediatamente tras su entrega sera analizado en cuestion de su estado, llegando a declarar como irresponsable al usuario si su estado es decrepito.
+
+
+La puesta en contacto con el proveedor la lleva a cabo el gerente de la biblioteca, que la informa de la necesidad de un material especifico ya sean libros u otro material de oficina. 
+El proveedor se encarga del envio del material y una vez en la biblioteca es trabajo del secretario almacenar este material y en caso de ser un libro clasificarlo y colocarlo en su respectiva estanteria.
+
+
+Por ultimo en el prestamo entre bibliotecas actuan el gerente y secretario de ambas. Comienza con el gerente de la solicitante poniendose en contacto con el gerente de otra bilioteca e informando del material solicitado.
+Este delega el trabajo de buscar y concretar si tal prestamo es posible y sea cual sea el caso le responde al primero. En caso afirmativo el secretario de la biblioteca prestamista se pone en contacto con el secretario de la receptora y envia el paquete con los materiales para su posterior clasificacion y archivamiento.
