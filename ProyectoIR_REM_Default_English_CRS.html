@@ -207,14 +207,85 @@ Descripción de procesos de negocio a implantar</a>
 Introducción</h1><a name="SEC-0006" />
 <h2 align="left">1.1 
 Alcance</h2><a name="PRG-0001" />
-<p>Gestión de <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>, socios, préstamos, préstamos interbibliotecario de la Biblioteca Pública Municipal de Camas y de sus sucursales.</p>
+<p>Biblioteca Pública Municipal de Camas - Rafael Alberti dependiente del ayuntamiento de Camas está situada en la Plaza Nuestra Señora de los Dolores, s/n. La institución dispone de alrededor de 30.000 volúmenes de teatro, novela, poesía, etcétera, para préstamos.
+<br />La biblioteca es referente en la atención a los más pequeños y su familia, que disponen, entre otros, de cuentacuentos, manualidades y, por supuesto, de literatura infantil y volúmenes referidos a la educación de los niños.
+<br />
+</p>
+<a name="GRF-0001" />
+<p align="center">
+<img src=".\Imágenes\3bc52364-ea7b-4058-9d33-5e947aabbc17.jpg" title=".\Imágenes\3bc52364-ea7b-4058-9d33-5e947aabbc17.jpg" />
+</p>
+<p align="center">
+<b>Figure 1</b>:
+                
+Sección infantil (cuentacuentos)</p>
+<a name="PRG-0010" />
+<p>También dispone de un servicio de consulta que se compone de prensa diaria, diccionarios, enciclopedias, revistas y manuales de preparación de oposiciones, un surtido de actividades culturales y clubes de lectura.</p>
+<a name="GRF-0002" />
+<p align="center">
+<img src=".\Imágenes\90b90e69-c497-4228-ac88-933c503fca71.jpg" title=".\Imágenes\90b90e69-c497-4228-ac88-933c503fca71.jpg" />
+</p>
+<p align="center">
+<b>Figure 2</b>:
+                
+Club de lectura</p>
+<a name="GRF-0003" />
+<p align="center">
+<img src=".\Imágenes\a95b321b-16e1-460b-93e8-18d65c59887c.jpg" title=".\Imágenes\a95b321b-16e1-460b-93e8-18d65c59887c.jpg" />
+</p>
+<p align="center">
+<b>Figure 3</b>:
+                
+Servicios de consulta</p>
+<a name="PRG-0011" />
+<p>Las pequeñas bibliotecas de los municipios adyacentes a Camas están relacionadas con esta.
+<br />
+<br />Su personal consta de un director, Cristóbal Guerrero, personal del almacén, que se encarga de la gestión de este, y secretarios, que atienden a los usuarios de la biblioteca.
+<br />
+</p>
+<a name="GRF-0004" />
+<p align="center">
+<img src=".\Imágenes\secretaria.jpg" title=".\Imágenes\secretaria.jpg" />
+</p>
+<p align="center">
+<b>Figure 4</b>:
+                
+La secretaría</p>
+<a name="GRF-0005" />
+<p align="center">
+<img src=".\Imágenes\director.png" title=".\Imágenes\director.png" />
+</p>
+<p align="center">
+<b>Figure 5</b>:
+                
+El director, Critóbal (derecha)</p>
 <a name="SEC-0007" />
 <h2 align="left">1.2 
-Objetivos</h2><a name="SEC-0002" />
+Objetivos</h2><a name="PRG-0009" />
+<p>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los socios, las adquisiciones de tanto de material bibliotecario (revistas, libros ...) como los productos necesarios para la correcta realización de sus servicios que se han descrito anteriormente y la comunicación de la <a href="#GLO-0006" title="Biblioteca principal.">central</a> con sus diferentes sucursales.</p>
+<a name="SEC-0002" />
 <h1 align="left">2 
 Información sobre el dominio del problema</h1><a name="SEC-0008" />
 <h2 align="left">2.1 
-Introducción al dominio del problema</h2><a name="SEC-0009" />
+Introducción al dominio del problema</h2><a name="PRG-0012" />
+<p>Cuando se registra un nuevo <a href="#GLO-0004" title="Usuario que pertenece a la biblioteca.">socio</a>, este tiene la opción de hacerlo en la propia biblioteca o de manera online. En ambos casos se precisa de cierta información que es dada al secretario de la biblioteca. En el caso presencial una vez dada esta información se procede a crear el carnet y entregar en el acto, mientras que en el caso online se abren dos posibilidades, que el <a href="#GLO-0004" title="Usuario que pertenece a la biblioteca.">socio</a> quiera recogerlo en la biblioteca, en cuyo caso procede como en el caso anterior, o que prefiera recibirlo a domicilio con lo que deberá dar información adicional para que el servicio de mensajería pueda entregar el carnet a domicilio.
+<br />
+<br />
+<br />Durante el proceso de <a href="#GLO-0003" title="">préstamo</a>, el <a href="#GLO-0004" title="Usuario que pertenece a la biblioteca.">socio</a> solicita un libro e informa al personal de la biblioteca de ello.  Esto activa una cadena de eventos que suceden en un orden especifico y pueden dar lugar a tres casos diferenciados.
+<br />Lo primero que se realiza es la comprobacion de su responsabilidad como <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> de la biblioteca, control que de no pasar se le informaría y cumpliría su correspondiente sanción.
+<br />Tras esto se comprueba la disponibilidad del <a href="#GLO-0003" title="">préstamo</a> y se le informa en caso negativo el proceso termina aqui y en caso afirmativo el <a href="#GLO-0003" title="">préstamo</a> es completado con la entrega del ejemplar.
+<br />Tras un tiempo establecido se lleva a cabo la devolución del ejemplar e inmediatamente tras su entrega será analizado en cuestión de su estado, llegando a declarar como irresponsable al <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> si su estado es decrepito.
+<br />
+<br />
+<br />La puesta en contacto con el proveedor la lleva a cabo el gerente de la biblioteca, que la informa de la necesidad de un material específico ya sean libros u otro material de oficina. 
+<br />El proveedor se encarga del envió del material y una vez en la biblioteca es trabajo del secretario almacenar este material y en caso de ser un libro clasificarlo y colocarlo en su respectiva estantería.
+<br />
+<br />
+<br />Por último, en el <a href="#GLO-0003" title="">préstamo</a> entre bibliotecas actúan el gerente y secretario de ambas. Comienza con el gerente de la solicitante poniéndose en contacto con el gerente de otra biblioteca e informando del material solicitado.
+<br />Este delega el trabajo de buscar y concretar si tal <a href="#GLO-0003" title="">préstamo</a> es posible y sea cual sea el caso le responde al primero. En caso afirmativo el secretario de la biblioteca prestamista se pone en contacto con el secretario de la receptora y envía el paquete con los materiales para su posterior clasificación y archivamiento.
+<br />
+</p>
+<a name="SEC-0009" />
 <h2 align="left">2.2 
 Glosario de términos del dominio del problema</h2><a name="GLO-0006" />
 <p align="left">
@@ -246,9 +317,22 @@ Descripción de la situación actual</h1><a name="SEC-0010" />
 <h2 align="left">3.1 
 Pros y contras de la situación actual</h2><a name="SEC-0011" />
 <h3 align="left">3.1.1 
-Fortalezas de la situación actual</h3><a name="SEC-0012" />
+Fortalezas de la situación actual</h3><a name="PRG-0013" />
+<p>Gran afluencia de gente.
+<br />Fama local.
+<br />Financiación gubernamental.
+<br />No dispone de ninguna competencia dado el tipo de institución.
+<br />
+</p>
+<a name="SEC-0012" />
 <h3 align="left">3.1.2 
-Debilidades de la situación actual</h3><a name="SEC-0013" />
+Debilidades de la situación actual</h3><a name="PRG-0014" />
+<p>Uso de herramientas o equipos ineficientes.
+<br />Poca comunicación entre las sucursales y la biblioteca <a href="#GLO-0006" title="Biblioteca principal.">central</a>.
+<br />Gestión ineficiente de la información referidos a préstamos y socios.
+<br />
+</p>
+<a name="SEC-0013" />
 <h2 align="left">3.2 
 Modelos de procesos de negocio actuales</h2><a name="SEC-0015" />
 <h3 align="left">3.2.1 
@@ -258,13 +342,19 @@ Descripción de procesos de negocio actuales</h3><a name="SEC-0014" />
 <h2 align="left">3.3 
 Entorno tecnológico actual</h2><a name="SEC-0017" />
 <h3 align="left">3.3.1 
-Descripción del entorno de hardware actual</h3><a name="SEC-0018" />
+Descripción del entorno de hardware actual</h3><a name="PRG-0015" />
+<p>Se dispone de dos ordenadores de sobremesa para el personal y tres para los socios.</p>
+<a name="SEC-0018" />
 <h3 align="left">3.3.2 
-Descripción del entorno de software actual</h3><a name="SEC-0004" />
+Descripción del entorno de software actual</h3><a name="PRG-0016" />
+<p>Los ordenadores disponen de un sistema operativo de 2009 y una aplicación de hoja de cálculo para la gestión de los socios y los préstamos.</p>
+<a name="SEC-0004" />
 <h1 align="left">4 
 Necesidades de negocio</h1><a name="SEC-0019" />
 <h2 align="left">4.1 
-Objetivos de negocio</h2><a name="SEC-0020" />
+Objetivos de negocio</h2><a name="PRG-0017" />
+<p>La biblioteca Rafael Alberti pretende gestionar de manera eficiente y eficaz el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y la información de los socios de la biblioteca, los préstamos de libros a los socios y los préstamos entre dos entidades de material bibliotecario para prestar un mejor servicio a los usuarios, reducir la posibilidad de no devolución o desgaste de los libros conociendo los socios irresponsables, aumentar la centralización de las sucursales evitando la falta de material, y se motor de arranque de la expansión cultural de Camas y municipios adyacentes.</p>
+<a name="SEC-0020" />
 <h2 align="left">4.2 
 Modelos de procesos de negocio a implantar</h2><a name="SEC-0021" />
 <h3 align="left">4.2.1 
