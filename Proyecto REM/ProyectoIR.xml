@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files (x86)\REM 1.2.2\xml\REM_1_2_2.dtd">
+<rem:requirementsProject
+xmlns:rem="http://rem.lsi.us.es">
+<rem:name>ProyectoIR</rem:name>
+<rem:c_requirementsSpecification oid = "CRS-0001">
+<rem:name>Requirements Document</rem:name>
+<rem:version>
+<rem:major>2</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None
+</rem:comments>
+	 <rem:preparedFor organizations = "ORG-0002 "/>
+	 <rem:preparedBy organizations = "ORG-0002 "/>
+<rem:section
+ oid = "SEC-0001">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:section
+ oid = "SEC-0006">
+<rem:name>
+Alcance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0001">
+<rem:name>
+Alcance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>Biblioteca Pública Municipal de Camas - Rafael Alberti dependiente del ayuntamiento de Camas está situada en la Plaza Nuestra Señora de los Dolores, s/n. La institución dispone de alrededor de 30.000 volúmenes de teatro, novela, poesía, etcétera, para préstamos.<br/>La biblioteca es referente en la atención a los más pequeños y su familia, que disponen, entre otros, de cuentacuentos, manualidades y, por supuesto, de literatura infantil y volúmenes referidos a la educación de los niños.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0001">
+<rem:name>
+Sección infantil (cuentacuentos)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\3bc52364-ea7b-4058-9d33-5e947aabbc17.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0010">
+<rem:name>
+Alcance2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>También dispone de un servicio de consulta que se compone de prensa diaria, diccionarios, enciclopedias, revistas y manuales de preparación de oposiciones, un surtido de actividades culturales y clubes de lectura.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0002">
+<rem:name>
+Club de lectura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\90b90e69-c497-4228-ac88-933c503fca71.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0003">
+<rem:name>
+Servicios de consulta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\a95b321b-16e1-460b-93e8-18d65c59887c.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0011">
+<rem:name>
+Alcance3</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>Las pequeñas bibliotecas de los municipios adyacentes a Camas están relacionadas con esta.<br/><br/>Su personal consta de un director, Cristóbal Guerrero, personal del almacén, que se encarga de la gestión de este, y secretarios, que atienden a los usuarios de la biblioteca.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0004">
+<rem:name>
+La secretaría</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\secretaria.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0005">
+<rem:name>
+El director, Critóbal (derecha)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\director.png]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0007">
+<rem:name>
+Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0009">
+<rem:name>
+Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los socios, las adquisiciones de tanto de material bibliotecario (revistas, libros ...) como los productos necesarios para la correcta realización de sus servicios que se han descrito anteriormente y la comunicación de la <rem:ref oid="GLO-0006">central</rem:ref> con sus diferentes sucursales.</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0002">
+<rem:name>
+Información sobre el dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+<rem:section
+ oid = "SEC-0008">
+<rem:name>
+Introducción al dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0012">
+<rem:name>
+Introducción al dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>Cuando se registra un nuevo <rem:ref oid="GLO-0004">socio</rem:ref>, este tiene la opción de hacerlo en la propia biblioteca o de manera online. En ambos casos se precisa de cierta información que es dada al secretario de la biblioteca. En el caso presencial una vez dada esta información se procede a crear el carnet y entregar en el acto, mientras que en el caso online se abren dos posibilidades, que el <rem:ref oid="GLO-0004">socio</rem:ref> quiera recogerlo en la biblioteca, en cuyo caso procede como en el caso anterior, o que prefiera recibirlo a domicilio con lo que deberá dar información adicional para que el servicio de mensajería pueda entregar el carnet a domicilio.<br/><br/><br/>Durante el proceso de <rem:ref oid="GLO-0003">préstamo</rem:ref>, el <rem:ref oid="GLO-0004">socio</rem:ref> solicita un libro e informa al personal de la biblioteca de ello.  Esto activa una cadena de eventos que suceden en un orden especifico y pueden dar lugar a tres casos diferenciados.<br/>Lo primero que se realiza es la comprobacion de su responsabilidad como <rem:ref oid="GLO-0008">usuario</rem:ref> de la biblioteca, control que de no pasar se le informaría y cumpliría su correspondiente sanción.<br/>Tras esto se comprueba la disponibilidad del <rem:ref oid="GLO-0003">préstamo</rem:ref> y se le informa en caso negativo el proceso termina aqui y en caso afirmativo el <rem:ref oid="GLO-0003">préstamo</rem:ref> es completado con la entrega del ejemplar.<br/>Tras un tiempo establecido se lleva a cabo la devolución del ejemplar e inmediatamente tras su entrega será analizado en cuestión de su estado, llegando a declarar como irresponsable al <rem:ref oid="GLO-0008">usuario</rem:ref> si su estado es decrepito.<br/><br/><br/>La puesta en contacto con el proveedor la lleva a cabo el gerente de la biblioteca, que la informa de la necesidad de un material específico ya sean libros u otro material de oficina. <br/>El proveedor se encarga del envió del material y una vez en la biblioteca es trabajo del secretario almacenar este material y en caso de ser un libro clasificarlo y colocarlo en su respectiva estantería.<br/><br/><br/>Por último, en el <rem:ref oid="GLO-0003">préstamo</rem:ref> entre bibliotecas actúan el gerente y secretario de ambas. Comienza con el gerente de la solicitante poniéndose en contacto con el gerente de otra biblioteca e informando del material solicitado.<br/>Este delega el trabajo de buscar y concretar si tal <rem:ref oid="GLO-0003">préstamo</rem:ref> es posible y sea cual sea el caso le responde al primero. En caso afirmativo el secretario de la biblioteca prestamista se pone en contacto con el secretario de la receptora y envía el paquete con los materiales para su posterior clasificación y archivamiento.<br/></rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0009">
+<rem:name>
+Glosario de términos del dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.2 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0006">
+<rem:name>
+<rem:ref oid="GLO-0006">Central</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text> Biblioteca principal.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0002">
+<rem:name>
+<rem:ref oid="GLO-0002">Inventario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text> Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0003">
+<rem:name>
+<rem:ref oid="GLO-0003">Préstamo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0005">
+<rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0004">
+<rem:name>
+<rem:ref oid="GLO-0004">Socio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text> <rem:ref oid="GLO-0008">Usuario</rem:ref> que pertenece a la biblioteca. </rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0007">
+<rem:name>
+<rem:ref oid="GLO-0007">Sucursal</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text> Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0008">
+<rem:name>
+<rem:ref oid="GLO-0008">Usuario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text> Persona que hace uso de los servicios que presta la biblioteca.</rem:text>
+</rem:glossaryItem>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0003">
+<rem:name>
+Descripción de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+<rem:section
+ oid = "SEC-0010">
+<rem:name>
+Pros y contras de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.1 </rem:number>
+<rem:section
+ oid = "SEC-0011">
+<rem:name>
+Fortalezas de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.1.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0013">
+<rem:name>
+Fortalezas de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:text>Gran afluencia de gente.<br/>Fama local.<br/>Financiación gubernamental.<br/>No dispone de ninguna competencia dado el tipo de institución.<br/></rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0012">
+<rem:name>
+Debilidades de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.1.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0014">
+<rem:name>
+Debilidades de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>Uso de herramientas o equipos ineficientes.<br/>Poca comunicación entre las sucursales y la biblioteca <rem:ref oid="GLO-0006">central</rem:ref>.<br/>Gestión ineficiente de la información referidos a préstamos y socios.<br/></rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0013">
+<rem:name>
+Modelos de procesos de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.2 </rem:number>
+<rem:section
+ oid = "SEC-0015">
+<rem:name>
+Descripción de actores de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.2.1 </rem:number>
+<rem:actor
+ oid = "ACT-0001">
+<rem:name>
+Proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole><rem:tbd/></rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0002">
+<rem:name>
+Gerente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole><rem:tbd/></rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+Secretario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole><rem:tbd/></rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0004">
+<rem:name>
+<rem:ref oid="GLO-0004">Socio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole><rem:tbd/></rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0005">
+<rem:name>
+Servicio de mensajería</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole><rem:tbd/></rem:actorRole>
+</rem:actor>
+</rem:section>
+<rem:section
+ oid = "SEC-0016">
+<rem:name>
+Descripción de procesos de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.2.2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0006">
+<rem:name>
+Solicitud de material</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\Solicitud de material.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0007">
+<rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\Préstamo interbibliotecario.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0008">
+<rem:name>
+<rem:ref oid="GLO-0003">Préstamo</rem:ref> bibliotecario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\Préstamo bibliotecario.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0009">
+<rem:name>
+Alta <rem:ref oid="GLO-0008">usuario</rem:ref> in situ</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\Alta usuario (in situ).png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0010">
+<rem:name>
+Alta <rem:ref oid="GLO-0008">usuario</rem:ref> a domicilio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imágenes\Alta usuario (a domicilio).png]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0014">
+<rem:name>
+Entorno tecnológico actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.3 </rem:number>
+<rem:section
+ oid = "SEC-0017">
+<rem:name>
+Descripción del entorno de hardware actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.3.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0015">
+<rem:name>
+Descripción del entorno de hardware actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>Se dispone de dos ordenadores de sobremesa para el personal y tres para los socios.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0018">
+<rem:name>
+Descripción del entorno de software actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.3.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0016">
+<rem:name>
+Descripción del entorno software actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>Los ordenadores disponen de un sistema operativo de 2009 y una aplicación de hoja de cálculo para la gestión de los socios y los préstamos.</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0004">
+<rem:name>
+Necesidades de negocio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+<rem:section
+ oid = "SEC-0019">
+<rem:name>
+Objetivos de negocio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0017">
+<rem:name>
+Objetivos de negocio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:text>La biblioteca Rafael Alberti pretende gestionar de manera eficiente y eficaz el <rem:ref oid="GLO-0002">inventario</rem:ref> y la información de los socios de la biblioteca, los préstamos de libros a los socios y los préstamos entre dos entidades de material bibliotecario para prestar un mejor servicio a los usuarios, reducir la posibilidad de no devolución o desgaste de los libros conociendo los socios irresponsables, aumentar la centralización de las sucursales evitando la falta de material, y se motor de arranque de la expansión cultural de Camas y municipios adyacentes.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0020">
+<rem:name>
+Modelos de procesos de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.2 </rem:number>
+<rem:section
+ oid = "SEC-0021">
+<rem:name>
+Descripción de actores de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.2.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0022">
+<rem:name>
+Descripción de procesos de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.2.2 </rem:number>
+</rem:section>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0023">
+<rem:name>
+Descripción de los subsistemas del sistema a desarrollar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0024">
+<rem:name>
+Catálogo de requisitos del sistema a desarrollar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+<rem:section
+ oid = "SEC-0025">
+<rem:name>
+Requisitos generales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0026">
+<rem:name>
+Casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.2 </rem:number>
+<rem:section
+ oid = "SEC-0035">
+<rem:name>
+Diagrama de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.2.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0036">
+<rem:name>
+Especificación de actores del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.2.2 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0037">
+<rem:name>
+Especificación de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.2.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0027">
+<rem:name>
+Requisitos funcionales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.3 </rem:number>
+<rem:section
+ oid = "SEC-0038">
+<rem:name>
+Requisitos de información del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.3.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0039">
+<rem:name>
+Requisitos de regla de negocio del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.3.2 </rem:number>
+<rem:constraintRequirement
+ oid = "CRQ-0001">
+<rem:name>
+Devolución de <rem:ref oid="GLO-0003">préstamo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>1</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Si un <rem:ref oid="GLO-0004">socio</rem:ref> que ha solicitado un <rem:ref oid="GLO-0003">préstamo</rem:ref> no devuelve el libro en el plazo correcto y/o lo devuelve en un mal estado, el secretario debe marcar como irresponsable a dicho <rem:ref oid="GLO-0004">socio</rem:ref>.<br/></rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0002">
+<rem:name>
+Irresponsabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Los socios que estén en la lista de clientes irresponsables desaparecerán pasado el periodo de irresponsabilidad de 30 días, si el gerente o un secretario cancela su estado de irresponsable.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0003">
+<rem:name>
+<rem:ref oid="GLO-0003">Préstamo</rem:ref> <rem:ref oid="GLO-0004">socio</rem:ref> irresponsable</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+El sistema impedirá la creación de un <rem:ref oid="GLO-0003">préstamo</rem:ref> si el <rem:ref oid="GLO-0004">socio</rem:ref> asignado al <rem:ref oid="GLO-0003">préstamo</rem:ref> es irresponsable.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0004">
+<rem:name>
+<rem:ref oid="GLO-0003">Préstamo</rem:ref> múltiple</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Un <rem:ref oid="GLO-0004">socio</rem:ref> no puede realizar un <rem:ref oid="GLO-0003">préstamo</rem:ref> si ya dispone de uno que aún no ha concluido.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0005">
+<rem:name>
+Fecha de vencimiento</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+La fecha de vencimiento de un <rem:ref oid="GLO-0003">préstamo</rem:ref> depende del tamaño del libro:<br/>-Para los libros de tamaño CORTO, el sistema asignará al <rem:ref oid="GLO-0003">préstamo</rem:ref> una duración de 15 días.<br/>-Para los libros de tamaño MEDIO, el sistema asignará al <rem:ref oid="GLO-0003">préstamo</rem:ref> una duración de 30 días.<br/>-Para los libros de tamaño LARGO, el sistema asignará al <rem:ref oid="GLO-0003">préstamo</rem:ref> una duración de 50 días.<br/>Por tanto, la fecha de vencimiento se calcula sumando la duración del <rem:ref oid="GLO-0003">préstamo</rem:ref> a la fecha de tramitación.<br/></rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0006">
+<rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+En cualquier caso, la duración de un <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref> a una <rem:ref oid="GLO-0007">sucursal</rem:ref> no puede extenderse más de 60 días.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0007">
+<rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref> múltiple</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Una misma <rem:ref oid="GLO-0007">sucursal</rem:ref> no puede pedir un <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref> si ya dispone de 3 vigentes.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0008">
+<rem:name>
+Nombre <rem:ref oid="GLO-0008">usuario</rem:ref> empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+El nombre de <rem:ref oid="GLO-0008">usuario</rem:ref> de un empleado en el sistema debe ser único, no tener símbolos ni caracteres especiales y tener una longitud de entre 3 y 15 caracteres.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0009">
+<rem:name>
+<rem:ref oid="GLO-0003">Préstamo</rem:ref> <rem:ref oid="GLO-0004">socio</rem:ref> irresponsable</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+El sistema impedirá la creación de un <rem:ref oid="GLO-0003">préstamo</rem:ref> si el <rem:ref oid="GLO-0004">socio</rem:ref> asignado al <rem:ref oid="GLO-0003">préstamo</rem:ref> es irresponsable.</rem:description>
+</rem:constraintRequirement>
+</rem:section>
+<rem:section
+ oid = "SEC-0040">
+<rem:name>
+Requisitos de conducta del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.3.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0028">
+<rem:name>
+Requisitos no funcionales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.4 </rem:number>
+<rem:section
+ oid = "SEC-0041">
+<rem:name>
+Requisitos de fiablidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0042">
+<rem:name>
+Requisitos de usabilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.2 </rem:number>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0001">
+<rem:name>
+Disponibilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+estar disponible durante el horario en el que la biblioteca se encuentre abierta, y las labores de mantenimiento deberán realizarse cuando el índice de interacción de los usuarios sea mínimo.</rem:description>
+</rem:nonFunctionalRequirement>
+</rem:section>
+<rem:section
+ oid = "SEC-0043">
+<rem:name>
+Requistos de mantebilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.3 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0044">
+<rem:name>
+Requisitos de eficiencia del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.4 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0045">
+<rem:name>
+Requistos de portabilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.5 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0046">
+<rem:name>
+Requisitos de seguridad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.6 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0048">
+<rem:name>
+Otros requisitos no funcionales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.7 </rem:number>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0002">
+<rem:name>
+<rem:ref oid="GLO-0008">Usuario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+, para cada <rem:ref oid="GLO-0008">usuario</rem:ref>,  almacenar el nombre de <rem:ref oid="GLO-0008">usuario</rem:ref>, la contraseña, el nombre y los apellidos del empleado, y un correo electrónico opcional.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0003">
+<rem:name>
+Irresponsabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir que un suario autentificado como gerente pueda modificar la duración del periodo que debe pasar un <rem:ref oid="GLO-0004">socio</rem:ref> como <rem:ref oid="GLO-0004">socio</rem:ref> irresponsable.</rem:description>
+</rem:nonFunctionalRequirement>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0029">
+<rem:name>
+Restricciones técnicas del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.5 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0030">
+<rem:name>
+Requisitos de integración del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.6 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0031">
+<rem:name>
+Información sobre trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.7 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0032">
+<rem:name>
+Actas de reuniones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>A </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0033">
+<rem:name>
+Documentación relevante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>B </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0034">
+<rem:name>
+Glosario de acrónimos y abreviaturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>C </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0047">
+<rem:name>
+Participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>D </rem:number>
+<rem:stakeholder
+ oid = "STK-0001">
+<rem:name>
+Alberto Cordón Arévalo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Ingeniero de requistos</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0001"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0002">
+<rem:name>
+Raúl Navarro Cruz</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Ingeniero de requisitos</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0001"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0003">
+<rem:name>
+José Antonio Souto Villegas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Ingeniero de requisitos</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0001"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0004">
+<rem:name>
+Alejandro Ugarte Ruiz</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Ingeniero de requisitos</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0001"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0005">
+<rem:name>
+Cristóbal Guerrero Salguero</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Gerente</rem:stakeholderRole>
+<rem:isCustomer/>
+<rem:isUser/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:organization
+ oid = "ORG-0001">
+<rem:name>
+Grupo de IR</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>No procede</rem:address>
+<rem:telephone>No procede</rem:telephone>
+<rem:fax>No procede</rem:fax>
+</rem:organization>
+<rem:organization
+ oid = "ORG-0002">
+<rem:name>
+Bibliteca de Camas - Rafael Alberti</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>Plaza Nuestra Señora de los Dolores, <br/>41900 <br/> Camas, Sevilla</rem:address>
+<rem:telephone>955 98 14 12</rem:telephone>
+<rem:fax>No consta</rem:fax>
+</rem:organization>
+</rem:section>
+</rem:c_requirementsSpecification>
+<rem:d_requirementsSpecification oid = "DRS-0002">
+<rem:name>Requirements Specification</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None
+</rem:comments>
+<rem:section
+ oid = "SEC-0049">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:section
+ oid = "SEC-0056">
+<rem:name>
+Alcance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0057">
+<rem:name>
+Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0050">
+<rem:name>
+Arquitectura lógica del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+<rem:section
+ oid = "SEC-0058">
+<rem:name>
+Diagramas de la arquitectura del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0059">
+<rem:name>
+Descripción de la arquitectura del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.2 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0051">
+<rem:name>
+Modelo de clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+<rem:section
+ oid = "SEC-0060">
+<rem:name>
+Diagramas de clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0061">
+<rem:name>
+Descripción de las clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.2 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0052">
+<rem:name>
+Modelo de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0053">
+<rem:name>
+Interfaz de <rem:ref oid="GLO-0008">usuario</rem:ref> del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0054">
+<rem:name>
+Interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0055">
+<rem:name>
+Información sobre trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>7 </rem:number>
+</rem:section>
+</rem:d_requirementsSpecification>
+<rem:defectsSpecification oid = "DFS-0003">
+<rem:name>Conflict and Defect Registry</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None
+</rem:comments>
+</rem:defectsSpecification>
+<rem:changeRequestsSpecification oid = "CHS-0004">
+<rem:name>Change Requests Registry</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+None
+</rem:comments>
+</rem:changeRequestsSpecification>
+<rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+</rem:predefinedValueTypes>
+<rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>to be approved/rejected</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>to be performed</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verified</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rejected</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>TBD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>to be analyzed</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>not solved</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>TBD</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>solved</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>under negotiation</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>not solved</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>TBD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>solved</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>under negotiation</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Wrong organization</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not correctly organized according to applied standards or the document does not contain mandatory sections]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Other</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements have another kind of defect]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>No understanding</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements cannot be understood by some reader]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambiguity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements, although understandable, have more than one possible interpretation]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancy</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are redundant or contain redundant elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecision</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not stated in a precise way, i.e. using numerical quantities whenever possible with the right level of precision]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necessity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificability</rem:name>
+<rem:description>
+<![CDATA[It cannot be verified that the requirement or requirements are satisfied by the system]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>No consistency</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not consistent, i.e. they are in conflict]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements can be expressed in a more concise way without altering their meaning]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>No completeness</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements do not describe everything the system is supposed to do, do not describe the responses of the system to all realizable situations, or include to-be-determined (TBD) elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No achievability</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements cannot be implemented with current technology o under reasonable cost]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Design-dependence</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements contain design-dependant elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>No priority</rem:name>
+<rem:description>
+<![CDATA[The priority, i.e. the importance and urgency of the requirement or requirements have not been determined]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>No stability</rem:name>
+<rem:description>
+<![CDATA[The stability of the requirement or requirements have not been estimated]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>TBD</rem:name>
+<rem:description>
+<![CDATA[To Be Determined]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Wrong level of detail</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not stated at the right level of detail, i.e. they are too abstract or too detailed]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No traceability</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>TBD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>would be nice</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>important</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>TBD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>low</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>medium</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>high</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>TBD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validated</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>needs validation</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>needs verification</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>under construction</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>TBD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>is cancelled</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>resumes</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>week(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>day(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hour(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>TBD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>year(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>month(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minute(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>tenth(s) of a second</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>millisecond(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>hundreth(s) of a second</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>second(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>TBD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>immediately</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>under pressure</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>can wait</rem:name>
+</rem:urgencyValue>
+</rem:predefinedValues>
+</rem:requirementsProject>
