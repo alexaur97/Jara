@@ -1,0 +1,33 @@
+OBJ-0001 GESTION DE SOCIOS: 		el sistema debera gestionar la informacion de los socios.
+
+
+OBJ-0002 GESTION DE PROVEEDORES:	el sistema debera gestionar la informacion de los proveedores.
+
+
+OBJ-0003 GESTION DE EMPLEADOS:		el sistema debera gestionar la informacion de los diferentes tipos de empleados.
+
+
+OBJ-0004 GESTION DE SUCURSALES:		el sistema debera gestionar todos los procesos y tramites que se relacionan con las sucursales.
+
+	OBJ-0007 GESTION DE SUCURSALES:				el sistema debera guardar la informacion de las sucursales de la red.
+
+	OBJ-0008 GESTION DE PRESTAMO INTERBIBLIOTECARIO:	el sistema debera guardar la informacion de los prestamos realizados.
+
+	OBJ-0009 GESTION DE ANALISIS:				el sistema debera guardar datos analisticos acerca de los prestamos bibliotecarios.
+
+OBJ-0005 GESTION DE PRESTAMOS:		el sistema debera gestionar todos los procesos y tramites que se llevan a cabo durante un prestamo.
+	
+	OBJ-0010 GESTION DE RESPONSABILIDADES:			el sistema debera asignar una responsabilidad a cada socio en funcion de sus antecedentes.
+
+	OBJ-0011 GESTION DE EJEMPLARES:				el sistema debera gestionar cada uno de los ejemplares de los libros de la biblioteca.
+
+	OBJ-0012 GESTION DE ANALISIS:				el sistema debera guardar datos analisticos acerca de los prestamos.
+
+
+OBJ-0006 GESTION DE INVENTARIO:		el sistema debera gestionar todos los procesos y tramites que se relacionan con el inventario.
+
+	OBJ-0013 GESTION DE LA COMPRA:				el sistema debera gestionar el proceso de compra, tanto de materiales varios como de nuevos libros.
+
+	OBJ-0014 GESTION DE ALMACENADO:				el sistema debera guardar informacion acerca de la cantidad y estado de los objetos almacenados.
+
+	OBJ-0015 GESTION DE ANALISIS:				el sistema debera guardar datos analisticos acerca del inventario.
