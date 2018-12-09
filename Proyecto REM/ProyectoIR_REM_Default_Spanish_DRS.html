@@ -34,16 +34,22 @@
 <center>
 <h3>Proyecto ProyectoIR</h3>
 <p />
-<h1 class="cover">Requirements Specification</h1>
+<h1 class="cover">System Analysis Document</h1>
 <p />
 <h3>Versión 1.0</h3>
 <h3>Fecha 30/10/2018</h3>
 <p />
 <h3>Preparado para:</h3>
-<p><font color="red">?</font></p>
+<a href="#ORG-0002" title="Bibliteca de Camas - Rafael Alberti">
+<p>
+Bibliteca de Camas - Rafael Alberti</p>
+</a>
 <p />
 <h3>Preparado por:</h3>
-<p><font color="red">?</font></p>
+<a href="#ORG-0001" title="Grupo de IR">
+<p>
+Grupo de IR</p>
+</a>
 <p />
 </center>
 <hr size="4" />
@@ -68,7 +74,7 @@ Alcance</a>
 <tr><td />
 <td align="left" valign="top">1.2 </td>
 <td align="left" valign="top" width="100%" colspan="2">
-<a href="#SEC-0057">
+<a href="#SEC-0066">
 Objetivos</a>
 </td>
 </tr>
@@ -82,7 +88,7 @@ Arquitectura lógica del sistema</a>
 <tr><td />
 <td align="left" valign="top">2.1 </td>
 <td align="left" valign="top" width="100%" colspan="2">
-<a href="#SEC-0058">
+<a href="#SEC-0067">
 Diagramas de la arquitectura del sistema</a>
 </td>
 </tr>
@@ -110,8 +116,15 @@ Diagramas de clases del sistema</a>
 <tr><td />
 <td align="left" valign="top">3.2 </td>
 <td align="left" valign="top" width="100%" colspan="2">
-<a href="#SEC-0061">
-Descripción de las clases del sistema</a>
+<a href="#SEC-0070">
+Copia de Glosario de términos del dominio del problema</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">3.3 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0069">
+Diagramas de estado de las clases del sistema</a>
 </td>
 </tr>
 <tr>
@@ -138,7 +151,7 @@ Interfaz de servicios del sistema</a>
 <tr>
 <th align="left" valign="top">7 </th>
 <th align="left" valign="top" width="100%" colspan="3">
-<a href="#SEC-0055">
+<a href="#SEC-0068">
 Información sobre trazabilidad</a>
 </th>
 </tr>
@@ -150,27 +163,710 @@ Información sobre trazabilidad</a>
 <h1 align="left">1 
 Introducción</h1><a name="SEC-0056" />
 <h2 align="left">1.1 
-Alcance</h2><a name="SEC-0057" />
+Alcance</h2><a name="PRG-0030" />
+<p>Biblioteca Pública Municipal de Camas - Rafael Alberti dependiente del ayuntamiento de Camas está situada en la Plaza Nuestra Señora de los Dolores, s/n. La institución dispone de alrededor de 30.000 volúmenes de teatro, novela, poesía, etcétera, para préstamos.
+<br />La biblioteca es referente en la atención a los más pequeños y su familia, que disponen, entre otros, de cuentacuentos, manualidades y, por supuesto, de literatura infantil y volúmenes referidos a la educación de los niños.
+<br />
+</p>
+<a name="GRF-0011" />
+<p align="center">
+<img src="..\Imágenes\3bc52364-ea7b-4058-9d33-5e947aabbc17.jpg" title="..\Imágenes\3bc52364-ea7b-4058-9d33-5e947aabbc17.jpg" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Sección infantil (cuentacuentos)</p>
+<a name="PRG-0031" />
+<p>También dispone de un servicio de consulta que se compone de prensa diaria, diccionarios, enciclopedias, revistas y manuales de preparación de oposiciones, un surtido de actividades culturales y clubes de lectura.</p>
+<a name="GRF-0012" />
+<p align="center">
+<img src="..\Imágenes\90b90e69-c497-4228-ac88-933c503fca71.jpg" title="..\Imágenes\90b90e69-c497-4228-ac88-933c503fca71.jpg" />
+</p>
+<p align="center">
+<b>Figura 2</b>:
+                
+Club de lectura</p>
+<a name="GRF-0013" />
+<p align="center">
+<img src="..\Imágenes\a95b321b-16e1-460b-93e8-18d65c59887c.jpg" title="..\Imágenes\a95b321b-16e1-460b-93e8-18d65c59887c.jpg" />
+</p>
+<p align="center">
+<b>Figura 3</b>:
+                
+Servicios de consulta</p>
+<a name="PRG-0032" />
+<p>Las pequeñas bibliotecas de los municipios adyacentes a Camas están relacionadas con esta.
+<br />
+<br />Su personal consta de un director, Cristóbal Guerrero, personal del almacén, que se encarga de la gestión de este, y secretarios, que atienden a los usuarios de la biblioteca.
+<br />
+</p>
+<a name="GRF-0014" />
+<p align="center">
+<img src="..\Imágenes\secretaria.jpg" title="..\Imágenes\secretaria.jpg" />
+</p>
+<p align="center">
+<b>Figura 4</b>:
+                
+La secretaría</p>
+<a name="GRF-0015" />
+<p align="center">
+<img src="..\Imágenes\director.png" title="..\Imágenes\director.png" />
+</p>
+<p align="center">
+<b>Figura 5</b>:
+                
+El director, Cristóbal (derecha)</p>
+<a name="SEC-0066" />
 <h2 align="left">1.2 
-Objetivos</h2><a name="SEC-0050" />
+Objetivos</h2><a name="OBJ-0016" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0016</th>
+<th align="left" valign="top" width="100%">
+GESTIÓN DE SOCIOS</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/12/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+José Antonio Souto Villegas</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+gestionar la información de los socios.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">immediately</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">under construction</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">high</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="OBJ-0017" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0017</th>
+<th align="left" valign="top" width="100%">
+GESTIÓN DE PROVEEDORES</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/12/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+José Antonio Souto Villegas</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+gestionar la información de los proveedores.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">immediately</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">under construction</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">high</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="OBJ-0018" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0018</th>
+<th align="left" valign="top" width="100%">
+GESTIÓN DE PERSONAL</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/12/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+José Antonio Souto Villegas</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+gestionar la información de los diferentes tipos de personal.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">immediately</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">under construction</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">high</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="OBJ-0019" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0019</th>
+<th align="left" valign="top" width="100%">
+GESTIÓN DE SUCURSALES</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/12/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+José Antonio Souto Villegas</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+gestionar todos los procesos y trámites que se relacionan con las sucursales.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">
+<ul>
+<a name="OBJ-0020" />
+<li>
+<b>[OBJ-0020] 
+GESTIÓN DE SUCURSALES</b>:
+		
+    El sistema deberá 
+<em>
+guardar la información de las sucursales de la red.</em> <ul>
+</ul>
+</li>
+<a name="OBJ-0021" />
+<li>
+<b>[OBJ-0021] 
+GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</b>:
+		
+    El sistema deberá 
+<em>
+guardar la información de los préstamos realizados.</em> <ul>
+</ul>
+</li>
+<a name="OBJ-0022" />
+<li>
+<b>[OBJ-0022] 
+GESTIÓN DE ANÁLISIS</b>:
+		
+    El sistema deberá 
+<em>
+guardar datos estadísticos acerca de los préstamos bibliotecarios.</em> <ul>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">would be nice</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">under pressure</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">under construction</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">medium</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="OBJ-0023" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0023</th>
+<th align="left" valign="top" width="100%">
+GESTIÓN DE PRÉSTAMOS</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/12/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+José Antonio Souto Villegas</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+gestionar todos los procesos y trámites que se llevan a cabo durante un <a href="#GLO-0003" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a>.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">
+<ul>
+<a name="OBJ-0024" />
+<li>
+<b>[OBJ-0024] 
+GESTIÓN DE RESPONSABILIDADES</b>:
+		
+    El sistema deberá 
+<em>
+asignar una responsabilidad a cada socio en función de sus antecedentes.</em> <ul>
+</ul>
+</li>
+<a name="OBJ-0025" />
+<li>
+<b>[OBJ-0025] 
+GESTIÓN DE EJEMPLARES</b>:
+		
+    El sistema deberá 
+<em>
+gestionar cada uno de los ejemplares de los libros de la biblioteca.</em> <ul>
+</ul>
+</li>
+<a name="OBJ-0026" />
+<li>
+<b>[OBJ-0026] 
+GESTIÓN DE ANÁLISIS</b>:
+		
+    El sistema deberá 
+<em>
+guardar datos estadísticos acerca de los préstamos.</em> <ul>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">important</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">under pressure</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">under construction</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">medium</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="OBJ-0027" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0027</th>
+<th align="left" valign="top" width="100%">
+GESTIÓN DE <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">INVENTARIO</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 08/12/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+José Antonio Souto Villegas</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+gestionar todos los procesos y trámites que se relacionan con el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">
+<ul>
+<a name="OBJ-0028" />
+<li>
+<b>[OBJ-0028] 
+GESTIÓN DE LA COMPRA</b>:
+		
+    El sistema deberá 
+<em>
+gestionar el proceso de compra, tanto de materiales varios como de nuevos libros.</em> <ul>
+</ul>
+</li>
+<a name="OBJ-0029" />
+<li>
+<b>[OBJ-0029] 
+GESTIÓN DE ALMACENADO</b>:
+		
+    El sistema deberá 
+<em>
+guardar informacion acerca de la cantidad y estado de los objetos almacenados.</em> <ul>
+</ul>
+</li>
+<a name="OBJ-0030" />
+<li>
+<b>[OBJ-0030] 
+GESTIÓN DE ANÁLISIS</b>:
+		
+    El sistema deberá 
+<em>
+guardar datos estadísticos acerca del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</em> <ul>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">important</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">under pressure</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">under construction</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">medium</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0050" />
 <h1 align="left">2 
-Arquitectura lógica del sistema</h1><a name="SEC-0058" />
+Arquitectura lógica del sistema</h1><a name="SEC-0067" />
 <h2 align="left">2.1 
-Diagramas de la arquitectura del sistema</h2><a name="SEC-0059" />
+Diagramas de la arquitectura del sistema</h2><a name="GRF-0017" />
+<p align="center">
+<img src="..\Imágenes\Solicitud de material.png" title="..\Imágenes\Solicitud de material.png" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Solicitud de material</p>
+<a name="GRF-0018" />
+<p align="center">
+<img src="..\Imágenes\Préstamo interbibliotecario.png" title="..\Imágenes\Préstamo interbibliotecario.png" />
+</p>
+<p align="center">
+<b>Figura 2</b>:
+                 Préstamo interbibliotecario</p>
+<a name="GRF-0019" />
+<p align="center">
+<img src="..\Imágenes\Préstamo bibliotecario.png" title="..\Imágenes\Préstamo bibliotecario.png" />
+</p>
+<p align="center">
+<b>Figura 3</b>:
+                 Préstamo bibliotecario</p>
+<a name="GRF-0020" />
+<p align="center">
+<img src="..\Imágenes\Alta usuario (in situ).png" title="..\Imágenes\Alta usuario (in situ).png" />
+</p>
+<p align="center">
+<b>Figura 4</b>:
+                
+Alta usuario in situ</p>
+<a name="GRF-0021" />
+<p align="center">
+<img src="..\Imágenes\Alta usuario (a domicilio).png" title="..\Imágenes\Alta usuario (a domicilio).png" />
+</p>
+<p align="center">
+<b>Figura 5</b>:
+                
+Alta usuario a domicilio</p>
+<a name="SEC-0059" />
 <h2 align="left">2.2 
 Descripción de la arquitectura del sistema</h2><a name="SEC-0051" />
 <h1 align="left">3 
 Modelo de clases del sistema</h1><a name="SEC-0060" />
 <h2 align="left">3.1 
-Diagramas de clases del sistema</h2><a name="SEC-0061" />
+Diagramas de clases del sistema</h2><a name="GRF-0016" />
+<p align="center">
+<img src="..\Imágenes\Diagrama completo.png" title="..\Imágenes\Diagrama completo.png" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Diagrama</p>
+<a name="SEC-0070" />
 <h2 align="left">3.2 
-Descripción de las clases del sistema</h2><a name="SEC-0052" />
+Copia de Glosario de términos del dominio del problema</h2><a name="GLO-0037" />
+<p align="left">
+<b>
+Socio:</b>
+<a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">Usuario</a> que pertenece a la biblioteca. </p>
+<a name="GLO-0035" />
+<p align="left">
+<b> Préstamo:</b> Adquisición temporal, por parte de un socio, de un <a href="#GLO-0045" title="Se encarga de almacenar la información sobre una obra en particular">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca.</p>
+<a name="GLO-0036" />
+<p align="left">
+<b> PréstamoInterbibliotecario:</b> Intercambio entre la <a href="#GLO-0006" title="Biblioteca principal.">central</a> y una <a href="#GLO-0007" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar.">sucursal</a> de uno o más materiales.</p>
+<a name="GLO-0038" />
+<p align="left">
+<b> Sucursal:</b> Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar.</p>
+<a name="GLO-0039" />
+<p align="left">
+<b> Copia de Usuario:</b> Persona que hace uso de los servicios que presta la biblioteca.</p>
+<a name="GLO-0040" />
+<p align="left">
+<b> Empleado:</b> Hace referencia a los actores del sistema. Existen 3 tipos de actores: el <a href="#GLO-0042" title="Actor del sistema que se encarga de la dirección de la biblioteca y la gestión de los préstamos interbibliotecarios">gerente</a>, el gestor del almacén y los secretarios. Cada uno de ellos cumple una función en la biblioteca.</p>
+<a name="GLO-0041" />
+<p align="left">
+<b> Secretario:</b> Actor del sistema que se encarga de tramitar préstamos a los socios.</p>
+<a name="GLO-0042" />
+<p align="left">
+<b> Gerente:</b> Actor del sistema que se encarga de la dirección de la biblioteca y la gestión de los préstamos interbibliotecarios</p>
+<a name="GLO-0043" />
+<p align="left">
+<b> GestorAlmacen:</b> Actor del sistema encargado de la gestión de los materiales del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y de la adquisición de nuevos materiales a traves de los proveedores</p>
+<a name="GLO-0034" />
+<p align="left">
+<b> Material:</b> Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.</p>
+<a name="GLO-0044" />
+<p align="left">
+<b> MaterialBibliotecario:</b> Hace referencia a todo <a href="#GLO-0034" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">material</a> que forma parte del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca que no es un <a href="#GLO-0045" title="Se encarga de almacenar la información sobre una obra en particular">libro</a> o un artículo de lectura.</p>
+<a name="GLO-0045" />
+<p align="left">
+<b> Libro:</b> Se encarga de almacenar la información sobre una obra en particular</p>
+<a name="GLO-0046" />
+<p align="left">
+<b> Ejemplar:</b> Volúmen que pertenece a una obra concreta.</p>
+<a name="GLO-0047" />
+<p align="left">
+<b> LineaAdquisicion :</b> Reúne información acerca de la adquisición de un <a href="#GLO-0034" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">material</a> en particular.</p>
+<a name="GLO-0048" />
+<p align="left">
+<b> Adquisicion:</b> Conjunto final compuesto por las líneas de adquisición de los materialessolicitados para la biblioteca</p>
+<a name="GLO-0049" />
+<p align="left">
+<b> Proveedor:</b> Encargado de suministrar a la biblioteca los materiales que ésta solicita.</p>
+<a name="SEC-0069" />
+<h2 align="left">3.3 
+Diagramas de estado de las clases del sistema</h2><a name="SEC-0052" />
 <h1 align="left">4 
 Modelo de casos de uso del sistema</h1><a name="SEC-0053" />
 <h1 align="left">5 
 Interfaz de usuario del sistema</h1><a name="SEC-0054" />
 <h1 align="left">6 
-Interfaz de servicios del sistema</h1><a name="SEC-0055" />
+Interfaz de servicios del sistema</h1><a name="SEC-0068" />
 <h1 align="left">7 
 Información sobre trazabilidad</h1></body>
 </html>
