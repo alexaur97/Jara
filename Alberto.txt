@@ -1,0 +1,64 @@
+Realizar adquisición.
+
+Precondición:
+Falta de material.
+
+Secuencia:
+1)El sistema provee al gestor los datos del proveedor, para que este se pueda poner en contacto. 
+1)Se pone en contacto con el proveedor
+2)Se suministran los datos correspondientes del material al proveedor.
+3)Se almacena los materiales.
+
+Postcondición:
+Actualización de inventario.
+
+----------------------------------------
+Crear proveedor.
+
+Precondición:
+El secretario se ha identificado y su sesión está abierta.
+
+Secuencia:
+1)Se recoge los datos necesario para su creación.
+
+Postcondición:
+Actualización de la lista de proveedores.
+
+-----------------------------------------
+Eliminar proveedor.
+
+Precondición:
+El secretario se ha identificado y su sesión está abierta.
+
+Secuencia:
+1)Se selecciona el proveedor a eliminar.
+
+Postcondición:
+Actualización de la lista de proveedores.
+------------------------------------------
+Enviar mensajes a secretarios.
+
+Precondición:
+Un secretario necesita enviar información a otro secretario
+
+Secuencia:
+1)El sistema provee al secretario del sietama de mensajería.
+2)Se redacta el mensaje.
+3)Se envía el mensaje.
+
+Postcondición:
+El mensaje llega al secretario correspondiente.
+------------------------------------------
+Tramitar préstamos interbibliotecarios.
+
+Precondición:
+La sucursal correspondiente necesita de un libro.
+
+Secuencia:
+1)Llega una petición de préstamos.
+2)El sistema provee al gerente de la información necesaria para saber si el libro esta disponible.
+3)Se rellena la información para la tramitación.
+4)Se realiza el envio mendiante el sistema de mensajería.
+
+Postcondición:
+El préstamo ha sido registrado y llega a la sucursal correspondiente.
