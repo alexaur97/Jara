@@ -1,0 +1,40 @@
+Crear nuevo socio
+
+Precondicion:	
+	Alguien solicita su afiliación como socio y hay un actor logeado en el sistema correctamente.
+
+Secuencia:
+	1)La persona da los datos necesarios
+	2)El secretario anota esos datos en el sistema
+	3)El sistema verifica los datos
+	4)Se crea su carnet asociado
+	5)Se entrega el carnet en el acto.
+
+Postcondicion:
+	La persona queda registrada en el sistema como socio y adquiere su carnet.
+
+Execepciones:
+	3)La persona entrega valores no validos
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Darse de alta como socio
+
+Precondicion:	
+	Alguien solicita su afiliación como socio mediante la web
+
+Secuencia:
+	1)La persona da los datos necesarios
+	2)El sistema verifica los datos
+	3)Un secretario tramita la creacion del nuevo socio
+	5)Se entrega el carnet a domicilio mediante una empresa de mensajeria ajena.
+
+Postcondicion:
+	La persona queda registrada en el sistema como socio a la espera de la entrega de su carnet.
+
+Execepciones:
+	2)La persona entrega valores no validos
+
+
+--------------------------------------------------------------------------------------------------------------------------
