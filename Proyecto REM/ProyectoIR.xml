@@ -1005,6 +1005,25 @@ Ninguno</rem:comments>
 Ninguno</rem:comments>
 <rem:actorRole>la persona que abastece el <rem:ref oid="GLO-0034">material</rem:ref> bibliotecario.<br/></rem:actorRole>
 </rem:actor>
+<rem:actor
+ oid = "ACT-0012">
+<rem:name>
+Gestor del almacén</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>la persona que se encarga de administrar el <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca y realizar adquisiciones de nuevos materiales</rem:actorRole>
+</rem:actor>
 </rem:section>
 <rem:section
  oid = "SEC-0016">
@@ -1101,7 +1120,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> El diagrama se encuentra en el archivo <rem:ref oid="GLO-0052">solicitud</rem:ref>.png, adjunto en el zip del entregable, para facilitar su correcta visualización.</rem:text>
+<rem:text> El diagrama se encuentra en el archivo solicitud.png, adjunto en el zip del entregable, para facilitar su correcta visualización.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0053">
@@ -1721,6 +1740,25 @@ Servicio de mensajería</rem:name>
 Ninguno</rem:comments>
 <rem:actorRole>la empresa que se encarga del transporte y entrega a domicilio del carné de <rem:ref oid="GLO-0037">socio</rem:ref>.<br/></rem:actorRole>
 </rem:actor>
+<rem:actor
+ oid = "ACT-0011">
+<rem:name>
+Gestor del almacén</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>la persona que se encarga de administrar el <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca y realizar adquisiciones de nuevos materiales</rem:actorRole>
+</rem:actor>
 </rem:section>
 <rem:section
  oid = "SEC-0037">
@@ -1740,39 +1778,39 @@ None</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.2.3 </rem:number>
 <rem:section
- oid = "SEC-0062">
+ oid = "SEC-0073">
 <rem:name>
-Casos de uso del <rem:ref oid="GLO-0041">secretario</rem:ref></rem:name>
+Préstamos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
-None</rem:comments>
+Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>6.2.3.1 </rem:number>
 <rem:useCase
- oid = "UC-0001">
+ oid = "UC-0036">
 <rem:name>
-Listar los socios irresponsables</rem:name>
+Tramitar <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
-None</rem:comments>
+Ninguno</rem:comments>
 <rem:importance>
 <rem:tbd/>
 </rem:importance>
@@ -1786,323 +1824,126 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> podrá desplegar una lista de los socios que han sido marcados como irresponsables.</rem:triggeringEvent>
+se tramite un <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+El <rem:ref oid="GLO-0041">secretario</rem:ref> se ha identificado correctamente y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+Actualizar <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0002">
-<rem:name>
-Establecer <rem:ref oid="GLO-0037">socio</rem:ref> como irresponsable</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+<rem:step oid = "STP-0023">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+selecciona al cliente que solicita el <rem:ref oid="GLO-0035">préstamo</rem:ref><br/></rem:description>
+</rem:actorAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> podrá establecer a un <rem:ref oid="GLO-0037">socio</rem:ref> como irresponsable. </rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0003">
-<rem:name>
-Crear nuevos socios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0022">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+comprueba que el cliente es responsable</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0006">
+<rem:condition>
+el cliente es irresponsable</rem:condition>
+<rem:systemAction>
+<rem:description>
+impide la creación del <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> podrá crear nuevos socios. <br/></rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0004">
-<rem:name>
-Reestablecer <rem:ref oid="GLO-0037">socio</rem:ref> como responsable</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:stepException>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> podrá reestablecer a un <rem:ref oid="GLO-0037">socio</rem:ref> como responsable. </rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0005">
-<rem:name>
-Crear préstamos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0024">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+selecciona el <rem:ref oid="GLO-0045">libro</rem:ref> deseado por el <rem:ref oid="GLO-0037">socio</rem:ref></rem:description>
+</rem:actorAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> podrá crear préstamos </rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0006">
-<rem:name>
-Modificar préstamos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0025">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+comprueba que el <rem:ref oid="GLO-0045">libro</rem:ref> está disponible</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0007">
+<rem:condition>
+el <rem:ref oid="GLO-0045">libro</rem:ref> no está disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+impide la creación del <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> podrá realizar modificaciones en la información de los préstamos.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0007">
-<rem:name>
-Recibir/enviar mensajes al <rem:ref oid="GLO-0042">gerente</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:stepException>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> podrá visualizar su bandeja de entrada y enviar mensajes al <rem:ref oid="GLO-0042">gerente</rem:ref>.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0008">
-<rem:name>
-Enviar mensajes a secretarios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0026">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+asigna la fecha de devolución según el tamaño del <rem:ref oid="GLO-0045">libro</rem:ref> </rem:description>
+</rem:systemAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0041">secretario</rem:ref> también puede enviar mensajes a otros secretarios si lo necesita.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0027">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+crea el <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
 </rem:section>
 <rem:section
- oid = "SEC-0063">
+ oid = "SEC-0072">
 <rem:name>
-Casos de uso del gestor del almacén</rem:name>
+Devoluciones</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
-None</rem:comments>
+Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>6.2.3.2 </rem:number>
 <rem:useCase
- oid = "UC-0009">
+ oid = "UC-0034">
 <rem:name>
-Modificar información del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:name>
+Tramitar devolución</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
-None</rem:comments>
+Ninguno</rem:comments>
 <rem:importance>
 <rem:tbd/>
 </rem:importance>
@@ -2116,544 +1957,93 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como gestor del almacén podrá realizar modificaciones en la información del almacén y de los libros de la biblioteca.</rem:triggeringEvent>
+finalice un <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+El <rem:ref oid="GLO-0041">secretario</rem:ref> se ha identificado correctamente y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+Actualizar irresponsabilidad, <rem:ref oid="GLO-0002">inventario</rem:ref> y estado del <rem:ref oid="GLO-0045">libro</rem:ref></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0010">
-<rem:name>
-Recibir/enviar mensajes al <rem:ref oid="GLO-0042">gerente</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+<rem:step oid = "STP-0001">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+busca en el sistema el <rem:ref oid="GLO-0035">préstamo</rem:ref> del <rem:ref oid="GLO-0037">socio</rem:ref></rem:description>
+</rem:actorAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como gestor del almacén podrá visualizar su bandeja de entrada y enviar mensajes al <rem:ref oid="GLO-0042">gerente</rem:ref>.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0022">
-<rem:name>
-Realizar adquisiciones</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0002">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+comprueba la fecha de devolución</rem:description>
+</rem:systemAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como gestor del almacén podrá contactar con los proveedores y realizar adquisiciones.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0017">
-<rem:name>
-Crear <rem:ref oid="GLO-0034">material</rem:ref> en <rem:ref oid="GLO-0002">inventario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0003">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+comprueba el estado del <rem:ref oid="GLO-0045">libro</rem:ref></rem:description>
+</rem:actorAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como gestor del almacén podrá crear nuevos materiales/libros en el <rem:ref oid="GLO-0002">inventario</rem:ref> </rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0018">
-<rem:name>
-Eliminar <rem:ref oid="GLO-0034">material</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0004">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+finaliza el <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:description>
+</rem:actorAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como gestor del almacén podrá eliminar materiales/libros ya existentes.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0005">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+almacena el <rem:ref oid="GLO-0045">libro</rem:ref></rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0001">
+<rem:condition>
+ el estado del <rem:ref oid="GLO-0045">libro</rem:ref> es crítico, éste se desecha y no se almacena.</rem:condition>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+desecha el <rem:ref oid="GLO-0045">libro</rem:ref></rem:description>
+</rem:actorAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
 </rem:section>
 <rem:section
- oid = "SEC-0064">
+ oid = "SEC-0074">
 <rem:name>
-Casos de uso del <rem:ref oid="GLO-0042">gerente</rem:ref></rem:name>
+Adquisiciones</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
-None</rem:comments>
+Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>6.2.3.3 </rem:number>
 <rem:useCase
- oid = "UC-0011">
+ oid = "UC-0022">
 <rem:name>
-Listar socios irresponsables</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá desplegar una lista de los socios que han sido marcados como irresponsables. </rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0012">
-<rem:name>
-Establecer <rem:ref oid="GLO-0037">socio</rem:ref> como irresponsable</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá establecer a un <rem:ref oid="GLO-0037">socio</rem:ref> como irresponsable. </rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0013">
-<rem:name>
-Crear/eliminar socios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá crear y eliminar socios.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0014">
-<rem:name>
-Modificar socios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> realizar modificaciones en la información de los socios.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0015">
-<rem:name>
-Reestablecer <rem:ref oid="GLO-0037">socio</rem:ref> como responsable</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá reestablecer a un <rem:ref oid="GLO-0037">socio</rem:ref> como responsable. </rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0016">
-<rem:name>
-Modificar préstamos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá realizar modificaciones en la información de los préstamos.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0019">
-<rem:name>
-Modificar <rem:ref oid="GLO-0002">inventario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá realizar modificaciones en la información del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0020">
-<rem:name>
-Crear/eliminar proveedores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá crear o eliminar proveedores.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0021">
-<rem:name>
-Modificar proveedores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá realizar modificaciones en la información de los proveedores.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0023">
-<rem:name>
-Visualizar bandeja de entrada</rem:name>
+Realizar adquisición</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2680,32 +2070,104 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá visualizar su bandeja de entrada.</rem:triggeringEvent>
+haya que realizar alguna adquisición</rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+El gestor del almacén se ha identificado correctamente y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
+<rem:step oid = "STP-0007">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra la lista de proveedores del sistema</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0008">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0011">
+<rem:description>
+selecciona el <rem:ref oid="GLO-0049">proveedor</rem:ref> deseado</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0009">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra los datos del <rem:ref oid="GLO-0049">proveedor</rem:ref> seleccionado</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0012">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0011">
+<rem:description>
+contacta con el <rem:ref oid="GLO-0049">proveedor</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0010">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+aporta el <rem:ref oid="GLO-0034">material</rem:ref> a la biblioteca</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0011">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0011">
+<rem:description>
+almacena el <rem:ref oid="GLO-0034">material</rem:ref><br/></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
-<rem:useCase
- oid = "UC-0024">
+</rem:section>
+<rem:section
+ oid = "SEC-0075">
 <rem:name>
-Enviar mensajes difundidos</rem:name>
+Empleados</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>6.2.3.4 </rem:number>
+<rem:useCase
+ oid = "UC-0035">
+<rem:name>
+Crear <rem:ref oid="GLO-0040">empleado</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
-None</rem:comments>
+Ninguno</rem:comments>
 <rem:importance>
 <rem:tbd/>
 </rem:importance>
@@ -2719,58 +2181,66 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá enviar un mensaje difundido a todos los usuarios del sistema.</rem:triggeringEvent>
+se cree un <rem:ref oid="GLO-0040">empleado</rem:ref></rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+El <rem:ref oid="GLO-0042">gerente</rem:ref> se ha identificado correctamente y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+Actualización de la lista de empleados</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0025">
-<rem:name>
-Enviar mensajes individuales</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0005 "/>
+<rem:step oid = "STP-0013">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+recoge los datos del <rem:ref oid="GLO-0040">empleado</rem:ref></rem:description>
+</rem:actorAction>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá enviar mensajes individuales al <rem:ref oid="GLO-0008">usuario</rem:ref> que elija.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0016">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+provee al nuevo <rem:ref oid="GLO-0040">empleado</rem:ref> de una cuenta de <rem:ref oid="GLO-0008">usuario</rem:ref> y una contraseña</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0014">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+verifica que los datos sean válidos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0002">
+<rem:condition>
+los datos no son válidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+no los almacena</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0015">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+almacena los datos recogidos en el formulario y crea un nuevo <rem:ref oid="GLO-0040">empleado</rem:ref> en la base de datos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
 <rem:useCase
  oid = "UC-0026">
 <rem:name>
-Crear/eliminar empleados</rem:name>
+Eliminar <rem:ref oid="GLO-0040">empleado</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2797,11 +2267,11 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá crear y eliminar empleados.</rem:triggeringEvent>
+sea necesario eliminar un <rem:ref oid="GLO-0040">empleado</rem:ref> del sistema</rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+Actualización de los empleados</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -2836,58 +2306,37 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá realizar modificaciones en la información de los empleados.</rem:triggeringEvent>
+haya que realizar modificaciones en la información de un <rem:ref oid="GLO-0040">empleado</rem:ref></rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+Actualización de la información del <rem:ref oid="GLO-0040">empleado</rem:ref></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
 </rem:useCase>
-<rem:useCase
- oid = "UC-0028">
+</rem:section>
+<rem:section
+ oid = "SEC-0076">
 <rem:name>
-Modificar información de sucursales</rem:name>
+Préstamos interbibliotecarios</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá realizar modificaciones en la información de las sucursales.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>6.2.3.5 </rem:number>
 <rem:useCase
  oid = "UC-0029">
 <rem:name>
-Tramitar préstamos interbibliotecarios</rem:name>
+Tramitar <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2914,11 +2363,666 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> podrá contactar con las sucursales y tramitar préstamos interbibliotecarios.</rem:triggeringEvent>
+se tramite un <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref></rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+El <rem:ref oid="GLO-0042">gerente</rem:ref> se ha identificado correctamente y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+El <rem:ref oid="GLO-0035">préstamo</rem:ref> ha sido registrado correctamente y llega a la <rem:ref oid="GLO-0038">sucursal</rem:ref> correspondiente</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0017">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+notifica la petición de una <rem:ref oid="GLO-0038">sucursal</rem:ref></rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0003">
+<rem:condition>
+la <rem:ref oid="GLO-0038">sucursal</rem:ref> ya ha llegado al límite de préstamos interbibliotecarios</rem:condition>
+<rem:systemAction>
+<rem:description>
+impide la creación de un nuevo <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0018">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+informa al <rem:ref oid="GLO-0042">gerente</rem:ref> sobre la disponibilidad de dicho <rem:ref oid="GLO-0034">material</rem:ref></rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0004">
+<rem:condition>
+el <rem:ref oid="GLO-0034">material</rem:ref> solicitado no se encuentra disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+impide la creación del <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref></rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0019">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+rellena la información de la tramitación</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0020">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0010">
+<rem:description>
+envía el <rem:ref oid="GLO-0034">material</rem:ref> préstado a la <rem:ref oid="GLO-0038">sucursal</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0077">
+<rem:name>
+Socios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>6.2.3.6 </rem:number>
+<rem:useCase
+ oid = "UC-0037">
+<rem:name>
+Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (in situ)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0037">socio</rem:ref> in situ</rem:triggeringEvent>
+<rem:precondition>
+Alguien solicita su afiliación como <rem:ref oid="GLO-0037">socio</rem:ref> y un <rem:ref oid="GLO-0041">secretario</rem:ref> o un <rem:ref oid="GLO-0042">gerente</rem:ref> se ha identificado en el sistema correctamente.</rem:precondition>
+<rem:postcondition>
+La persona queda registrada en el sistema como <rem:ref oid="GLO-0037">socio</rem:ref> y adquiere su carnet.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0029">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+o el <rem:ref oid="GLO-0042">gerente</rem:ref> rellena los datos del/la solicitante</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0030">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+verifica que los datos sean válidos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0009">
+<rem:condition>
+los datos no son válidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+no los almacena</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0031">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+crea un nuevo <rem:ref oid="GLO-0037">socio</rem:ref> en la base de datos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0032">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+crea un carnet de <rem:ref oid="GLO-0037">socio</rem:ref> y se lo entrega al nuevo <rem:ref oid="GLO-0037">socio</rem:ref> en el acto</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0038">
+<rem:name>
+Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (online)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0037">socio</rem:ref> vía web</rem:triggeringEvent>
+<rem:precondition>
+Un <rem:ref oid="GLO-0008">usuario</rem:ref> que no ha iniciado sesión en el sistema quiere darse de alta como <rem:ref oid="GLO-0037">socio</rem:ref></rem:precondition>
+<rem:postcondition>
+La persona queda registrada en el sistema como <rem:ref oid="GLO-0037">socio</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0033">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+solicita los datos del/la solicitante</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0034">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+verifica que los datos sean válidos</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0010">
+<rem:condition>
+los datos no son válidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+no los almacena</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0035">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+crea un nuevo <rem:ref oid="GLO-0037">socio</rem:ref> en la base de datos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0036">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+ofrece al <rem:ref oid="GLO-0008">usuario</rem:ref> la opción de entregar el carnet de <rem:ref oid="GLO-0037">socio</rem:ref> a domicilio</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0037">
+<rem:number>5</rem:number>
+<rem:condition>
+el <rem:ref oid="GLO-0037">socio</rem:ref> selecciona recibir el carnet a domicilio</rem:condition>
+<rem:actorAction actor = "ACT-0005">
+<rem:description>
+entrega el carnet al <rem:ref oid="GLO-0037">socio</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0012">
+<rem:name>
+Establecer <rem:ref oid="GLO-0037">socio</rem:ref> como irresponsable</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que establecer a un <rem:ref oid="GLO-0037">socio</rem:ref> como irresponsable</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> o <rem:ref oid="GLO-0041">secretario</rem:ref></rem:precondition>
+<rem:postcondition>
+Actualización del estado de un <rem:ref oid="GLO-0037">socio</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0015">
+<rem:name>
+Reestablecer <rem:ref oid="GLO-0037">socio</rem:ref> como responsable manualmente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que reestablecer manualmente a un <rem:ref oid="GLO-0037">socio</rem:ref> como responsable</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> o <rem:ref oid="GLO-0041">secretario</rem:ref></rem:precondition>
+<rem:postcondition>
+Actualización del estado de un <rem:ref oid="GLO-0037">socio</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0040">
+<rem:name>
+Reestablecer <rem:ref oid="GLO-0037">socio</rem:ref> como responsable</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+cumpla el plazo de irresponsabilidad de un <rem:ref oid="GLO-0037">socio</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El periodo de irresponsabilidad de un <rem:ref oid="GLO-0037">socio</rem:ref> ya ha finalizado</rem:precondition>
+<rem:postcondition>
+Actualización del estado de un <rem:ref oid="GLO-0037">socio</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0014">
+<rem:name>
+Modificar <rem:ref oid="GLO-0037">socio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+sea necesaria alguna modificación en la información de un <rem:ref oid="GLO-0037">socio</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref></rem:precondition>
+<rem:postcondition>
+Actualización en la información de un <rem:ref oid="GLO-0037">socio</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0013">
+<rem:name>
+Eliminar <rem:ref oid="GLO-0037">socio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0037">socio</rem:ref> tenga que ser eliminado del sistema</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref></rem:precondition>
+<rem:postcondition>
+Actualización de los socios del sistema</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0078">
+<rem:name>
+Mensajes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>6.2.3.7 </rem:number>
+<rem:useCase
+ oid = "UC-0039">
+<rem:name>
+Enviar mensaje difundido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0042">gerente</rem:ref> quiera difundir un mensaje al resto de empleados</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0042">gerente</rem:ref> se ha identificado correctamente y su sesión está abierta</rem:precondition>
+<rem:postcondition>
+Se actualiza la bandeja de entrada del resto de empleados</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0038">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+otorga al <rem:ref oid="GLO-0042">gerente</rem:ref> la opción de enviar un mensaje difundido</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0039">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+redacta un mensaje y lo envía</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0040">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+envía dicho mensaje a la bandeja de entrada del resto de empleados</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0007">
+<rem:name>
+Enviar mensaje al <rem:ref oid="GLO-0042">gerente</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera enviar un mensaje al <rem:ref oid="GLO-0042">gerente</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+Un <rem:ref oid="GLO-0040">empleado</rem:ref> ha iniciado sesión en el sistema</rem:precondition>
+<rem:postcondition>
+Actualización de la bandeja de entrada del <rem:ref oid="GLO-0042">gerente</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0008">
+<rem:name>
+Enviar mensaje a <rem:ref oid="GLO-0041">secretario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0041">secretario</rem:ref> también necesite enviar un mensaje a otro <rem:ref oid="GLO-0041">secretario</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0041">secretario</rem:ref></rem:precondition>
+<rem:postcondition>
+Actualización de la bandeja de entrada del <rem:ref oid="GLO-0041">secretario</rem:ref> receptor</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0025">
+<rem:name>
+Enviar mensajes individuales (<rem:ref oid="GLO-0042">gerente</rem:ref>)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+necesite enviar un mensaje individual a cualquier <rem:ref oid="GLO-0040">empleado</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref></rem:precondition>
+<rem:postcondition>
+Actualización de la bandeja de entrada del <rem:ref oid="GLO-0008">usuario</rem:ref> receptor</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -2927,7 +3031,7 @@ TBD</rem:postcondition>
 <rem:section
  oid = "SEC-0065">
 <rem:name>
-Casos de uso para cualquier tipo de <rem:ref oid="GLO-0008">usuario</rem:ref></rem:name>
+Estadísticas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2940,124 +3044,7 @@ Casos de uso para cualquier tipo de <rem:ref oid="GLO-0008">usuario</rem:ref></r
 <rem:comments>
 None</rem:comments>
 <rem:level>4</rem:level>
-<rem:number>6.2.3.4 </rem:number>
-<rem:useCase
- oid = "UC-0030">
-<rem:name>
-Darse de alta como <rem:ref oid="GLO-0037">socio</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-El sistema permite a los usuarios que no hayan iniciado sesión darse de alta como socios de la biblioteca.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0031">
-<rem:name>
-Iniciar sesión</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-El sistema permite a los usuarios que no hayan iniciado sesión iniciar sesión como cualquier tipo de <rem:ref oid="GLO-0040">empleado</rem:ref>.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0032">
-<rem:name>
-Solicitar envío del carnet de <rem:ref oid="GLO-0037">socio</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-Los usuarios que se hayan dado de alta como socios de la biblioteca y hayan reservado su carnet de <rem:ref oid="GLO-0037">socio</rem:ref> pueden solicitar el envío a domicilio para no tener que ir a recogerlo en la biblioteca.</rem:triggeringEvent>
-<rem:precondition>
-TBD</rem:precondition>
-<rem:postcondition>
-TBD</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
+<rem:number>6.2.3.8 </rem:number>
 <rem:useCase
  oid = "UC-0033">
 <rem:name>
@@ -3088,11 +3075,338 @@ None</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-Cualquier <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión podrá desplegar un apartado de estadísticas en la que aparezcan:<br/>-Los 10 socios que más préstamos hayan realizado en los últimos 3 meses.<br/>-Los 10 libros más solicitados. <br/>-Los 10 libros menos solicitados. <br/>-Los 3 géneros literarios más frecuentes de los libros que han sido prestados en los últimos 3 meses. <br/></rem:triggeringEvent>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera desplegar el apartado de estadísticas en el que se muestren:<br/>-Los 10 socios que más préstamos hayan realizado en los últimos 3 meses.<br/>-Los 10 libros más solicitados. <br/>-Los 10 libros menos solicitados. <br/>-Los 3 géneros literarios más frecuentes de los libros que han sido prestados en los últimos 3 meses. <br/></rem:triggeringEvent>
 <rem:precondition>
-TBD</rem:precondition>
+Un <rem:ref oid="GLO-0008">usuario</rem:ref> se ha identificado correctamente y su sesión está abierta</rem:precondition>
 <rem:postcondition>
-TBD</rem:postcondition>
+No procede</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0079">
+<rem:name>
+<rem:ref oid="GLO-0002">Inventario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>6.2.3.9 </rem:number>
+<rem:useCase
+ oid = "UC-0009">
+<rem:name>
+Modificar información del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+sea necesaria alguna modificación en los libros de la biblioteca o en los materiales del almacén</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como gestor del almacén</rem:precondition>
+<rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0017">
+<rem:name>
+Crear <rem:ref oid="GLO-0034">material</rem:ref> en <rem:ref oid="GLO-0002">inventario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que crear un nuevo <rem:ref oid="GLO-0034">material</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como gestor del almacén</rem:precondition>
+<rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0018">
+<rem:name>
+Eliminar <rem:ref oid="GLO-0034">material</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que eliminar algún <rem:ref oid="GLO-0034">material</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como gestor del almacén</rem:precondition>
+<rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0080">
+<rem:name>
+Proveedores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>6.2.3.10 </rem:number>
+<rem:useCase
+ oid = "UC-0020">
+<rem:name>
+Crear <rem:ref oid="GLO-0049">proveedor</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que crear un <rem:ref oid="GLO-0049">proveedor</rem:ref> nuevo</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+<rem:postcondition>
+Actualización de los proveedores del sistema</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0021">
+<rem:name>
+Modificar <rem:ref oid="GLO-0049">proveedor</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que realizar modificaciones en la información de un <rem:ref oid="GLO-0049">proveedor</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+<rem:postcondition>
+Actualización de la información del <rem:ref oid="GLO-0049">proveedor</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0041">
+<rem:name>
+Eliminar <rem:ref oid="GLO-0049">proveedor</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que eliminar un <rem:ref oid="GLO-0049">proveedor</rem:ref> nuevo</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+<rem:postcondition>
+Actualización de los proveedores del sistema</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0081">
+<rem:name>
+Sucursales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>6.2.3.11 </rem:number>
+<rem:useCase
+ oid = "UC-0028">
+<rem:name>
+Modificar información de <rem:ref oid="GLO-0038">sucursal</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+None</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+haya que realizar modificaciones en la información de una <rem:ref oid="GLO-0038">sucursal</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0042">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+<rem:postcondition>
+Actualización de la información de la <rem:ref oid="GLO-0038">sucursal</rem:ref></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -3778,7 +4092,39 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0042">gerente</rem:ref> recibirá una notificación cuando una <rem:ref oid="GLO-0038">sucursal</rem:ref> solicite un <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref>.</rem:description>
+enviar una notificación al <rem:ref oid="GLO-0042">gerente</rem:ref> cuando una <rem:ref oid="GLO-0038">sucursal</rem:ref> solicite un <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref>.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0003">
+<rem:name>
+Listar socios irresponsables</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+desplegar una lista de los socios que han sido marcados como irresponsables para los secretarios y el <rem:ref oid="GLO-0042">gerente</rem:ref>.</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 </rem:section>
@@ -4786,7 +5132,7 @@ None</rem:comments>
 <rem:day>6</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4805,7 +5151,7 @@ Ninguno</rem:comments>
 <rem:day>6</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0004 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -5723,7 +6069,7 @@ Patrón MVC</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La implementación del sstema se basa en el patrón Modelo-Vista-Controlador.<br/><br/>De manera genérica, los componentes de MVC se podrían definir como sigue:<br/><br/>El Modelo: Es la representación de la información con la cual el sistema opera, por lo tanto gestiona todos los accesos a dicha información, tanto consultas como actualizaciones, implementando también los privilegios de acceso que se hayan descrito en las especificaciones de la aplicación (lógica de negocio).<br/>El Controlador: Responde a eventos (usualmente acciones del <rem:ref oid="GLO-0008">usuario</rem:ref>) e invoca peticiones al &apos;modelo&apos; cuando se hace alguna <rem:ref oid="GLO-0052">solicitud</rem:ref> sobre la información.<br/>La Vista: Presenta el &apos;modelo&apos; (información y lógica de negocio) en un formato adecuado para interactuar (usualmente la interfaz de <rem:ref oid="GLO-0008">usuario</rem:ref>).<br/></rem:text>
+<rem:text>La implementación del sstema se basa en el patrón Modelo-Vista-Controlador.<br/><br/>De manera genérica, los componentes de MVC se podrían definir como sigue:<br/><br/>El Modelo: Es la representación de la información con la cual el sistema opera, por lo tanto gestiona todos los accesos a dicha información, tanto consultas como actualizaciones, implementando también los privilegios de acceso que se hayan descrito en las especificaciones de la aplicación (lógica de negocio).<br/>El Controlador: Responde a eventos (usualmente acciones del <rem:ref oid="GLO-0008">usuario</rem:ref>) e invoca peticiones al &apos;modelo&apos; cuando se hace alguna solicitud sobre la información.<br/>La Vista: Presenta el &apos;modelo&apos; (información y lógica de negocio) en un formato adecuado para interactuar (usualmente la interfaz de <rem:ref oid="GLO-0008">usuario</rem:ref>).<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -6262,40 +6608,67 @@ None
 None
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
+<rem:trace source = "CRQ-0001"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0008"  target = "OBJ-0004" >
+<rem:trace source = "CRQ-0006"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0010"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0012"  target = "OBJ-0005" >
+<rem:trace source = "CRQ-0006"  target = "IRQ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0014"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0015"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0011"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0002" >
+<rem:trace source = "CRQ-0005"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0001"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0005" >
+<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0012"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0010"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0011"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0013"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0015"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0008"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0002"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
@@ -6304,13 +6677,10 @@ None
 <rem:trace source = "CRQ-0003"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "CRQ-0004"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0013"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0004"  target = "IRQ-0002" >
@@ -6319,34 +6689,67 @@ None
 <rem:trace source = "CRQ-0005"  target = "IRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0007" >
+<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0005" >
+<rem:trace source = "IRQ-0005"  target = "OBJ-0013" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0003" >
+<rem:trace source = "IRQ-0006"  target = "OBJ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0006" >
+<rem:trace source = "IRQ-0004"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0003" >
+<rem:trace source = "IRQ-0005"  target = "OBJ-0014" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0005"  target = "IRQ-0002" >
+<rem:trace source = "IRQ-0003"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0006" >
+<rem:trace source = "IRQ-0008"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0005" >
+<rem:trace source = "IRQ-0008"  target = "OBJ-0013" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "CRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "OBJ-0013" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0016" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0017" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "OBJ-0018" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "OBJ-0013" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0005"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0006"  target = "OBJ-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
+<rem:trace source = "IRQ-0006"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0007"  target = "OBJ-0004" >
@@ -6355,124 +6758,124 @@ None
 <rem:trace source = "IRQ-0007"  target = "OBJ-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0003" >
+<rem:trace source = "IRQ-0008"  target = "OBJ-0015" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0005"  target = "OBJ-0015" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0014" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0008"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0013" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0003" >
+<rem:trace source = "IRQ-0008"  target = "OBJ-0014" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0008"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "CRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0013" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0014" >
+<rem:trace source = "IRQ-0010"  target = "OBJ-0017" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0008"  target = "OBJ-0018" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0013" >
+<rem:trace source = "IRQ-0005"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0010"  target = "OBJ-0002" >
+<rem:trace source = "IRQ-0003"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0016" >
+<rem:trace source = "IRQ-0007"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0010"  target = "OBJ-0017" >
+<rem:trace source = "IRQ-0006"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0017" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0010"  target = "OBJ-0013" >
+<rem:trace source = "CRQ-0008"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0015" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0002"  target = "OBJ-0030" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0027" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "OBJ-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0002"  target = "OBJ-0018" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0023" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0029"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0030"  target = "OBJ-0019" >
+<rem:trace source = "IRQ-0004"  target = "OBJ-0028" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0020" >
+<rem:trace source = "OBJ-0021"  target = "OBJ-0019" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0022"  target = "OBJ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "NFR-0007"  target = "OBJ-0020" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "NFR-0007"  target = "OBJ-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0022" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "OBJ-0019" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0007"  target = "OBJ-0019" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0008"  target = "OBJ-0019" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0024" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0024"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0021"  target = "OBJ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0024"  target = "OBJ-0023" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0020"  target = "OBJ-0007" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0020"  target = "OBJ-0019" >
@@ -6484,28 +6887,7 @@ None
 <rem:trace source = "OBJ-0015"  target = "OBJ-0019" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0018" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0002"  target = "OBJ-0018" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0024"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "NFR-0007"  target = "OBJ-0020" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0023" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0029" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0020"  target = "OBJ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0022" >
+<rem:trace source = "NFR-0007"  target = "OBJ-0019" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0002"  target = "OBJ-0025" >
@@ -6514,16 +6896,13 @@ None
 <rem:trace source = "OBJ-0010"  target = "OBJ-0023" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0021"  target = "OBJ-0007" >
+<rem:trace source = "IRQ-0007"  target = "OBJ-0020" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0019" >
+<rem:trace source = "IRQ-0008"  target = "OBJ-0029" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "NFR-0007"  target = "OBJ-0021" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0002"  target = "OBJ-0030" >
+<rem:trace source = "OBJ-0030"  target = "OBJ-0019" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0030"  target = "OBJ-0023" >
@@ -6532,115 +6911,19 @@ None
 <rem:trace source = "OBJ-0030"  target = "OBJ-0027" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "NFR-0007"  target = "OBJ-0019" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0021" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0024" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0022"  target = "OBJ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0021"  target = "OBJ-0019" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0021" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0008"  target = "OBJ-0019" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0007"  target = "OBJ-0019" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0024"  target = "OBJ-0023" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0028" >
+<rem:trace source = "OBJ-0014"  target = "OBJ-0027" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "GLO-0034"  target = "OBJ-0015" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "GLO-0034"  target = "OBJ-0018" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "OBJ-0013"  target = "OBJ-0027" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0014"  target = "OBJ-0027" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0027" >
+<rem:trace source = "GLO-0034"  target = "OBJ-0018" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Alphanumeric strings</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0001">
 <rem:name>
@@ -6684,6 +6967,48 @@ Integer numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
  oid = "PVT-0003">
 <rem:name>
 Natural</rem:name>
@@ -6704,22 +7029,43 @@ Natural numbers</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>TBD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>to be approved/rejected</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rejected</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verified</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>to be approved/rejected</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>to be analyzed</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verified</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>to be performed</rem:name>
@@ -6727,79 +7073,31 @@ Natural numbers</rem:description>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>TBD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>solved</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>under negotiation</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>not solved</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>solved</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>TBD</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>solved</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>not solved</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>under negotiation</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Design-dependence</rem:name>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>not solved</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>solved</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No traceability</rem:name>
 <rem:description>
-<![CDATA[The requirement or requirements contain design-dependant elements]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancy</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are redundant or contain redundant elements]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>No completeness</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements do not describe everything the system is supposed to do, do not describe the responses of the system to all realizable situations, or include to-be-determined (TBD) elements]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecision</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not stated in a precise way, i.e. using numerical quantities whenever possible with the right level of precision]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>No priority</rem:name>
-<rem:description>
-<![CDATA[The priority, i.e. the importance and urgency of the requirement or requirements have not been determined]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>No understanding</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements cannot be understood by some reader]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambiguity</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements, although understandable, have more than one possible interpretation]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necessity</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificability</rem:name>
-<rem:description>
-<![CDATA[It cannot be verified that the requirement or requirements are satisfied by the system]]>
+<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -6808,10 +7106,58 @@ Natural numbers</rem:description>
 <![CDATA[The requirement or requirements are not consistent, i.e. they are in conflict]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>TBD</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>No understanding</rem:name>
 <rem:description>
-<![CDATA[To Be Determined]]>
+<![CDATA[The requirement or requirements cannot be understood by some reader]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Design-dependence</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements contain design-dependant elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>No completeness</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements do not describe everything the system is supposed to do, do not describe the responses of the system to all realizable situations, or include to-be-determined (TBD) elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificability</rem:name>
+<rem:description>
+<![CDATA[It cannot be verified that the requirement or requirements are satisfied by the system]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>No priority</rem:name>
+<rem:description>
+<![CDATA[The priority, i.e. the importance and urgency of the requirement or requirements have not been determined]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>No stability</rem:name>
+<rem:description>
+<![CDATA[The stability of the requirement or requirements have not been estimated]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Other</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements have another kind of defect]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necessity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Wrong organization</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not correctly organized according to applied standards or the document does not contain mandatory sections]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
@@ -6826,28 +7172,10 @@ Natural numbers</rem:description>
 <![CDATA[The requirement or requirements can be expressed in a more concise way without altering their meaning]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Other</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecision</rem:name>
 <rem:description>
-<![CDATA[The requirement or requirements have another kind of defect]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>No stability</rem:name>
-<rem:description>
-<![CDATA[The stability of the requirement or requirements have not been estimated]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No traceability</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Wrong organization</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not correctly organized according to applied standards or the document does not contain mandatory sections]]>
+<![CDATA[The requirement or requirements are not stated in a precise way, i.e. using numerical quantities whenever possible with the right level of precision]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
@@ -6856,38 +7184,50 @@ Natural numbers</rem:description>
 <![CDATA[The requirement or requirements are not stated at the right level of detail, i.e. they are too abstract or too detailed]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>important</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancy</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are redundant or contain redundant elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>TBD</rem:name>
+<rem:description>
+<![CDATA[To Be Determined]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambiguity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements, although understandable, have more than one possible interpretation]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>TBD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>important</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>would be nice</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>TBD</rem:name>
-</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>medium</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>TBD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>low</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>medium</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>high</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>needs verification</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>under construction</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validated</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>needs validation</rem:name>
@@ -6895,23 +7235,29 @@ Natural numbers</rem:description>
 <rem:statusValue oid = "STV-0001">
 <rem:name>TBD</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validated</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>needs verification</rem:name>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>TBD</rem:name>
-</rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>resumes</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>is cancelled</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hour(s)</rem:name>
-</rem:timeUnitValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>resumes</rem:name>
+</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>TBD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>year(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>second(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>tenth(s) of a second</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>month(s)</rem:name>
@@ -6919,29 +7265,29 @@ Natural numbers</rem:description>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>day(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>year(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hour(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minute(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>second(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>week(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>tenth(s) of a second</rem:name>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>millisecond(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>hundreth(s) of a second</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>millisecond(s)</rem:name>
-</rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>TBD</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>immediately</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>TBD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>can wait</rem:name>
