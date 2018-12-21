@@ -1930,16 +1930,36 @@ se tramite un <a href="#GLO-0035" title="Adquisición temporal, por parte de un s
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0041" title="Actor del sistema que se encarga de tramitar préstamos a los socios.">secretario</a> se ha identificado correctamente y su sesión está abierta</td>
+El <a href="#GLO-0037" title="Usuario que pertenece a la biblioteca.">socio</a> solicita un <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a>
+</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="left" valign="top" rowspan="9">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0023" />
+<a name="STP-0050" />
 <td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
+    </a>
+<em>
+solicita al sistema la creación de un nuevo <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a>
+</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0051" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+recibe la petición y muestra la interfaz de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> correspondiente</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0023" />
+<td align="center" valign="top">3</td>
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
@@ -1950,7 +1970,7 @@ selecciona al cliente que solicita el <a href="#GLO-0035" title="Adquisición tem
 </tr>
 <tr>
 <a name="STP-0022" />
-<td align="center" valign="top">2</td>
+<td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
@@ -1959,7 +1979,7 @@ comprueba que el cliente es responsable</em>
 </tr>
 <tr>
 <a name="STP-0024" />
-<td align="center" valign="top">3</td>
+<td align="center" valign="top">5</td>
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
@@ -1969,7 +1989,7 @@ selecciona el <a href="#GLO-0045" title="Se encarga de almacenar la información 
 </tr>
 <tr>
 <a name="STP-0025" />
-<td align="center" valign="top">4</td>
+<td align="center" valign="top">6</td>
 <td>El
      
     sistema<em>
@@ -1978,7 +1998,7 @@ comprueba que el <a href="#GLO-0045" title="Se encarga de almacenar la informaci
 </tr>
 <tr>
 <a name="STP-0026" />
-<td align="center" valign="top">5</td>
+<td align="center" valign="top">7</td>
 <td>El
      
     sistema<em>
@@ -1988,7 +2008,7 @@ asigna la fecha de devolución según el tamaño del <a href="#GLO-0045" title="Se 
 </tr>
 <tr>
 <a name="STP-0027" />
-<td align="center" valign="top">6</td>
+<td align="center" valign="top">8</td>
 <td>El
      
     sistema<em>
@@ -1999,8 +2019,7 @@ crea el <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, 
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualizar <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
-</td>
+El <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a> se ha creado correctamente</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="3">Excepciones</th>
@@ -2009,7 +2028,7 @@ Actualizar <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiale
 </tr>
 <tr>
 <a name="STX-0006" />
-<td align="center" valign="top">2</td>
+<td align="center" valign="top">4</td>
 <td>Si<em>
 el cliente es irresponsable,
                             </em>el
@@ -2024,7 +2043,7 @@ impide la creación del <a href="#GLO-0035" title="Adquisición temporal, por part
 </tr>
 <tr>
 <a name="STX-0007" />
-<td align="center" valign="top">4</td>
+<td align="center" valign="top">6</td>
 <td>Si<em>
 el <a href="#GLO-0045" title="Se encarga de almacenar la información sobre una obra en particular">libro</a> no está disponible,
                             </em>el
@@ -2144,26 +2163,45 @@ finalice un <a href="#GLO-0035" title="Adquisición temporal, por parte de un soc
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0041" title="Actor del sistema que se encarga de tramitar préstamos a los socios.">secretario</a> se ha identificado correctamente y su sesión está abierta</td>
+El <a href="#GLO-0037" title="Usuario que pertenece a la biblioteca.">socio</a> llega a la biblioteca para devolver un <a href="#GLO-0045" title="Se encarga de almacenar la información sobre una obra en particular">libro</a>
+</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0001" />
+<a name="STP-0053" />
 <td align="center" valign="top">1</td>
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-busca en el sistema el <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a> del <a href="#GLO-0037" title="Usuario que pertenece a la biblioteca.">socio</a>
+solicita al sistema la terminación de un <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a>
 </em>
 </td>
 </tr>
 <tr>
-<a name="STP-0002" />
+<a name="STP-0052" />
 <td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+despliega una lista de los préstamos vigentes</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0001" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
+    </a>
+<em>
+busca en el sistema el <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a> del <a href="#GLO-0037" title="Usuario que pertenece a la biblioteca.">socio</a> y lo selecciona para se terminación</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0002" />
+<td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
@@ -2172,7 +2210,7 @@ comprueba la fecha de devolución</em>
 </tr>
 <tr>
 <a name="STP-0003" />
-<td align="center" valign="top">3</td>
+<td align="center" valign="top">5</td>
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
@@ -2181,18 +2219,8 @@ comprueba el estado del <a href="#GLO-0045" title="Se encarga de almacenar la in
 </td>
 </tr>
 <tr>
-<a name="STP-0004" />
-<td align="center" valign="top">4</td>
-<td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
-    </a>
-<em>
-finaliza el <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a>
-</em>
-</td>
-</tr>
-<tr>
 <a name="STP-0005" />
-<td align="center" valign="top">5</td>
+<td align="center" valign="top">6</td>
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
@@ -2203,7 +2231,7 @@ almacena el <a href="#GLO-0045" title="Se encarga de almacenar la información so
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualizar irresponsabilidad, <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y estado del <a href="#GLO-0045" title="Se encarga de almacenar la información sobre una obra en particular">libro</a>
+Finalizar <a href="#GLO-0035" title="Adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca.">préstamo</a>
 </td>
 </tr>
 <tr>
@@ -2213,7 +2241,7 @@ Actualizar irresponsabilidad, <a href="#GLO-0002" title="Conjunto de todos los l
 </tr>
 <tr>
 <a name="STX-0001" />
-<td align="center" valign="top">5</td>
+<td align="center" valign="top">6</td>
 <td>Si<em>
  el estado del <a href="#GLO-0045" title="Se encarga de almacenar la información sobre una obra en particular">libro</a> es crítico, éste se desecha y no se almacena.,
                             </em>el actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
@@ -4749,153 +4777,8 @@ None</td>
 </tr>
 </table>
 <p />
-<a name="SEC-0065" />
-<h4 align="left">6.2.3.8 
-Estadísticas</h4><a name="UC-0033" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0033</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Desplegar apartado de estadísticas</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 01/12/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0001">
-Alberto Cordón Arévalo</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0005">
-Cristóbal Guerrero Salguero</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera desplegar el apartado de estadísticas en el que se muestren:
-<br />-Los 10 socios que más préstamos hayan realizado en los últimos 3 meses.
-<br />-Los 10 libros más solicitados. 
-<br />-Los 10 libros menos solicitados. 
-<br />-Los 3 géneros literarios más frecuentes de los libros que han sido prestados en los últimos 3 meses. 
-<br />
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
-Un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha identificado correctamente y su sesión está abierta</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-No procede</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-None</td>
-</tr>
-</table>
-<p />
 <a name="SEC-0079" />
-<h4 align="left">6.2.3.9  Inventario</h4><a name="UC-0009" />
+<h4 align="left">6.2.3.8  Inventario</h4><a name="UC-0009" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0009</th>
@@ -5314,7 +5197,7 @@ None</td>
 </table>
 <p />
 <a name="SEC-0080" />
-<h4 align="left">6.2.3.10 
+<h4 align="left">6.2.3.9 
 Proveedores</h4><a name="UC-0020" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
@@ -5732,7 +5615,7 @@ None</td>
 </table>
 <p />
 <a name="SEC-0081" />
-<h4 align="left">6.2.3.11 
+<h4 align="left">6.2.3.10 
 Sucursales</h4><a name="UC-0028" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
@@ -5918,6 +5801,11 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001] 
+GESTIÓN DE SOCIOS</a>
+</li>
+<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005] 
 GESTIÓN DE PRÉSTAMOS</a>
@@ -5926,11 +5814,6 @@ GESTIÓN DE PRÉSTAMOS</a>
 <a href="#OBJ-0012" title="GESTIÓN DE ANÁLISIS">
                                 [OBJ-0012] 
 GESTIÓN DE ANÁLISIS</a>
-</li>
-<li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001] 
-GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#OBJ-0010" title="GESTIÓN DE RESPONSABILIDADES">
@@ -6074,14 +5957,14 @@ GESTIÓN DE ANÁLISIS</a>
 GESTIÓN DE EJEMPLARES</a>
 </li>
 <li>
-<a href="#OBJ-0023" title="GESTIÓN DE PRÉSTAMOS">
-                                [OBJ-0023] 
-GESTIÓN DE PRÉSTAMOS</a>
-</li>
-<li>
 <a href="#OBJ-0025" title="GESTIÓN DE EJEMPLARES">
                                 [OBJ-0025] 
 GESTIÓN DE EJEMPLARES</a>
+</li>
+<li>
+<a href="#OBJ-0023" title="GESTIÓN DE PRÉSTAMOS">
+                                [OBJ-0023] 
+GESTIÓN DE PRÉSTAMOS</a>
 </li>
 </td>
 </tr>
@@ -6195,14 +6078,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0008" title="GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO">
-                                [OBJ-0008] 
-GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</a>
-</li>
-<li>
 <a href="#OBJ-0009" title="GESTIÓN DE ANÁLISIS">
                                 [OBJ-0009] 
 GESTIÓN DE ANÁLISIS</a>
+</li>
+<li>
+<a href="#OBJ-0011" title="GESTIÓN DE EJEMPLARES">
+                                [OBJ-0011] 
+GESTIÓN DE EJEMPLARES</a>
 </li>
 <li>
 <a href="#OBJ-0012" title="GESTIÓN DE ANÁLISIS">
@@ -6210,9 +6093,9 @@ GESTIÓN DE ANÁLISIS</a>
 GESTIÓN DE ANÁLISIS</a>
 </li>
 <li>
-<a href="#OBJ-0011" title="GESTIÓN DE EJEMPLARES">
-                                [OBJ-0011] 
-GESTIÓN DE EJEMPLARES</a>
+<a href="#OBJ-0008" title="GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO">
+                                [OBJ-0008] 
+GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</a>
 </li>
 <li>
 <a href="#OBJ-0022" title="GESTIÓN DE ANÁLISIS">
@@ -6336,6 +6219,11 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003] 
+GESTIÓN DE PERSONAL</a>
+</li>
+<li>
 <a href="#CRQ-0006" title="Préstamo interbibliotecario">
                                 [CRQ-0006]  Préstamo interbibliotecario</a>
 </li>
@@ -6343,11 +6231,6 @@ Cristóbal Guerrero Salguero</a>
 <a href="#OBJ-0013" title="GESTIÓN DE LA COMPRA">
                                 [OBJ-0013] 
 GESTIÓN DE LA COMPRA</a>
-</li>
-<li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003] 
-GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#OBJ-0018" title="GESTIÓN DE PERSONAL">
@@ -6472,24 +6355,24 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0015" title="GESTIÓN DE ANÁLISIS">
-                                [OBJ-0015] 
-GESTIÓN DE ANÁLISIS</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003] 
 GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#OBJ-0014" title="GESTIÓN DE ALMACENADO">
-                                [OBJ-0014] 
-GESTIÓN DE ALMACENADO</a>
-</li>
-<li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006] 
 GESTIÓN DE INVENTARIO</a>
+</li>
+<li>
+<a href="#OBJ-0015" title="GESTIÓN DE ANÁLISIS">
+                                [OBJ-0015] 
+GESTIÓN DE ANÁLISIS</a>
+</li>
+<li>
+<a href="#OBJ-0014" title="GESTIÓN DE ALMACENADO">
+                                [OBJ-0014] 
+GESTIÓN DE ALMACENADO</a>
 </li>
 <li>
 <a href="#OBJ-0013" title="GESTIÓN DE LA COMPRA">
@@ -6608,21 +6491,6 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0007" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0007] 
-GESTIÓN DE SUCURSALES</a>
-</li>
-<li>
-<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0004] 
-GESTIÓN DE SUCURSALES</a>
-</li>
-<li>
-<a href="#OBJ-0008" title="GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO">
-                                [OBJ-0008] 
-GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</a>
-</li>
-<li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006] 
 GESTIÓN DE INVENTARIO</a>
@@ -6631,6 +6499,21 @@ GESTIÓN DE INVENTARIO</a>
 <a href="#OBJ-0011" title="GESTIÓN DE EJEMPLARES">
                                 [OBJ-0011] 
 GESTIÓN DE EJEMPLARES</a>
+</li>
+<li>
+<a href="#OBJ-0007" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0007] 
+GESTIÓN DE SUCURSALES</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO">
+                                [OBJ-0008] 
+GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0004] 
+GESTIÓN DE SUCURSALES</a>
 </li>
 </td>
 </tr>
@@ -6749,13 +6632,13 @@ Cristóbal Guerrero Salguero</a>
 GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</a>
 </li>
 <li>
-<a href="#OBJ-0007" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0007] 
+<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0004] 
 GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
-<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0004] 
+<a href="#OBJ-0007" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0007] 
 GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
@@ -6764,14 +6647,14 @@ GESTIÓN DE SUCURSALES</a>
 GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
-<a href="#OBJ-0019" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0019] 
-GESTIÓN DE SUCURSALES</a>
-</li>
-<li>
 <a href="#OBJ-0021" title="GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO">
                                 [OBJ-0021] 
 GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</a>
+</li>
+<li>
+<a href="#OBJ-0019" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0019] 
+GESTIÓN DE SUCURSALES</a>
 </li>
 </td>
 </tr>
@@ -6885,14 +6768,9 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
-                                [OBJ-0002] 
-GESTIÓN DE PROVEEDORES</a>
-</li>
-<li>
-<a href="#OBJ-0013" title="GESTIÓN DE LA COMPRA">
-                                [OBJ-0013] 
-GESTIÓN DE LA COMPRA</a>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006] 
+GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
@@ -6900,24 +6778,9 @@ GESTIÓN DE LA COMPRA</a>
 GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006] 
-GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
-<a href="#OBJ-0017" title="GESTIÓN DE PROVEEDORES">
-                                [OBJ-0017] 
-GESTIÓN DE PROVEEDORES</a>
-</li>
-<li>
-<a href="#OBJ-0015" title="GESTIÓN DE ANÁLISIS">
-                                [OBJ-0015] 
-GESTIÓN DE ANÁLISIS</a>
-</li>
-<li>
-<a href="#OBJ-0018" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0018] 
-GESTIÓN DE PERSONAL</a>
+<a href="#OBJ-0013" title="GESTIÓN DE LA COMPRA">
+                                [OBJ-0013] 
+GESTIÓN DE LA COMPRA</a>
 </li>
 <li>
 <a href="#OBJ-0014" title="GESTIÓN DE ALMACENADO">
@@ -6925,14 +6788,34 @@ GESTIÓN DE PERSONAL</a>
 GESTIÓN DE ALMACENADO</a>
 </li>
 <li>
-<a href="#OBJ-0029" title="GESTIÓN DE ALMACENADO">
-                                [OBJ-0029] 
-GESTIÓN DE ALMACENADO</a>
+<a href="#OBJ-0015" title="GESTIÓN DE ANÁLISIS">
+                                [OBJ-0015] 
+GESTIÓN DE ANÁLISIS</a>
+</li>
+<li>
+<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
+                                [OBJ-0002] 
+GESTIÓN DE PROVEEDORES</a>
+</li>
+<li>
+<a href="#OBJ-0018" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0018] 
+GESTIÓN DE PERSONAL</a>
+</li>
+<li>
+<a href="#OBJ-0017" title="GESTIÓN DE PROVEEDORES">
+                                [OBJ-0017] 
+GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
 <a href="#OBJ-0027" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0027] 
 GESTIÓN DE INVENTARIO</a>
+</li>
+<li>
+<a href="#OBJ-0029" title="GESTIÓN DE ALMACENADO">
+                                [OBJ-0029] 
+GESTIÓN DE ALMACENADO</a>
 </li>
 </td>
 </tr>
@@ -7051,14 +6934,14 @@ Cristóbal Guerrero Salguero</a>
 GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
-<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
-                                [OBJ-0002] 
-GESTIÓN DE PROVEEDORES</a>
-</li>
-<li>
 <a href="#OBJ-0013" title="GESTIÓN DE LA COMPRA">
                                 [OBJ-0013] 
 GESTIÓN DE LA COMPRA</a>
+</li>
+<li>
+<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
+                                [OBJ-0002] 
+GESTIÓN DE PROVEEDORES</a>
 </li>
 </td>
 </tr>
@@ -7180,11 +7063,6 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0002" title="Préstamos">
                                 [IRQ-0002] 
 Préstamos</a>
@@ -7197,6 +7075,11 @@ Personal</a>
 <li>
 <a href="#IRQ-0005" title="Inventario">
                                 [IRQ-0005]  Inventario</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7379,14 +7262,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0002" title="Préstamos">
                                 [IRQ-0002] 
 Préstamos</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7475,14 +7358,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0002" title="Préstamos">
                                 [IRQ-0002] 
 Préstamos</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7674,23 +7557,23 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
-</li>
-<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
 </li>
 <li>
-<a href="#IRQ-0005" title="Inventario">
-                                [IRQ-0005]  Inventario</a>
-</li>
-<li>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
                                 [IRQ-0006] 
 Préstamos interbibliotecarios</a>
+</li>
+<li>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
+</li>
+<li>
+<a href="#IRQ-0005" title="Inventario">
+                                [IRQ-0005]  Inventario</a>
 </li>
 </td>
 </tr>
@@ -7779,23 +7662,23 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
-</li>
-<li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
-</li>
-<li>
 <a href="#IRQ-0007" title="Sucursales">
                                 [IRQ-0007] 
 Sucursales</a>
 </li>
 <li>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
+</li>
+<li>
 <a href="#IRQ-0005" title="Inventario">
                                 [IRQ-0005]  Inventario</a>
+</li>
+<li>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
 </li>
 </td>
 </tr>
@@ -8124,6 +8007,92 @@ Cristóbal Guerrero Salguero</a>
     El sistema deberá 
 <em>
 desplegar una lista de los socios que han sido marcados como irresponsables para los secretarios y el <a href="#GLO-0042" title="Actor del sistema que se encarga de la dirección de la biblioteca y la gestión de los préstamos interbibliotecarios">gerente</a>.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="FRQ-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">FRQ-0004</th>
+<th align="left" valign="top" width="100%">
+Desplegar apartado de estadísticas</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 20/12/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0004">
+Alejandro Ugarte Ruiz</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+desplegar un apartado de estadísticas en el que se muestren:
+<br />-Los 10 socios que más préstamos hayan realizado en los últimos 3 meses.
+<br />-Los 10 libros más solicitados. 
+<br />-Los 10 libros menos solicitados. 
+<br />-Los 3 géneros literarios más frecuentes de los libros que han sido prestados en los últimos 3 meses. 
+<br />
+</em>
 </td>
 </tr>
 <tr>
@@ -8747,14 +8716,14 @@ Cristóbal Guerrero Salguero</a>
 GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
-<a href="#OBJ-0019" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0019] 
-GESTIÓN DE SUCURSALES</a>
-</li>
-<li>
 <a href="#OBJ-0021" title="GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO">
                                 [OBJ-0021] 
 GESTIÓN DE PRÉSTAMO INTERBIBLIOTECARIO</a>
+</li>
+<li>
+<a href="#OBJ-0019" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0019] 
+GESTIÓN DE SUCURSALES</a>
 </li>
 </td>
 </tr>
