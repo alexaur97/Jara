@@ -234,7 +234,7 @@ Objetivos</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los <rem:ref oid="GLO-0023">socios</rem:ref>, las adquisiciones de <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario (así como la gestión en el almacén) y la comunicación de la <rem:ref oid="GLO-0006">central</rem:ref> con sus diferentes sucursales.</rem:text>
+<rem:text>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los socios, las adquisiciones de <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario (así como la gestión en el almacén) y la comunicación de la <rem:ref oid="GLO-0006">central</rem:ref> con sus diferentes sucursales.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -361,7 +361,7 @@ None</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0005">
 <rem:name>
-<rem:ref oid="GLO-0035">Préstamo</rem:ref> interbibliotecario</rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -429,7 +429,7 @@ None</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0056">
 <rem:name>
-<rem:ref oid="GLO-0048">Adquisicion</rem:ref></rem:name>
+<rem:ref oid="GLO-0056">Adquisicion</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -581,7 +581,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Actor del sistema que se encarga de tramitar préstamos a los <rem:ref oid="GLO-0023">socios</rem:ref>.</rem:text>
+<rem:text> Actor del sistema que se encarga de tramitar préstamos a los socios.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0065">
@@ -668,7 +668,7 @@ Fortalezas de la situación actual</rem:name>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 None</rem:comments>
@@ -707,7 +707,7 @@ Debilidades de la situación actual</rem:name>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>-Uso de herramientas o equipos ineficientes.<br/>-Poca comunicación entre las sucursales y la biblioteca <rem:ref oid="GLO-0006">central</rem:ref>.<br/>-Gestión ineficiente de la información referidos a préstamos y <rem:ref oid="GLO-0023">socios</rem:ref>.<br/></rem:text>
+<rem:text>-Uso de herramientas o equipos ineficientes.<br/>-Poca comunicación entre las sucursales y la biblioteca <rem:ref oid="GLO-0006">central</rem:ref>.<br/>-Gestión ineficiente de la información referidos a préstamos y socios.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -811,7 +811,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Entidad encargada del reparto de los carnets de <rem:ref oid="GLO-0068">socio</rem:ref> a domicilio y del transporte del <rem:ref oid="GLO-0061">material</rem:ref> de un <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario.</rem:text>
+<rem:text> Entidad encargada del reparto de los carnets de <rem:ref oid="GLO-0068">socio</rem:ref> a domicilio y del transporte del <rem:ref oid="GLO-0061">material</rem:ref> de un <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0070">
@@ -868,7 +868,7 @@ None</rem:comments>
 <rem:section
  oid = "SEC-0085">
 <rem:name>
-<rem:ref oid="GLO-0035">Préstamo</rem:ref> interbibliotecario</rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -885,7 +885,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0007">
 <rem:name>
-<rem:ref oid="GLO-0035">Préstamo</rem:ref> interbibliotecario</rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -895,7 +895,7 @@ Ninguno</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -934,7 +934,7 @@ Alta <rem:ref oid="GLO-0039">usuario</rem:ref> in situ</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -973,7 +973,7 @@ Alta <rem:ref oid="GLO-0039">usuario</rem:ref> a domicilio</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1069,7 +1069,7 @@ Descripción del entorno de hardware actual</rem:name>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>Se dispone de dos ordenadores de sobremesa para el personal y tres para los <rem:ref oid="GLO-0023">socios</rem:ref>.</rem:text>
+<rem:text>Se dispone de dos ordenadores de sobremesa para el personal y tres para los socios.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1104,7 +1104,7 @@ Descripción del entorno software actual</rem:name>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>Los ordenadores disponen de un sistema operativo de 2009 y una aplicación de hoja de cálculo para la gestión de los <rem:ref oid="GLO-0023">socios</rem:ref> y los préstamos.</rem:text>
+<rem:text>Los ordenadores disponen de un sistema operativo de 2009 y una aplicación de hoja de cálculo para la gestión de los socios y los préstamos.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -1158,7 +1158,7 @@ Objetivos de negocio</rem:name>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>La biblioteca Rafael Alberti pretende mejorar estratégicamente en los ámbitos de la gestión del <rem:ref oid="GLO-0002">inventario</rem:ref> y la información de los <rem:ref oid="GLO-0023">socios</rem:ref> de la biblioteca, los préstamos de libros a los <rem:ref oid="GLO-0023">socios</rem:ref> y los préstamos entre dos entidades de <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario para prestar un mejor servicio a los usuarios, reducir la posibilidad de no devolución o desgaste de los libros conociendo los <rem:ref oid="GLO-0023">socios</rem:ref> irresponsables, aumentar la centralización de las sucursales evitando la falta de <rem:ref oid="GLO-0061">material</rem:ref>, y ser motor de arranque de la expansión cultural de Camas y municipios adyacentes.</rem:text>
+<rem:text>La biblioteca Rafael Alberti pretende mejorar estratégicamente en los ámbitos de la gestión del <rem:ref oid="GLO-0002">inventario</rem:ref> y la información de los socios de la biblioteca, los préstamos de libros a los socios y los préstamos entre dos entidades de <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario para prestar un mejor servicio a los usuarios, reducir la posibilidad de no devolución o desgaste de los libros conociendo los socios irresponsables, aumentar la centralización de las sucursales evitando la falta de <rem:ref oid="GLO-0061">material</rem:ref>, y ser motor de arranque de la expansión cultural de Camas y municipios adyacentes.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1229,7 +1229,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> un <rem:ref oid="GLO-0065">empleado</rem:ref> podrá desplegar la lista de <rem:ref oid="GLO-0023">socios</rem:ref> irresponsables, establecer un <rem:ref oid="GLO-0068">socio</rem:ref> como irresponsable, reestablecerlo como responsable y crearlo, y modificarlo o eliminarlo si el <rem:ref oid="GLO-0065">empleado</rem:ref> es el <rem:ref oid="GLO-0066">gerente</rem:ref>. Así mismo, un <rem:ref oid="GLO-0039">usuario</rem:ref> sin autentificarse podrá darse de alta como <rem:ref oid="GLO-0068">socio</rem:ref> y reservar su carnet.</rem:text>
+<rem:text> un <rem:ref oid="GLO-0065">empleado</rem:ref> podrá desplegar la lista de socios irresponsables, establecer un <rem:ref oid="GLO-0068">socio</rem:ref> como irresponsable, reestablecerlo como responsable y crearlo, y modificarlo o eliminarlo si el <rem:ref oid="GLO-0065">empleado</rem:ref> es el <rem:ref oid="GLO-0066">gerente</rem:ref>. Así mismo, un <rem:ref oid="GLO-0039">usuario</rem:ref> sin autentificarse podrá darse de alta como <rem:ref oid="GLO-0068">socio</rem:ref> y reservar su carnet.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0078">
@@ -1316,6 +1316,40 @@ Ninguno</rem:comments>
 Ninguno</rem:comments>
 <rem:text></rem:text>
 </rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0083">
+<rem:name>
+<rem:ref oid="GLO-0083">Mensajes</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cualquier <rem:ref oid="GLO-0065">empleado</rem:ref> podrá visualizar su bandeja de entrada, <br/>Los secretarios y el <rem:ref oid="GLO-0071">gestor del almacén</rem:ref> podrán enviar <rem:ref oid="GLO-0083">mensajes</rem:ref> al <rem:ref oid="GLO-0066">gerente</rem:ref>, los secretarios podrán enviar <rem:ref oid="GLO-0083">mensajes</rem:ref> a otros secretarios, y el <rem:ref oid="GLO-0066">gerente</rem:ref> podrá enviar <rem:ref oid="GLO-0083">mensajes</rem:ref> individuales al <rem:ref oid="GLO-0065">empleado</rem:ref> que elija, o bien un mensaje difundido a todos los empleados.</rem:text>
+</rem:glossaryItem>
+<rem:paragraph
+ oid = "PRG-0084">
+<rem:name>
+Estadísticas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cualquier <rem:ref oid="GLO-0065">empleado</rem:ref> podrá desplegar un tablón de estadísticas con información relacionada con los préstamos y con los socios de la biblioteca.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0024">
@@ -1373,7 +1407,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-gestionar toda la información relevante para la gestión de los <rem:ref oid="GLO-0023">socios</rem:ref> de la biblioteca.</rem:description>
+gestionar toda la información relevante para la gestión de los socios de la biblioteca.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0002">
@@ -1533,7 +1567,7 @@ None</rem:comments>
 <rem:graphicFile
  oid = "GRF-0022">
 <rem:name>
-<rem:ref oid="GLO-0023">Socios</rem:ref></rem:name>
+Socios</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1647,7 +1681,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0028">
 <rem:name>
-Mensajes</rem:name>
+<rem:ref oid="GLO-0083">Mensajes</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1701,101 +1735,6 @@ None</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.2.2 </rem:number>
 <rem:actor
- oid = "ACT-0006">
-<rem:name>
-<rem:ref oid="GLO-0070">Proveedor</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la persona que abastece el <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario.<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0007">
-<rem:name>
-<rem:ref oid="GLO-0066">Gerente</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la persona que se encarga de la supervisión y gestión de la biblioteca.</rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0008">
-<rem:name>
-<rem:ref oid="GLO-0067">Secretario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la persona que se encarga de las labores administrativas de la biblioteca.<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0009">
-<rem:name>
-<rem:ref oid="GLO-0068">Socio</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>el <rem:ref oid="GLO-0039">usuario</rem:ref> de la biblioteca que pertenece a la misma.</rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0010">
-<rem:name>
-<rem:ref oid="GLO-0069">Servicio de mensajería</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la empresa que se encarga del transporte y entrega a domicilio del carné de <rem:ref oid="GLO-0068">socio</rem:ref>.<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
  oid = "ACT-0011">
 <rem:name>
 <rem:ref oid="GLO-0071">Gestor del almacén</rem:ref></rem:name>
@@ -1813,6 +1752,101 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:actorRole>la persona que se encarga de administrar el <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca y realizar adquisiciones de nuevos materiales</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0001">
+<rem:name>
+<rem:ref oid="GLO-0070">Proveedor</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>la persona que abastece el <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario.<br/></rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0002">
+<rem:name>
+<rem:ref oid="GLO-0066">Gerente</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>la persona que se encarga de la supervisión y gestión de la biblioteca.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+<rem:ref oid="GLO-0067">Secretario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>la persona que se encarga de las labores administrativas de la biblioteca.<br/></rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0004">
+<rem:name>
+<rem:ref oid="GLO-0068">Socio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>el <rem:ref oid="GLO-0039">usuario</rem:ref> de la biblioteca que pertenece a la misma.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0005">
+<rem:name>
+<rem:ref oid="GLO-0069">Servicio de mensajería</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>11</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>la empresa que se encarga del transporte y entrega a domicilio del carné de <rem:ref oid="GLO-0068">socio</rem:ref>.<br/></rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section
@@ -1895,7 +1929,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz con un listado de <rem:ref oid="GLO-0023">socios</rem:ref></rem:description>
+recibe la petición y muestra una interfaz con un listado de socios</rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0006">
 <rem:condition>
@@ -2503,7 +2537,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0029">
 <rem:name>
-Tramitar <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario</rem:name>
+Tramitar <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2522,7 +2556,7 @@ None</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-se tramite un <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario</rem:triggeringEvent>
+se tramite un <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref></rem:triggeringEvent>
 <rem:precondition>
 Hay una petición de <rem:ref oid="GLO-0035">préstamo</rem:ref> de una <rem:ref oid="GLO-0038">sucursal</rem:ref></rem:precondition>
 <rem:postcondition>
@@ -2537,7 +2571,7 @@ El <rem:ref oid="GLO-0035">préstamo</rem:ref> ha sido registrado correctamente y
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario</rem:description>
+solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2575,7 +2609,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita una confirmación para la creación del <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario</rem:description>
+solicita una confirmación para la creación del <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2584,7 +2618,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-confirma la creación del <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario</rem:description>
+confirma la creación del <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2593,14 +2627,14 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-crea el <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario</rem:description>
+crea el <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0020">
 <rem:number>7</rem:number>
-<rem:actorAction actor = "ACT-0010">
+<rem:actorAction actor = "ACT-0005">
 <rem:description>
 envía el <rem:ref oid="GLO-0061">material</rem:ref> préstado a la <rem:ref oid="GLO-0038">sucursal</rem:ref></rem:description>
 </rem:actorAction>
@@ -2612,7 +2646,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0077">
 <rem:name>
-<rem:ref oid="GLO-0023">Socios</rem:ref></rem:name>
+Socios</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3041,7 +3075,7 @@ un <rem:ref oid="GLO-0068">socio</rem:ref> tenga que ser eliminado del sistema</
 <rem:precondition>
 El <rem:ref oid="GLO-0039">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0066">gerente</rem:ref></rem:precondition>
 <rem:postcondition>
-Actualización de los <rem:ref oid="GLO-0023">socios</rem:ref> del sistema</rem:postcondition>
+Actualización de los socios del sistema</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -3050,7 +3084,7 @@ Actualización de los <rem:ref oid="GLO-0023">socios</rem:ref> del sistema</rem:p
 <rem:section
  oid = "SEC-0078">
 <rem:name>
-Mensajes</rem:name>
+<rem:ref oid="GLO-0083">Mensajes</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3233,7 +3267,7 @@ Actualización de la bandeja de entrada del <rem:ref oid="GLO-0067">secretario</r
 <rem:useCase
  oid = "UC-0025">
 <rem:name>
-Enviar mensajes individuales (<rem:ref oid="GLO-0066">gerente</rem:ref>)</rem:name>
+Enviar <rem:ref oid="GLO-0083">mensajes</rem:ref> individuales (<rem:ref oid="GLO-0066">gerente</rem:ref>)</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3636,7 +3670,7 @@ None</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0001">
 <rem:name>
-<rem:ref oid="GLO-0023">Socios</rem:ref></rem:name>
+Socios</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3655,7 +3689,7 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
-los <rem:ref oid="GLO-0023">socios</rem:ref></rem:relevantConcept>
+los socios</rem:relevantConcept>
 <rem:averageLifeTime>
 <rem:tbd/>
 </rem:averageLifeTime>
@@ -3695,7 +3729,7 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
-los préstamos. Los secretarios pueden tramitar préstamos a los <rem:ref oid="GLO-0023">socios</rem:ref> que los soliciten</rem:relevantConcept>
+los préstamos. Los secretarios pueden tramitar préstamos a los socios que los soliciten</rem:relevantConcept>
 <rem:averageLifeTime>
 <rem:tbd/>
 </rem:averageLifeTime>
@@ -4006,7 +4040,7 @@ Ejemplares</rem:name>
 <rem:day>8</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4072,7 +4106,7 @@ Devolución de <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4104,7 +4138,7 @@ Irresponsabilidad</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4121,7 +4155,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-Los <rem:ref oid="GLO-0023">socios</rem:ref> que estén en la lista de clientes irresponsables desaparecerán pasado el periodo de irresponsabilidad de 30 días, si el <rem:ref oid="GLO-0066">gerente</rem:ref> o un <rem:ref oid="GLO-0067">secretario</rem:ref> cancela su estado de irresponsable.</rem:description>
+Los socios que estén en la lista de clientes irresponsables desaparecerán pasado el periodo de irresponsabilidad de 30 días, si el <rem:ref oid="GLO-0066">gerente</rem:ref> o un <rem:ref oid="GLO-0067">secretario</rem:ref> cancela su estado de irresponsable.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0003">
@@ -4136,7 +4170,7 @@ Los <rem:ref oid="GLO-0023">socios</rem:ref> que estén en la lista de clientes i
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4168,7 +4202,7 @@ El sistema impedirá la creación de un <rem:ref oid="GLO-0035">préstamo</rem:ref>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4200,7 +4234,7 @@ Fecha de vencimiento</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4222,7 +4256,7 @@ La fecha de vencimiento de un <rem:ref oid="GLO-0035">préstamo</rem:ref> depende
 <rem:constraintRequirement
  oid = "CRQ-0006">
 <rem:name>
-<rem:ref oid="GLO-0035">Préstamo</rem:ref> interbibliotecario</rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4232,7 +4266,7 @@ La fecha de vencimiento de un <rem:ref oid="GLO-0035">préstamo</rem:ref> depende
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4249,12 +4283,12 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-En cualquier caso, la duración de un <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario a una <rem:ref oid="GLO-0038">sucursal</rem:ref> no puede extenderse más de 60 días.</rem:description>
+En cualquier caso, la duración de un <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref> a una <rem:ref oid="GLO-0038">sucursal</rem:ref> no puede extenderse más de 60 días.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0007">
 <rem:name>
-<rem:ref oid="GLO-0035">Préstamo</rem:ref> interbibliotecario múltiple</rem:name>
+<rem:ref oid="GLO-0005">Préstamo interbibliotecario</rem:ref> múltiple</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4264,7 +4298,7 @@ En cualquier caso, la duración de un <rem:ref oid="GLO-0035">préstamo</rem:ref> 
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4281,39 +4315,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-Una misma <rem:ref oid="GLO-0038">sucursal</rem:ref> no puede pedir un <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario si ya dispone de 3 vigentes.</rem:description>
-</rem:constraintRequirement>
-<rem:constraintRequirement
- oid = "CRQ-0008">
-<rem:name>
-Nombre <rem:ref oid="GLO-0039">usuario</rem:ref> <rem:ref oid="GLO-0065">empleado</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:description>
-El nombre de <rem:ref oid="GLO-0039">usuario</rem:ref> de un <rem:ref oid="GLO-0065">empleado</rem:ref> en el sistema debe ser único, no tener símbolos ni caracteres especiales y tener una longitud de entre 3 y 15 caracteres.</rem:description>
+Una misma <rem:ref oid="GLO-0038">sucursal</rem:ref> no puede pedir un <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref> si ya dispone de 3 vigentes.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0009">
@@ -4345,6 +4347,166 @@ Ninguno</rem:comments>
 <rem:description>
 La información de los proveedores y las adquisiciones deberá quedar almacenada en el sistema y no puede eliminarse.</rem:description>
 </rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0010">
+<rem:name>
+Stock bajo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Cuando un <rem:ref oid="GLO-0062">libro</rem:ref> o un objeto del <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario tenga un stock menor o igual que 4 unidades, el sistema deberá enviar una alerta a un <rem:ref oid="GLO-0039">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0066">gerente</rem:ref> o como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0011">
+<rem:name>
+Solicitud <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+Cuando una <rem:ref oid="GLO-0038">sucursal</rem:ref> solicite un <rem:ref oid="GLO-0005">préstamo interbibliotecario</rem:ref>, el sistema deberá enviar una notificación al <rem:ref oid="GLO-0066">gerente</rem:ref>.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0012">
+<rem:name>
+Duración irresponsabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+El sistema deberá permitir que el <rem:ref oid="GLO-0066">gerente</rem:ref> pueda modificar la duración del periodo que debe pasar un <rem:ref oid="GLO-0068">socio</rem:ref> como <rem:ref oid="GLO-0068">socio</rem:ref> irresponsable </rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0013">
+<rem:name>
+Duración <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+El sistema deberá permitir que el <rem:ref oid="GLO-0066">gerente</rem:ref> pueda modificar la duración establecida que cada tipo de <rem:ref oid="GLO-0062">libro</rem:ref> (CORTO, MEDIO, LARGO) asigna a un <rem:ref oid="GLO-0035">préstamo</rem:ref>.</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0014">
+<rem:name>
+Cantidad préstamos interbibliotecarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+El sistema deberá permitir que el <rem:ref oid="GLO-0066">gerente</rem:ref> pueda modificar el número de préstamos interbibliotecarios que una <rem:ref oid="GLO-0038">sucursal</rem:ref> puede tener vigentes.</rem:description>
+</rem:constraintRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0040">
@@ -4364,57 +4526,9 @@ None</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.3 </rem:number>
 <rem:functionalRequirement
- oid = "FRQ-0001">
-<rem:name>
-Stock bajo</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0005"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-enviar una alerta a un <rem:ref oid="GLO-0039">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0066">gerente</rem:ref> o como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref> cuando un <rem:ref oid="GLO-0062">libro</rem:ref> o un objeto del <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario tenga un stock menor o igual que 4 unidades.</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement
- oid = "FRQ-0002">
-<rem:name>
-Préstamos interbibliotecarios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0005"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-enviar una notificación al <rem:ref oid="GLO-0066">gerente</rem:ref> cuando una <rem:ref oid="GLO-0038">sucursal</rem:ref> solicite un <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario.</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement
  oid = "FRQ-0003">
 <rem:name>
-Listar <rem:ref oid="GLO-0023">socios</rem:ref> irresponsables</rem:name>
+Listar socios irresponsables</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4441,7 +4555,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-desplegar una lista de los <rem:ref oid="GLO-0023">socios</rem:ref> que han sido marcados como irresponsables para los secretarios y el <rem:ref oid="GLO-0066">gerente</rem:ref>.</rem:description>
+desplegar una lista de los socios que han sido marcados como irresponsables para los secretarios y el <rem:ref oid="GLO-0066">gerente</rem:ref>.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0004">
@@ -4473,7 +4587,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-desplegar un apartado de estadísticas en el que se muestren:<br/>-Los 10 <rem:ref oid="GLO-0023">socios</rem:ref> que más préstamos hayan realizado en los últimos 3 meses.<br/>-Los 10 libros más solicitados. <br/>-Los 10 libros menos solicitados. <br/>-Los 3 géneros literarios más frecuentes de los libros que han sido prestados en los últimos 3 meses. <br/></rem:description>
+desplegar un apartado de estadísticas en el que se muestren:<br/>-Los 10 socios que más préstamos hayan realizado en los últimos 3 meses.<br/>-Los 10 libros más solicitados. <br/>-Los 10 libros menos solicitados. <br/>-Los 3 géneros literarios más frecuentes de los libros que han sido prestados en los últimos 3 meses. <br/></rem:description>
 </rem:functionalRequirement>
 </rem:section>
 </rem:section>
@@ -4546,30 +4660,23 @@ Requisitos de usabilidad del sistema</rem:name>
 None</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.2 </rem:number>
-<rem:nonFunctionalRequirement
- oid = "NFR-0001">
+<rem:paragraph
+ oid = "PRG-0085">
 <rem:name>
-Disponibilidad</rem:name>
+No procede</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
-<rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0002"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-estar disponible durante el horario en el que la biblioteca se encuentre abierta, y las labores de mantenimiento deberán realizarse cuando el índice de interacción de los usuarios sea mínimo.</rem:description>
-</rem:nonFunctionalRequirement>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0043">
@@ -4588,30 +4695,23 @@ Requistos de mantebilidad del sistema</rem:name>
 None</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.3 </rem:number>
-<rem:nonFunctionalRequirement
- oid = "NFR-0005">
+<rem:paragraph
+ oid = "PRG-0086">
 <rem:name>
-Mantenimiento</rem:name>
+No procede</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>1</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
-None</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status value = "STV-0003"/>
-<rem:stability value = "SBV-0003"/>
-<rem:description>
-cumplir el siguiente requisito de mantenibilidad: las labores de mantenimiento deberán realizarse cuando el índice de interacción de los usuarios sea mínimo.</rem:description>
-</rem:nonFunctionalRequirement>
+Ninguno</rem:comments>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0044">
@@ -4713,7 +4813,7 @@ None</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4727,7 +4827,7 @@ Ninguno</rem:comments>
 <rem:nonFunctionalRequirement
  oid = "NFR-0004">
 <rem:name>
-Contraseña</rem:name>
+Autenticación</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4746,7 +4846,7 @@ None</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-cumplir el siguiente requisito de seguridad: la contraseña de <rem:ref oid="GLO-0039">usuario</rem:ref> debe tener al menos 6 caracteres, siendo obligatorios, como mínimo, un número, una letra mayúscula y una minúscula.</rem:description>
+cumplir los siguientes requisitos de seguridad: <br/>- La contraseña de <rem:ref oid="GLO-0039">usuario</rem:ref> debe tener al menos 6 caracteres, siendo obligatorios, como mínimo, un número, una letra mayúscula y una minúscula.<br/>- El nombre de <rem:ref oid="GLO-0039">usuario</rem:ref> de un <rem:ref oid="GLO-0065">empleado</rem:ref> en el sistema debe ser único, no tener símbolos ni caracteres especiales y tener una longitud de entre 3 y 15 caracteres.</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement
  oid = "NFR-0008">
@@ -4790,78 +4890,23 @@ Otros requisitos no funcionales del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.7 </rem:number>
-<rem:nonFunctionalRequirement
- oid = "NFR-0003">
+<rem:paragraph
+ oid = "PRG-0087">
 <rem:name>
-Irresponsabilidad</rem:name>
+No procede</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance value = "IMV-0004"/>
-<rem:urgency value = "URV-0004"/>
-<rem:status value = "STV-0002"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-permitir que un <rem:ref oid="GLO-0039">usuario</rem:ref> autentificado como <rem:ref oid="GLO-0066">gerente</rem:ref> pueda modificar la duración del periodo que debe pasar un <rem:ref oid="GLO-0068">socio</rem:ref> como <rem:ref oid="GLO-0068">socio</rem:ref> irresponsable.</rem:description>
-</rem:nonFunctionalRequirement>
-<rem:nonFunctionalRequirement
- oid = "NFR-0006">
-<rem:name>
-Duración del <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance value = "IMV-0004"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status value = "STV-0003"/>
-<rem:stability value = "SBV-0003"/>
-<rem:description>
-permitir que un usurario autentificado como <rem:ref oid="GLO-0066">gerente</rem:ref> pueda modificar la duración establecida que cada tipo de <rem:ref oid="GLO-0062">libro</rem:ref> (CORTO, MEDIO, LARGO) asigna a un <rem:ref oid="GLO-0035">préstamo</rem:ref>.</rem:description>
-</rem:nonFunctionalRequirement>
-<rem:nonFunctionalRequirement
- oid = "NFR-0007">
-<rem:name>
-Préstamos interbibliotecarios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-None</rem:comments>
-<rem:importance value = "IMV-0004"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status value = "STV-0003"/>
-<rem:stability value = "SBV-0003"/>
-<rem:description>
-permitir que un <rem:ref oid="GLO-0039">usuario</rem:ref> autentificado como <rem:ref oid="GLO-0066">gerente</rem:ref> puede modificar el número de préstamos interbibliotecarios que una <rem:ref oid="GLO-0038">sucursal</rem:ref> puede tener vigentes.</rem:description>
-</rem:nonFunctionalRequirement>
+<rem:text>No procede</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section
@@ -5080,19 +5125,6 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
-<rem:th oid ="CRQ-0008"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
 <rem:th oid ="CRQ-0009"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5104,6 +5136,71 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0012"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0013"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0014"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 </rem:traceabilityMatrix>
 <rem:traceabilityMatrix
@@ -5223,51 +5320,8 @@ Ninguno</rem:comments>
 <rem:td mark ="yes"/>
 </rem:tr>
 </rem:traceabilityMatrix>
-<<<<<<< HEAD
 <rem:traceabilityMatrix
  oid = "TRM-0003">
-=======
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0032">
-<rem:name>
-Actas de reuniones</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-None</rem:comments>
-<rem:level>1</rem:level>
-<rem:number>A </rem:number>
-<rem:paragraph
- oid = "PRG-0028">
-<rem:name>
-16/10/18</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0003 STK-0001 STK-0002 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>ACTA DE REUNIÓN DEL DÍA 16 DE OCTUBRE DE 2018<br/>1. Charla introductoria con el cliente.<br/>- Introducción al problema y a los métodos de gestión de la biblioteca.<br/>- Información acerca de las necesidades de ésta.<br/>2. Propuesta al cliente de nuestra solución.<br/>- Se detallan algunos requisitos.<br/>- Interés por mejorar la conexión con las diferentes sucursales de la biblioteca.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0029">
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 <rem:name>
 Casos de uso frente a objetivos</rem:name>
 <rem:version>
@@ -5279,11 +5333,6 @@ Casos de uso frente a objetivos</rem:name>
 <rem:day>15</rem:day>
 </rem:date>
 </rem:version>
-<<<<<<< HEAD
-=======
-<rem:authors stakeholders ="STK-0003 STK-0001 STK-0002 STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 <rem:comments>
 Ninguno</rem:comments>
 <rem:tr>
@@ -5299,7 +5348,7 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0007"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5308,7 +5357,7 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0008"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5317,43 +5366,43 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0009"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0012"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0013"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0014"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0015"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5362,25 +5411,25 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0017"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0018"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0020"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5388,8 +5437,8 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th oid ="UC-0021"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5397,17 +5446,17 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th oid ="UC-0022"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0025"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5416,7 +5465,7 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0026"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5425,7 +5474,7 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0027"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5434,8 +5483,8 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0028"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
@@ -5443,25 +5492,25 @@ Ninguno</rem:comments>
 <rem:th oid ="UC-0029"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0034"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0035"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5477,6 +5526,632 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0037"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0038"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0039"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0040"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0041"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0004">
+<rem:name>
+Casos de uso frente a información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="IRQ-0001"/>
+<rem:th oid ="IRQ-0002"/>
+<rem:th oid ="IRQ-0003"/>
+<rem:th oid ="IRQ-0004"/>
+<rem:th oid ="IRQ-0005"/>
+<rem:th oid ="IRQ-0006"/>
+<rem:th oid ="IRQ-0007"/>
+<rem:th oid ="IRQ-0008"/>
+<rem:th oid ="IRQ-0010"/>
+<rem:th oid ="IRQ-0011"/>
+<rem:th oid ="CRQ-0001"/>
+<rem:th oid ="CRQ-0002"/>
+<rem:th oid ="CRQ-0003"/>
+<rem:th oid ="CRQ-0004"/>
+<rem:th oid ="CRQ-0005"/>
+<rem:th oid ="CRQ-0006"/>
+<rem:th oid ="CRQ-0007"/>
+<rem:th oid ="CRQ-0009"/>
+<rem:th oid ="CRQ-0010"/>
+<rem:th oid ="CRQ-0011"/>
+<rem:th oid ="CRQ-0012"/>
+<rem:th oid ="CRQ-0013"/>
+<rem:th oid ="CRQ-0014"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0012"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0013"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0014"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0015"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0017"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0018"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0020"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0021"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0022"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0025"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0026"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0027"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0028"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0029"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0034"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0035"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0036"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0037"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5486,6 +6161,23 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0038"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5498,22 +6190,73 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0040"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0041"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5540,44 +6283,66 @@ Actas de reuniones</rem:name>
 None</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>A </rem:number>
-<rem:paragraph
- oid = "PRG-0028">
+<rem:meeting
+ oid = "MET-0001">
 <rem:name>
 16/10/18</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>ACTA DE REUNIÓN DEL DÍA 16 DE OCTUBRE DE 2018<br/>1. Charla introductoria con el cliente.<br/>- Introducción al problema y a los métodos de gestión de la biblioteca.<br/>- Información acerca de las necesidades de ésta.<br/>2. Propuesta al cliente de nuestra solución.<br/>- Se detallan algunos requisitos.<br/>- Interés por mejorar la conexión con las diferentes sucursales de la biblioteca.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0029">
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>15</rem:hour>
+<rem:minute>39</rem:minute>
+</rem:time>
+<rem:place>Biblioteca Rafael Alberti</rem:place>
+<rem:results>1. Charla introductoria con el cliente. <br/>- Introducción al problema y a los métodos de gestión de la biblioteca. <br/>- Información acerca de las necesidades de ésta. <br/>2. Propuesta al cliente de nuestra solución. <br/>- Se detallan algunos requisitos. <br/>- Interés por mejorar la conexión con las diferentes sucursales de la biblioteca.<br/></rem:results>
+	<rem:attenders stakeholders ="STK-0004 "/>
+</rem:meeting>
+<rem:meeting
+ oid = "MET-0002">
 <rem:name>
 30/10/18</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>ACTA DE REUNIÓN DEL DÍA 30 DE OCTUBRE DE 2018<br/>1. Especificación de los actores de negocio principales<br/>- Descripción breve de cada actor<br/>2. Especificación de los requisitos del sistema.<br/>- Descricpión de cada elemento de la biblioteca y la información que el sistema almacena de cada uno de ellos<br/>- Descripción detallada de los casos de uso de los actores de negocio<br/>- Especificación de las reglas de negocio que debe cumplir el sistema<br/>- Especificación de los principales requisitos no funcionales del sistema</rem:text>
-</rem:paragraph>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>15</rem:hour>
+<rem:minute>49</rem:minute>
+</rem:time>
+<rem:place>Biblioteca Rafael Alberti</rem:place>
+<rem:results>1. Especificación de los actores de negocio principales <br/>- Descripción breve de cada actor <br/>2. Especificación de los requisitos del sistema. <br/>- Descricpión de cada elemento de la biblioteca y la información que el sistema almacena de cada uno de ellos <br/>- Descripción detallada de los casos de uso de los actores de negocio <br/>- Especificación de las reglas de negocio que debe cumplir el sistema <br/>- Especificación de los principales requisitos no funcionales del sistema</rem:results>
+	<rem:attenders stakeholders ="STK-0002 STK-0003 STK-0004 STK-0001 "/>
+</rem:meeting>
 </rem:section>
 <rem:section
  oid = "SEC-0033">
@@ -5599,7 +6364,7 @@ None</rem:comments>
 <rem:paragraph
  oid = "PRG-0027">
 <rem:name>
-</rem:name>
+No procede</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -5609,9 +6374,10 @@ None</rem:comments>
 <rem:day>6</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>No procede</rem:text>
+<rem:text>Debido a que toda la documentación relativa a la economía y a las adquisiciones de la biblioteca se almacenan en el Excmo Ayto de Camas, no se aportará ningún archivo como ejemplo en este apartado.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -5662,7 +6428,7 @@ Participantes y organizaciones</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
@@ -5843,244 +6609,6 @@ Ninguno</rem:comments>
 <rem:telephone>955 98 14 12</rem:telephone>
 <rem:fax>No consta</rem:fax>
 </rem:organization>
-<rem:section
- oid = "SEC-0084">
-<rem:name>
-Actores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-None</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>D.B.1 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0072">
-<rem:name>
-<rem:ref oid="GLO-0072">Copia de Gerente (2)</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text> Persona que se encarga de la supervisión y gestión de la biblioteca.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0073">
-<rem:name>
-<rem:ref oid="GLO-0073">Copia de Secretario (2)</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text> Persona que se encarga de las labores administrativas de la biblioteca.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0074">
-<rem:name>
-<rem:ref oid="GLO-0074">Copia de Socio (2)</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text><rem:ref oid="GLO-0039">Usuario</rem:ref> que pertenece a la biblioteca.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0075">
-<rem:name>
-<rem:ref oid="GLO-0075">Copia de Servicio de mensajería (2)</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<<<<<<< HEAD
-=======
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text> Entidad encargada del reparto de los carnets de <rem:ref oid="GLO-0068">socio</rem:ref> a domicilio y del transporte del <rem:ref oid="GLO-0061">material</rem:ref> de un <rem:ref oid="GLO-0035">préstamo</rem:ref> interbibliotecario.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0076">
-<rem:name>
-<rem:ref oid="GLO-0076">Copia de Proveedor (2)</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text> Persona que abastece el <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0077">
-<rem:name>
-<rem:ref oid="GLO-0077">Copia de Gestor del almacén (2)</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text><rem:ref oid="GLO-0065">Empleado</rem:ref> que se encarga de la gestión y organización del <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca y de las adquisiciones</rem:text>
-</rem:glossaryItem>
-<rem:actor
- oid = "ACT-0002">
-<rem:name>
-<rem:ref oid="GLO-0066">Gerente</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la persona que se encarga de la supervisión y gestión de la biblioteca.</rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0003">
-<rem:name>
-<rem:ref oid="GLO-0067">Secretario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la persona que se encarga de las labores administrativas de la biblioteca.<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0004">
-<rem:name>
-<rem:ref oid="GLO-0068">Socio</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>el <rem:ref oid="GLO-0039">usuario</rem:ref> de la biblioteca que pertenece a la misma.</rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0005">
-<rem:name>
-<rem:ref oid="GLO-0069">Servicio de mensajería</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la empresa que se encarga del transporte y entrega a domicilio del carné de <rem:ref oid="GLO-0068">socio</rem:ref>.<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0001">
-<rem:name>
-<rem:ref oid="GLO-0070">Proveedor</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>11</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la persona que abastece el <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario.<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0012">
-<rem:name>
-<rem:ref oid="GLO-0071">Gestor del almacén</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>12</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0004 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>la persona que se encarga de administrar el <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca y realizar adquisiciones de nuevos materiales</rem:actorRole>
-</rem:actor>
-</rem:section>
 </rem:section>
 </rem:section>
 </rem:c_requirementsSpecification>
@@ -6226,7 +6754,7 @@ Objetivos</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los <rem:ref oid="GLO-0023">socios</rem:ref>, las adquisiciones de <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario (así como la gestión en el almacén) y la comunicación de la <rem:ref oid="GLO-0006">central</rem:ref> con sus diferentes sucursales.</rem:text>
+<rem:text>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los socios, las adquisiciones de <rem:ref oid="GLO-0061">material</rem:ref> bibliotecario (así como la gestión en el almacén) y la comunicación de la <rem:ref oid="GLO-0006">central</rem:ref> con sus diferentes sucursales.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -6260,7 +6788,7 @@ Diagramas de la arquitectura del sistema</rem:name>
 <rem:day>8</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 None</rem:comments>
@@ -6520,7 +7048,7 @@ Ninguno</rem:comments>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Actor del sistema que se encarga de tramitar préstamos a los <rem:ref oid="GLO-0023">socios</rem:ref>.</rem:text>
+<rem:text> Actor del sistema que se encarga de tramitar préstamos a los socios.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0042">
@@ -6646,7 +7174,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0048">
 <rem:name>
-<rem:ref oid="GLO-0048">Adquisicion</rem:ref></rem:name>
+<rem:ref oid="GLO-0056">Adquisicion</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6771,1067 +7299,11 @@ Modelo de casos de uso del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>4 </rem:number>
-<rem:section
- oid = "SEC-0084">
-<rem:name>
-<<<<<<< HEAD
-Interfaz de <rem:ref oid="GLO-0039">usuario</rem:ref> del sistema</rem:name>
-=======
-Diagramas de secuencia del sistema</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>4.1 </rem:number>
-<rem:section
- oid = "SEC-0086">
-<rem:name>
-Préstamos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.1.1 </rem:number>
-<rem:section
- oid = "SEC-0088">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.1.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0034">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0087">
-<rem:name>
-Devoluiones</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-<<<<<<< HEAD
-None
-</rem:comments>
-</rem:changeRequestsSpecification>
-<rem:trace source = "CRQ-0008"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0004"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0004"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "CRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0009"  target = "IRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0011"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0010"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0009"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0011"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:predefinedValueTypes>
-<rem:predefinedValueType
- oid = "PVT-0002">
-=======
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.1.2 </rem:number>
-<rem:section
- oid = "SEC-0104">
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:name>
-Tramitar devolución</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-<<<<<<< HEAD
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0001">
-<rem:name>
-Real</rem:name>
-=======
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.2.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0035">
-<rem:name>
-Tramitar devolución</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-<<<<<<< HEAD
-Predefined OCL type</rem:comments>
-<rem:description>
-Real numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
-=======
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0091">
-<rem:name>
-Adquisiciones</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.1.3 </rem:number>
-<rem:section
- oid = "SEC-0105">
-<rem:name>
-Realizar adquisición</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.3.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0036">
-<rem:name>
-Realizar adquisición</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0092">
-<rem:name>
-Empleados</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.1.4 </rem:number>
-<rem:section
- oid = "SEC-0106">
-<rem:name>
-Crear <rem:ref oid="GLO-0040">empleado</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.4.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0037">
-<rem:name>
-Crear <rem:ref oid="GLO-0040">empleado</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0093">
-<rem:name>
-Préstamos interbibliotecarios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.1.5 </rem:number>
-<rem:section
- oid = "SEC-0107">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.5.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0038">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0094">
-<rem:name>
-Socios</rem:name>
-<rem:version>
-<rem:major>2</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.1.6 </rem:number>
-<rem:section
- oid = "SEC-0108">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (in situ)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.6.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0039">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (in situ)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-<rem:section
- oid = "SEC-0109">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (online)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.6.2 </rem:number>
-<rem:graphicFile
- oid = "GRF-0040">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (online)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0095">
-<rem:name>
-Mensajes</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.1.7 </rem:number>
-<rem:section
- oid = "SEC-0102">
-<rem:name>
-Enviar mensaje difundido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.1.7.1 </rem:number>
-<rem:graphicFile
- oid = "GRF-0041">
-<rem:name>
-Enviar mensaje difundido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0085">
-<rem:name>
-Descripción de los diagramas de secuencia del sistema</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>4.2 </rem:number>
-<rem:section
- oid = "SEC-0089">
-<rem:name>
-Préstamos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.2.1 </rem:number>
-<rem:section
- oid = "SEC-0090">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.1.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0056">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0035">préstamo</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0003 STK-0002 "/>
-<rem:sources stakeholders ="STK-0005 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0096">
-<rem:name>
-Devoluciones</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.2.2 </rem:number>
-<rem:section
- oid = "SEC-0110">
-<rem:name>
-Tramitar devolución</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.2.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0058">
-<rem:name>
-Tramitar devolución</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0097">
-<rem:name>
-Adquisiciones</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.2.3 </rem:number>
-<rem:section
- oid = "SEC-0115">
-<rem:name>
-Realizar adquisición</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.3.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0063">
-<rem:name>
-Realizar adquisición</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0098">
-<rem:name>
-Empleados</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.2.4 </rem:number>
-<rem:section
- oid = "SEC-0114">
-<rem:name>
-Crear <rem:ref oid="GLO-0040">empleado</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.4.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0062">
-<rem:name>
-Crear <rem:ref oid="GLO-0040">empleado</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0099">
-<rem:name>
-Préstamos interbibliotecarios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.2.5 </rem:number>
-<rem:section
- oid = "SEC-0113">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.5.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0061">
-<rem:name>
-Tramitar <rem:ref oid="GLO-0053">préstamo interbibliotecario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0100">
-<rem:name>
-Socios</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.2.6 </rem:number>
-<rem:section
- oid = "SEC-0111">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (in situ)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.6.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0059">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (in situ)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-<rem:section
- oid = "SEC-0112">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (online)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.6.2 </rem:number>
-<rem:paragraph
- oid = "PRG-0060">
-<rem:name>
-Crear nuevo <rem:ref oid="GLO-0037">socio</rem:ref> (online)</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text></rem:text>
-</rem:paragraph>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0101">
-<rem:name>
-Mensajes</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>4.2.7 </rem:number>
-<rem:section
- oid = "SEC-0103">
-<rem:name>
-Enviar mensaje difundido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>4.2.7.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0057">
-<rem:name>
-Enviar mensaje difundido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>1</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>El <rem:ref oid="GLO-0042">gerente</rem:ref> pide al sistema el envío de un mensaje difundido. Este le devuelve un formulario vacío llamando al método crearMensaje().<br/>El <rem:ref oid="GLO-0042">gerente</rem:ref> envía el mensaje y se le pide confirmación. Tras confirmar se envía el mensaje llamnado al método enviarMensaje().<br/>Luego se le muestra la confirmación de que se ha enviado satisfactoriomente, dando fin al proceso.</rem:text>
-</rem:paragraph>
-</rem:section>
-</rem:section>
-</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0053">
 <rem:name>
-Interfaz de <rem:ref oid="GLO-0008">usuario</rem:ref> del sistema</rem:name>
+Interfaz de <rem:ref oid="GLO-0039">usuario</rem:ref> del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7913,52 +7385,58 @@ None
 None
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "CRQ-0009"  target = "IRQ-0010" >
+<rem:trace source = "UC-0036"  target = "CRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0011" >
+<rem:trace source = "UC-0036"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0011"  target = "OBJ-0005" >
+<rem:trace source = "UC-0036"  target = "CRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0011" >
+<rem:trace source = "UC-0012"  target = "CRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0011" >
+<rem:trace source = "UC-0012"  target = "CRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0009"  target = "IRQ-0008" >
+<rem:trace source = "UC-0012"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0011"  target = "OBJ-0006" >
+<rem:trace source = "UC-0036"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
+<rem:trace source = "UC-0036"  target = "IRQ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0011" >
+<rem:trace source = "UC-0036"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0004"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "CRQ-0007"  target = "IRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0005" >
+<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0007"  target = "IRQ-0006" >
@@ -7967,16 +7445,52 @@ None
 <rem:trace source = "CRQ-0006"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
+<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "CRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0001"  target = "OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "CRQ-0006" >
+<rem:trace source = "CRQ-0005"  target = "IRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0005"  target = "OBJ-0006" >
@@ -7985,98 +7499,488 @@ None
 <rem:trace source = "IRQ-0006"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0003" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0004"  target = "IRQ-0001" >
+<rem:trace source = "IRQ-0005"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0005"  target = "IRQ-0002" >
+<rem:trace source = "CRQ-0002"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0005"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0004" >
+<rem:trace source = "UC-0017"  target = "GLO-0056" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0008"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "UC-0034"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0013" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0011"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0011"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0013"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0012"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0026"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0013"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0035"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0009"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0027"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0009"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "IRQ-0010"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0008"  target = "IRQ-0004" >
+<rem:trace source = "IRQ-0008"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0003"  target = "OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0005" >
+<rem:trace source = "IRQ-0011"  target = "OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0002" >
+<rem:trace source = "CRQ-0002"  target = "IRQ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0004" >
+<rem:trace source = "IRQ-0011"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
+<rem:trace source = "CRQ-0001"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0025"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0039"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0038"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0035"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0026"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0027"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0035"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0038"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0025"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "CRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0039"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "CRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "CRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
 <rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Alphanumeric strings</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
-<<<<<<< HEAD
  oid = "PVT-0006">
 <rem:name>
 Time</rem:name>
-=======
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8089,32 +7993,7 @@ Integer</rem:name>
 <rem:comments>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-<<<<<<< HEAD
 Hour:minutes:seconds</rem:description>
-=======
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 <rem:definition>
 (null)
 </rem:definition>
@@ -8141,15 +8020,9 @@ Natural numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
-<<<<<<< HEAD
- oid = "PVT-0005">
+ oid = "PVT-0004">
 <rem:name>
-Date</rem:name>
-=======
- oid = "PVT-0001">
-<rem:name>
-Real</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
+String</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8160,20 +8033,38 @@ Real</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
+Predefined OCL type</rem:comments>
 <rem:description>
-<<<<<<< HEAD
-Dates</rem:description>
-=======
-Real numbers</rem:description>
+Alphanumeric strings</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0006">
+ oid = "PVT-0002">
 <rem:name>
-Time</rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8186,31 +8077,42 @@ Time</rem:name>
 <rem:comments>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-Hour:minutes:seconds</rem:description>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<<<<<<< HEAD
-=======
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verified</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>TBD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>to be performed</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>to be analyzed</rem:name>
-</rem:changeRequestStatusValue>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>to be approved/rejected</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>TBD</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>to be performed</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verified</rem:name>
@@ -8218,94 +8120,43 @@ Hour:minutes:seconds</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rejected</rem:name>
 </rem:changeRequestStatusValue>
-<<<<<<< HEAD
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>to be analyzed</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>TBD</rem:name>
-</rem:changeRequestStatusValue>
-=======
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
+</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>under negotiation</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>TBD</rem:name>
-<<<<<<< HEAD
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>solved</rem:name>
-=======
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>not solved</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>solved</rem:name>
-</rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>TBD</rem:name>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>not solved</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>under negotiation</rem:name>
 </rem:defectStatusValue>
-<<<<<<< HEAD
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>TBD</rem:name>
-</rem:defectStatusValue>
-=======
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>not solved</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>solved</rem:name>
 </rem:defectStatusValue>
-<<<<<<< HEAD
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>No consistency</rem:name>
-=======
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Other</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements have another kind of defect]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambiguity</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:description>
-<![CDATA[The requirement or requirements are not consistent, i.e. they are in conflict]]>
-</rem:description>
-</rem:defectTypeValue>
-<<<<<<< HEAD
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>No stability</rem:name>
-<rem:description>
-<![CDATA[The stability of the requirement or requirements have not been estimated]]>
-</rem:description>
-</rem:defectTypeValue>
-=======
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>No understanding</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements cannot be understood by some reader]]>
-</rem:description>
-</rem:defectTypeValue>
-<<<<<<< HEAD
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>TBD</rem:name>
 <rem:description>
 <![CDATA[To Be Determined]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Other</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necessity</rem:name>
 <rem:description>
-<![CDATA[The requirement or requirements have another kind of defect]]>
+<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -8314,77 +8165,64 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[The requirement or requirements are not correctly organized according to applied standards or the document does not contain mandatory sections]]>
 </rem:description>
 </rem:defectTypeValue>
-=======
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosity</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements can be expressed in a more concise way without altering their meaning]]>
-</rem:description>
-</rem:defectTypeValue>
-<<<<<<< HEAD
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>No priority</rem:name>
-=======
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>No completeness</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements do not describe everything the system is supposed to do, do not describe the responses of the system to all realizable situations, or include to-be-determined (TBD) elements]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Wrong level of detail</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:description>
-<![CDATA[The priority, i.e. the importance and urgency of the requirement or requirements have not been determined]]>
-</rem:description>
-</rem:defectTypeValue>
-<<<<<<< HEAD
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancy</rem:name>
-=======
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No achievability</rem:name>
 <rem:description>
 <![CDATA[The requirement or requirements cannot be implemented with current technology o under reasonable cost]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necessity</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambiguity</rem:name>
 <rem:description>
-<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
+<![CDATA[The requirement or requirements, although understandable, have more than one possible interpretation]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Design-dependence</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecision</rem:name>
 <rem:description>
-<![CDATA[The requirement or requirements are redundant or contain redundant elements]]>
+<![CDATA[The requirement or requirements are not stated in a precise way, i.e. using numerical quantities whenever possible with the right level of precision]]>
 </rem:description>
 </rem:defectTypeValue>
-<<<<<<< HEAD
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No traceability</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>No completeness</rem:name>
 <rem:description>
-<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
+<![CDATA[The requirement or requirements do not describe everything the system is supposed to do, do not describe the responses of the system to all realizable situations, or include to-be-determined (TBD) elements]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necessity</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>No priority</rem:name>
 <rem:description>
-<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
+<![CDATA[The priority, i.e. the importance and urgency of the requirement or requirements have not been determined]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
 <rem:name>Wrong level of detail</rem:name>
 <rem:description>
 <![CDATA[The requirement or requirements are not stated at the right level of detail, i.e. they are too abstract or too detailed]]>
-=======
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>TBD</rem:name>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>No consistency</rem:name>
 <rem:description>
-<![CDATA[To Be Determined]]>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
+<![CDATA[The requirement or requirements are not consistent, i.e. they are in conflict]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No traceability</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Other</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements have another kind of defect]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements can be expressed in a more concise way without altering their meaning]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -8405,198 +8243,110 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[The requirement or requirements are redundant or contain redundant elements]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecision</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not stated in a precise way, i.e. using numerical quantities whenever possible with the right level of precision]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Wrong organization</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not correctly organized according to applied standards or the document does not contain mandatory sections]]>
-</rem:description>
-</rem:defectTypeValue>
-<<<<<<< HEAD
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificability</rem:name>
-<rem:description>
-<![CDATA[It cannot be verified that the requirement or requirements are satisfied by the system]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambiguity</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements, although understandable, have more than one possible interpretation]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>important</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>would be nice</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-=======
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>No priority</rem:name>
-<rem:description>
-<![CDATA[The priority, i.e. the importance and urgency of the requirement or requirements have not been determined]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No traceability</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
 <rem:name>No stability</rem:name>
 <rem:description>
 <![CDATA[The stability of the requirement or requirements have not been estimated]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>No understanding</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements cannot be understood by some reader]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>would be nice</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>TBD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>important</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>would be nice</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0001">
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 <rem:name>TBD</rem:name>
-</rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>low</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>medium</rem:name>
 </rem:stabilityValue>
-<<<<<<< HEAD
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>TBD</rem:name>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>low</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>high</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0001">
-<rem:name>TBD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>needs validation</rem:name>
-=======
-<rem:statusValue oid = "STV-0004">
-<rem:name>needs validation</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>needs verification</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>under construction</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>TBD</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>needs validation</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>needs verification</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validated</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>needs verification</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>under construction</rem:name>
-</rem:statusValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>is cancelled</rem:name>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>TBD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>resumes</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>TBD</rem:name>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>is cancelled</rem:name>
 </rem:terminationValue>
-<<<<<<< HEAD
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>year(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>week(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hour(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>day(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>year(s)</rem:name>
-</rem:timeUnitValue>
-=======
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>TBD</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>month(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>TBD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>hundreth(s) of a second</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>tenth(s) of a second</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hour(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>week(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minute(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>month(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>day(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>second(s)</rem:name>
-</rem:timeUnitValue>
-<<<<<<< HEAD
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>immediately</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>can wait</rem:name>
-=======
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hour(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>millisecond(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>tenth(s) of a second</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minute(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>under pressure</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>can wait</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>immediately</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>TBD</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>under pressure</rem:name>
-</rem:urgencyValue>
-<<<<<<< HEAD
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>TBD</rem:name>
-=======
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>can wait</rem:name>
->>>>>>> d34dca257256c9e9ef2af9e59b9f5687158d891b
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
