@@ -476,7 +476,7 @@ Introducción al dominio del problema</h2><a name="PRG-0012" />
 <h2 align="left">2.2 
 Glosario de términos del dominio del problema</h2><a name="GLO-0056" />
 <p align="left">
-<b> Adquisición:</b> Conjunto final compuesto por las líneas de <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a> de los materiales solicitados para la biblioteca.</p>
+<b> Adquisición:</b> Conjunto final compuesto por las líneas de <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a> de los materiales solicitados para la biblioteca.</p>
 <a name="GLO-0006" />
 <p align="left">
 <b> Central:</b> Biblioteca principal.</p>
@@ -497,7 +497,7 @@ Glosario de términos del dominio del problema</h2><a name="GLO-0056" />
 <b> Libro:</b> Se encarga de almacenar la información sobre una obra en particular.</p>
 <a name="GLO-0058" />
 <p align="left">
-<b> Línea de adquisición :</b> Reúne información acerca de la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a> de un <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> en particular.</p>
+<b> Línea de adquisición :</b> Reúne información acerca de la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a> de un <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> en particular.</p>
 <a name="GLO-0061" />
 <p align="left">
 <b> Material:</b> Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.</p>
@@ -510,7 +510,7 @@ Glosario de términos del dominio del problema</h2><a name="GLO-0056" />
 <a name="GLO-0003" />
 <p align="left">
 <b> Préstamo:</b>
-<a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">Adquisición</a> temporal, por parte de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>, de un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca.</p>
+<a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">Adquisición</a> temporal, por parte de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>, de un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca.</p>
 <a name="GLO-0005" />
 <p align="left">
 <b> Préstamo interbibliotecario:</b> Intercambio entre dos bibliotecas de uno o más materiales.</p>
@@ -642,7 +642,7 @@ Objetivos de negocio</h2><a name="PRG-0017" />
 <a name="SEC-0020" />
 <h2 align="left">4.2 
 Modelos de procesos de negocio a implantar</h2><a name="PRG-0019" />
-<p>No procede</p>
+<p>No procede.</p>
 <a name="SEC-0023" />
 <h1 align="left">5 
 Descripción de los subsistemas del sistema a desarrollar</h1><a name="GLO-0023" />
@@ -659,7 +659,9 @@ Descripción de los subsistemas del sistema a desarrollar</h1><a name="GLO-0023" 
 <b> Gestión de sucursales:</b> el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> podrá añadir nuevas sucursales, modificarlas o eliminarlas y contactar con ellas para tramitar préstamos interbibliotecarios.</p>
 <a name="GLO-0081" />
 <p align="left">
-<b> Gestión de préstamos:</b> el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> o el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> podrán tramitar préstamos con el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> que lo solicite, así como modificar la información de dicho <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> o su duración</p>
+<b> Gestión de préstamos:</b> el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> o el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> podrán tramitar préstamos con el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> que lo solicite, así como modificar la información de dicho <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> o su duración.
+<br />
+</p>
 <a name="GLO-0082" />
 <p align="left">
 <b> Gestión de inventario:</b> El <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a> podrá modificar la información del almacén y de los libros de la biblioteca, crear nuevos materiales/libros en el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y eliminarlos.</p>
@@ -862,7 +864,7 @@ Cristóbal Guerrero Salguero</a>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-gestionar la información relevante para la gestión de los diferentes tipos de personal (<a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> y <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>)
+gestionar la información relevante para la gestión de los diferentes tipos de personal (<a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> y <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>).
 <br />
 </em>
 </td>
@@ -974,7 +976,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">OBJ-0005</th>
 <th align="left" valign="top" width="100%">
-<a href="#GLO-0081" title="el secretario o el gerente podrán tramitar préstamos con el socio que lo solicite, así como modificar la información de dicho préstamo o su duración">GESTIÓN DE PRÉSTAMOS</a>
+<a href="#GLO-0081" title="el secretario o el gerente podrán tramitar préstamos con el socio que lo solicite, así como modificar la información de dicho préstamo o su duración.">GESTIÓN DE PRÉSTAMOS</a>
 </th>
 </tr>
 <tr>
@@ -1563,14 +1565,6 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
 </li>
@@ -1579,22 +1573,12 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
-<a href="#CRQ-0004" title="Préstamo múltiple">
-                                [CRQ-0004]  Préstamo múltiple</a>
-</li>
-<li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
-</li>
-<li>
-<a href="#CRQ-0003" title="Préstamo socio irresponsable">
-                                [CRQ-0003]  Préstamo socio irresponsable</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -1602,19 +1586,23 @@ Devolución de préstamo</a>
 Socios</a>
 </li>
 <li>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
 </li>
 <li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
-</li>
-<li>
-<a href="#CRQ-0013" title="Duración préstamo">
-                                [CRQ-0013] 
-Duración préstamo</a>
+<a href="#CRQ-0004" title="Préstamo múltiple">
+                                [CRQ-0004]  Préstamo múltiple</a>
 </li>
 <li>
 <a href="#IRQ-0011" title="Ejemplares">
@@ -1622,14 +1610,28 @@ Duración préstamo</a>
 Ejemplares</a>
 </li>
 <li>
+<a href="#CRQ-0003" title="Préstamo socio irresponsable">
+                                [CRQ-0003]  Préstamo socio irresponsable</a>
+</li>
+<li>
+<a href="#CRQ-0013" title="Duración préstamo">
+                                [CRQ-0013] 
+Duración préstamo</a>
+</li>
+<li>
 <a href="#CRQ-0005" title="Fecha de vencimiento">
                                 [CRQ-0005] 
 Fecha de vencimiento</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
+</li>
+<li>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
 </li>
 </td>
 </tr>
@@ -1640,15 +1642,13 @@ Empleados</a>
 
     caso de uso cuando
 <em>
-se tramite un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+se tramite un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> solicita un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</td>
+El <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> solicita un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="9">Secuencia normal</th>
@@ -1661,8 +1661,7 @@ El <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la 
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-solicita al sistema la creación de un nuevo <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+solicita al sistema la creación de un nuevo <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
@@ -1671,7 +1670,7 @@ solicita al sistema la creación de un nuevo <a href="#GLO-0096" title="Es la adq
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz con un listado de socios</em>
+recibe la petición y muestra una interfaz con un listado de socios.</em>
 </td>
 </tr>
 <tr>
@@ -1680,7 +1679,7 @@ recibe la petición y muestra una interfaz con un listado de socios</em>
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-selecciona al cliente que solicita el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
+selecciona al cliente que solicita el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.
 <br />
 </em>
 </td>
@@ -1691,7 +1690,9 @@ selecciona al cliente que solicita el <a href="#GLO-0096" title="Es la adquisici
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz con un listado de libros</em>
+recibe la petición y muestra una interfaz con un listado de libros.
+<br />
+</em>
 </td>
 </tr>
 <tr>
@@ -1700,8 +1701,7 @@ recibe la petición y muestra una interfaz con un listado de libros</em>
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-selecciona el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> deseado por el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+selecciona el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> deseado por el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -1710,7 +1710,7 @@ selecciona el <a href="#GLO-0098" title="Se encarga de almacenar la información 
 <td>El
      
     sistema<em>
-solicita una confirmación para la creación del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
+solicita una confirmación para la creación del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.
 <br />
 </em>
 </td>
@@ -1721,8 +1721,7 @@ solicita una confirmación para la creación del <a href="#GLO-0096" title="Es la 
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-confirma la creación del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+confirma la creación del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
@@ -1731,14 +1730,13 @@ confirma la creación del <a href="#GLO-0096" title="Es la adquisición temporal, 
 <td>El
      
     sistema<em>
-crea el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+crea el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> se ha creado correctamente</td>
+El <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> se ha creado correctamente.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="3">Excepciones</th>
@@ -1862,25 +1860,20 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
-                                [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
-</li>
-<li>
 <a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
+</li>
+<li>
+<a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
+                                [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
 </li>
 <li>
 <a href="#CRQ-0001" title="Devolución de préstamo">
@@ -1893,14 +1886,19 @@ Devolución de préstamo</a>
 Libros</a>
 </li>
 <li>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
+</li>
+<li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
 </li>
 <li>
 <a href="#IRQ-0004" title="Empleados">
@@ -1908,9 +1906,9 @@ Ejemplares</a>
 Empleados</a>
 </li>
 <li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 </td>
 </tr>
@@ -1921,15 +1919,13 @@ Préstamos</a>
 
     caso de uso cuando
 <em>
-finalice un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+finalice un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> llega a la biblioteca para devolver un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a>
-</td>
+El <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> llega a la biblioteca para devolver un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="10">Secuencia normal</th>
@@ -1942,8 +1938,7 @@ El <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la 
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-solicita al sistema la terminación de un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+solicita al sistema la terminación de un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
@@ -1952,7 +1947,7 @@ solicita al sistema la terminación de un <a href="#GLO-0096" title="Es la adquis
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz con un listado de préstamos vigentes</em>
+recibe la petición y muestra una interfaz con un listado de préstamos vigentes.</em>
 </td>
 </tr>
 <tr>
@@ -1961,7 +1956,7 @@ recibe la petición y muestra una interfaz con un listado de préstamos vigentes</
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-busca en el sistema el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> del <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> y lo selecciona para su terminación</em>
+busca en el sistema el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> del <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> y lo selecciona para su terminación.</em>
 </td>
 </tr>
 <tr>
@@ -1970,8 +1965,7 @@ busca en el sistema el <a href="#GLO-0096" title="Es la adquisición temporal, po
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz de actualización de <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a>
-</em>
+recibe la petición y muestra una interfaz de actualización de <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a>.</em>
 </td>
 </tr>
 <tr>
@@ -1980,7 +1974,7 @@ recibe la petición y muestra una interfaz de actualización de <a href="#GLO-0105
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-comprueba el estado del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> y lo contempla</em>
+comprueba el estado del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> y lo contempla.</em>
 </td>
 </tr>
 <tr>
@@ -1989,8 +1983,7 @@ comprueba el estado del <a href="#GLO-0098" title="Se encarga de almacenar la in
 <td>El
      
     sistema<em>
-solicita una confirmación para terminar el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+solicita una confirmación para terminar el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
@@ -1999,8 +1992,7 @@ solicita una confirmación para terminar el <a href="#GLO-0096" title="Es la adqu
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-confirma la terminación del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+confirma la terminación del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2009,8 +2001,7 @@ confirma la terminación del <a href="#GLO-0096" title="Es la adquisición tempora
 <td>El
      
     sistema<em>
-termina el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</em>
+termina el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2019,15 +2010,13 @@ termina el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de u
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-almacena el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a>
-</em>
+almacena el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Finalizar <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>
-</td>
+Finalizar <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="3">Excepciones</th>
@@ -2038,7 +2027,7 @@ Finalizar <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un
 <a name="STX-0012" />
 <td align="center" valign="top">6</td>
 <td>Si<em>
-Si el estado del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> es crítico,
+ el estado del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> es crítico,
                             </em>el actor<a href="#ACT-0004" title="Este actor representa el usuario de la biblioteca que pertenece a la misma."> Socio (ACT-0004)
     </a>
 <em>
@@ -2114,7 +2103,7 @@ Adquisiciones</h4><a name="UC-0022" />
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0022</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Realizar <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
+Realizar <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
 </th>
 </tr>
 <tr>
@@ -2163,9 +2152,9 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
-<a href="#CRQ-0010" title="Stock bajo">
-                                [CRQ-0010] 
-Stock bajo</a>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
 </li>
 <li>
 <a href="#CRQ-0009" title="Proveedores">
@@ -2173,14 +2162,9 @@ Stock bajo</a>
 Proveedores</a>
 </li>
 <li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#CRQ-0010" title="Stock bajo">
+                                [CRQ-0010] 
+Stock bajo</a>
 </li>
 <li>
 <a href="#CRQ-0001" title="Devolución de préstamo">
@@ -2193,6 +2177,16 @@ Devolución de préstamo</a>
 Productos del inventario</a>
 </li>
 <li>
+<a href="#IRQ-0010" title="Proveedores">
+                                [IRQ-0010] 
+Proveedores</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
 <a href="#IRQ-0008" title="Adquisiciones">
                                 [IRQ-0008] 
 Adquisiciones</a>
@@ -2201,11 +2195,6 @@ Adquisiciones</a>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
-</li>
-<li>
-<a href="#IRQ-0010" title="Proveedores">
-                                [IRQ-0010] 
-Proveedores</a>
 </li>
 <li>
 <a href="#IRQ-0003" title="Libros">
@@ -2221,14 +2210,13 @@ Libros</a>
 
     caso de uso cuando
 <em>
-haya que realizar alguna <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
-</em>
+haya que realizar alguna <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Los materiales de una compra previa han llegado</td>
+Los materiales de una compra previa han llegado.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="9">Secuencia normal</th>
@@ -2241,7 +2229,7 @@ Los materiales de una compra previa han llegado</td>
 <td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
-solicita al sistema una nueva <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
+solicita al sistema una nueva <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>.
 <br />
 </em>
 </td>
@@ -2252,7 +2240,7 @@ solicita al sistema una nueva <a href="#GLO-0056" title="Conjunto final compuest
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz con un listado de proveedores</em>
+recibe la petición y muestra una interfaz con un listado de proveedores.</em>
 </td>
 </tr>
 <tr>
@@ -2261,7 +2249,7 @@ recibe la petición y muestra una interfaz con un listado de proveedores</em>
 <td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
-selecciona el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> deseado</em>
+selecciona el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> deseado.</em>
 </td>
 </tr>
 <tr>
@@ -2270,7 +2258,7 @@ selecciona el <a href="#GLO-0102" title="Encargado de suministrar a la bibliotec
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz con un listado de materiales</em>
+recibe la petición y muestra una interfaz con un listado de materiales.</em>
 </td>
 </tr>
 <tr>
@@ -2279,7 +2267,7 @@ recibe la petición y muestra una interfaz con un listado de materiales</em>
 <td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
-selecciona que y cuanto de cada uno de ellos</em>
+selecciona que y cuanto de cada uno de ellos.</em>
 </td>
 </tr>
 <tr>
@@ -2288,8 +2276,7 @@ selecciona que y cuanto de cada uno de ellos</em>
 <td>El
      
     sistema<em>
-solicita una confirmación para la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
-</em>
+solicita una confirmación para la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2298,8 +2285,7 @@ solicita una confirmación para la <a href="#GLO-0056" title="Conjunto final comp
 <td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
-confirma la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
-</em>
+confirma la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2308,15 +2294,13 @@ confirma la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas d
 <td>El
      
     sistema<em>
-crea la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
-</em>
+crea la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
-</td>
+Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="3">Excepciones</th>
@@ -2445,14 +2429,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
 <a href="#CRQ-0001" title="Devolución de préstamo">
                                 [CRQ-0001] 
 Devolución de préstamo</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -2463,14 +2447,13 @@ Devolución de préstamo</a>
 
     caso de uso cuando
 <em>
-se cree un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+se cree un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Un nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> va a ser contratado
+Un nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> va a ser contratado.
 <br />
 </td>
 </tr>
@@ -2485,8 +2468,7 @@ Un nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. E
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-solicita al sistema la creación de un nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+solicita al sistema la creación de un nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2495,8 +2477,7 @@ solicita al sistema la creación de un nuevo <a href="#GLO-0101" title="Hace refe
 <td>El
      
     sistema<em>
-procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2505,8 +2486,7 @@ procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-010
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-rellena con la información necesaria del nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+rellena con la información necesaria del nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2515,8 +2495,7 @@ rellena con la información necesaria del nuevo <a href="#GLO-0101" title="Hace r
 <td>El
      
     sistema<em>
-recibe la petición, muestra una interfaz con el nombre de ususario y contraseña creado aleatoriamente y pide confirmación al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>
-</em>
+recibe la petición, muestra una interfaz con el nombre de ususario y contraseña creado aleatoriamente y pide confirmación al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2525,8 +2504,7 @@ recibe la petición, muestra una interfaz con el nombre de ususario y contraseña 
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-confirma la creación del nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+confirma la creación del nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2535,8 +2513,7 @@ confirma la creación del nuevo <a href="#GLO-0101" title="Hace referencia a los 
 <td>El
      
     sistema<em>
-guarda el nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+guarda el nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2545,13 +2522,13 @@ guarda el nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sis
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-provee al nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> de su numbre de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> y contraseña provisionales</em>
+provee al nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> de su numbre de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> y contraseña provisionales.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de la lista de empleados</td>
+Actualización de la lista de empleados.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2675,13 +2652,13 @@ Empleados</a>
 
     caso de uso cuando
 <em>
-sea necesario eliminar un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> del sistema</em>
+sea necesario eliminar un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> del sistema.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -2699,7 +2676,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de los empleados</td>
+Actualización de los empleados.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2822,7 +2799,7 @@ haya que realizar modificaciones en la información de un <a href="#GLO-0101" tit
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -2840,8 +2817,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de la información del <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</td>
+Actualización de la información del <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2944,34 +2920,21 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
-</li>
-<li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
-</li>
-<li>
-<a href="#CRQ-0007" title="Préstamo interbibliotecario múltiple">
-                                [CRQ-0007]  Préstamo interbibliotecario múltiple</a>
-</li>
-<li>
-<a href="#CRQ-0006" title="Préstamo interbibliotecario">
-                                [CRQ-0006]  Préstamo interbibliotecario</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
 </li>
 <li>
 <a href="#CRQ-0011" title="Solicitud préstamo interbibliotecario">
@@ -2979,9 +2942,18 @@ Empleados</a>
 Solicitud préstamo interbibliotecario</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
+</li>
+<li>
+<a href="#CRQ-0006" title="Préstamo interbibliotecario">
+                                [CRQ-0006]  Préstamo interbibliotecario</a>
 </li>
 <li>
 <a href="#IRQ-0007" title="Sucursales">
@@ -2989,9 +2961,13 @@ Ejemplares</a>
 Sucursales</a>
 </li>
 <li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
+<a href="#CRQ-0007" title="Préstamo interbibliotecario múltiple">
+                                [CRQ-0007]  Préstamo interbibliotecario múltiple</a>
 </li>
 <li>
 <a href="#CRQ-0014" title="Cantidad préstamos interbibliotecarios">
@@ -3007,15 +2983,13 @@ Cantidad préstamos interbibliotecarios</a>
 
     caso de uso cuando
 <em>
-se tramite un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>
-</em>
+se tramite un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Hay una petición de <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> de una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>
-</td>
+Hay una petición de <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> de una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="8">Secuencia normal</th>
@@ -3028,8 +3002,7 @@ Hay una petición de <a href="#GLO-0096" title="Es la adquisición temporal, por p
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-solicita al sistema la creación de un nuevo <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>
-</em>
+solicita al sistema la creación de un nuevo <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3038,7 +3011,7 @@ solicita al sistema la creación de un nuevo <a href="#GLO-0099" title="Es el int
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz con un listado de solicitudes de sucursales</em>
+recibe la petición y muestra una interfaz con un listado de solicitudes de sucursales.</em>
 </td>
 </tr>
 <tr>
@@ -3047,7 +3020,7 @@ recibe la petición y muestra una interfaz con un listado de solicitudes de sucur
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-selecciona una de las sucursales</em>
+selecciona una de las sucursales.</em>
 </td>
 </tr>
 <tr>
@@ -3056,8 +3029,7 @@ selecciona una de las sucursales</em>
 <td>El
      
     sistema<em>
-solicita una confirmación para la creación del <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>
-</em>
+solicita una confirmación para la creación del <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3066,8 +3038,7 @@ solicita una confirmación para la creación del <a href="#GLO-0099" title="Es el 
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-confirma la creación del <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>
-</em>
+confirma la creación del <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3076,8 +3047,7 @@ confirma la creación del <a href="#GLO-0099" title="Es el intercambio entre dos 
 <td>El
      
     sistema<em>
-crea el <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>
-</em>
+crea el <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3086,14 +3056,13 @@ crea el <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de un
 <td>El actor<a href="#ACT-0005" title="Este actor representa la empresa que se encarga del transporte y entrega a domicilio del carnet de socio."> Servicio de mensajería (ACT-0005)
     </a>
 <em>
-envía el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> préstado a la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>
-</em>
+envía el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> préstado a la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> ha sido registrado correctamente y llega a la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> correspondiente</td>
+El <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> ha sido registrado correctamente y llega a la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> correspondiente.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -3210,14 +3179,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -3228,14 +3197,13 @@ Socios</a>
 
     caso de uso cuando
 <em>
-un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera darse de alta como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> in situ</em>
+un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera darse de alta como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> in situ.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Alguien solicita su afiliación como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</td>
+Alguien solicita su afiliación como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="8">Secuencia normal</th>
@@ -3248,8 +3216,7 @@ Alguien solicita su afiliación como <a href="#GLO-0095" title="Es el usuario de 
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-solicita al sistema la creación de un nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+solicita al sistema la creación de un nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3258,8 +3225,7 @@ solicita al sistema la creación de un nuevo <a href="#GLO-0095" title="Es el usu
 <td>El
      
     sistema<em>
-procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3268,8 +3234,7 @@ procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-009
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-rellena con la información necesaria del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+rellena con la información necesaria del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3278,7 +3243,7 @@ rellena con la información necesaria del nuevo <a href="#GLO-0095" title="Es el 
 <td>El
      
     sistema<em>
-recibe la petición y solicita una confirmación para la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
+recibe la petición y solicita una confirmación para la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.
 <br />
 </em>
 </td>
@@ -3289,8 +3254,7 @@ recibe la petición y solicita una confirmación para la creación del nuevo <a hre
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-confirma la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+confirma la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3308,7 +3272,7 @@ guarda el nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pe
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
- se la entrega al <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> en cuestión</em>
+ se la entrega al <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> en cuestión.</em>
 </td>
 </tr>
 <tr>
@@ -3437,13 +3401,13 @@ Socios</a>
 
     caso de uso cuando
 <em>
-un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera darse de alta como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> vía web</em>
+un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera darse de alta como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> vía web.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera darse de alta como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> vía web</td>
+un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera darse de alta como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> vía web.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="9">Secuencia normal</th>
@@ -3456,8 +3420,7 @@ un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <td>El actor<a href="#ACT-0004" title="Este actor representa el usuario de la biblioteca que pertenece a la misma."> Socio (ACT-0004)
     </a>
 <em>
-solicita al sistema la creación de un nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+solicita al sistema la creación de un nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3466,8 +3429,7 @@ solicita al sistema la creación de un nuevo <a href="#GLO-0095" title="Es el usu
 <td>El
      
     sistema<em>
-procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3476,8 +3438,7 @@ procesa la petición y muestra la interfaz de creación de nuevo <a href="#GLO-009
 <td>El actor<a href="#ACT-0004" title="Este actor representa el usuario de la biblioteca que pertenece a la misma."> Socio (ACT-0004)
     </a>
 <em>
-rellena con la información necesaria del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+rellena con la información necesaria del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3486,7 +3447,7 @@ rellena con la información necesaria del nuevo <a href="#GLO-0095" title="Es el 
 <td>El
      
     sistema<em>
-solicita una confirmación para la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
+solicita una confirmación para la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.
 <br />
 </em>
 </td>
@@ -3497,8 +3458,7 @@ solicita una confirmación para la creación del nuevo <a href="#GLO-0095" title="
 <td>El actor<a href="#ACT-0004" title="Este actor representa el usuario de la biblioteca que pertenece a la misma."> Socio (ACT-0004)
     </a>
 <em>
-confirma la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+confirma la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3507,8 +3467,7 @@ confirma la creación del nuevo <a href="#GLO-0095" title="Es el usuario de la bi
 <td>El
      
     sistema<em>
-guarda el nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+guarda el nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3517,7 +3476,7 @@ guarda el nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pe
 <td>El actor<a href="#ACT-0003" title="Este actor representa la persona que se encarga de las labores administrativas de la biblioteca."> Secretario (ACT-0003)
     </a>
 <em>
-provee fabrica la tarjeta de asociado</em>
+provee fabrica la tarjeta de asociado.</em>
 </td>
 </tr>
 <tr>
@@ -3526,14 +3485,13 @@ provee fabrica la tarjeta de asociado</em>
 <td>El actor<a href="#ACT-0005" title="Este actor representa la empresa que se encarga del transporte y entrega a domicilio del carnet de socio."> Servicio de mensajería (ACT-0005)
     </a>
 <em>
-entrega el carnet al <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> en cuestión</em>
+entrega el carnet al <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> en cuestión.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-La persona queda registrada en el sistema como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</td>
+La persona queda registrada en el sistema como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -3639,12 +3597,17 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
+</li>
+<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
 </li>
 <li>
 <a href="#CRQ-0002" title="Irresponsabilidad">
@@ -3654,11 +3617,6 @@ Irresponsabilidad</a>
 <li>
 <a href="#CRQ-0003" title="Préstamo socio irresponsable">
                                 [CRQ-0003]  Préstamo socio irresponsable</a>
-</li>
-<li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -3685,8 +3643,7 @@ haya que establecer a un <a href="#GLO-0095" title="Es el usuario de la bibliote
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -3704,8 +3661,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</td>
+Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -3805,22 +3761,22 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
+</li>
+<li>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
 </li>
 <li>
 <a href="#IRQ-0004" title="Empleados">
@@ -3836,14 +3792,13 @@ Empleados</a>
 
     caso de uso cuando
 <em>
-haya que reestablecer manualmente a un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como responsable</em>
+haya que reestablecer manualmente a un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como responsable.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -3861,8 +3816,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</td>
+Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -3966,14 +3920,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#CRQ-0002" title="Irresponsabilidad">
                                 [CRQ-0002] 
 Irresponsabilidad</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 <li>
 <a href="#CRQ-0012" title="Duración irresponsabilidad">
@@ -3989,14 +3943,13 @@ Duración irresponsabilidad</a>
 
     caso de uso cuando
 <em>
-cumpla el plazo de irresponsabilidad de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+cumpla el plazo de irresponsabilidad de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El periodo de irresponsabilidad de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> ya ha finalizado</td>
+El periodo de irresponsabilidad de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> ya ha finalizado.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -4014,8 +3967,7 @@ El periodo de irresponsabilidad de un <a href="#GLO-0095" title="Es el usuario d
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</td>
+Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4157,15 +4109,13 @@ Duración irresponsabilidad</a>
 
     caso de uso cuando
 <em>
-sea necesaria alguna modificación en la información de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</em>
+sea necesaria alguna modificación en la información de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -4183,8 +4133,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización en la información de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>
-</td>
+Actualización en la información de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4285,22 +4234,22 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -4311,14 +4260,13 @@ Socios</a>
 
     caso de uso cuando
 <em>
-un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> tenga que ser eliminado del sistema</em>
+un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> tenga que ser eliminado del sistema.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -4336,7 +4284,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de los socios del sistema</td>
+Actualización de los socios del sistema.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4463,13 +4411,13 @@ Broadcast</a>
 
     caso de uso cuando
 <em>
-el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> quiera difundir un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> al resto de empleados</em>
+el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> quiera difundir un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> al resto de empleados.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> desea enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido</td>
+El <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> desea enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="7">Secuencia normal</th>
@@ -4482,8 +4430,7 @@ El <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliote
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-solicita al sistema difundir un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a>
-</em>
+solicita al sistema difundir un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a>.</em>
 </td>
 </tr>
 <tr>
@@ -4492,8 +4439,7 @@ solicita al sistema difundir un <a href="#GLO-0110" title="Correo electrónico en
 <td>El
      
     sistema<em>
-recibe la petición y muestra una interfaz de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> para escribir el <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a>
-</em>
+recibe la petición y muestra una interfaz de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> para escribir el <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a>.</em>
 </td>
 </tr>
 <tr>
@@ -4502,7 +4448,7 @@ recibe la petición y muestra una interfaz de <a href="#GLO-0008" title="Persona 
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-redacta un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> y lo envía</em>
+redacta un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> y lo envía.</em>
 </td>
 </tr>
 <tr>
@@ -4511,7 +4457,7 @@ redacta un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensa
 <td>El
      
     sistema<em>
-solicita confirmación para la creación del <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido</em>
+solicita confirmación para la creación del <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido.</em>
 </td>
 </tr>
 <tr>
@@ -4520,7 +4466,7 @@ solicita confirmación para la creación del <a href="#GLO-0110" title="Correo ele
 <td>El actor<a href="#ACT-0002" title="Este actor representa la persona que se encarga de la supervisión y gestión de la biblioteca."> Gerente (ACT-0002)
     </a>
 <em>
-confirma la creación del <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido</em>
+confirma la creación del <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido.</em>
 </td>
 </tr>
 <tr>
@@ -4529,13 +4475,13 @@ confirma la creación del <a href="#GLO-0110" title="Correo electrónico entre emp
 <td>El
      
     sistema<em>
-envía dicho <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> a la bandeja de entrada del resto de empleados</em>
+envía dicho <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> a la bandeja de entrada del resto de empleados.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Se actualiza la bandeja de entrada del resto de empleados</td>
+Se actualiza la bandeja de entrada del resto de empleados.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4645,13 +4591,13 @@ Cristóbal Guerrero Salguero</a>
 Empleados</a>
 </li>
 <li>
-<a href="#IRQ-0012" title="Mensajes">
-                                [IRQ-0012]  Mensajes</a>
-</li>
-<li>
 <a href="#CRQ-0015" title="Broadcast">
                                 [CRQ-0015] 
 Broadcast</a>
+</li>
+<li>
+<a href="#IRQ-0012" title="Mensajes">
+                                [IRQ-0012]  Mensajes</a>
 </li>
 </td>
 </tr>
@@ -4662,14 +4608,13 @@ Broadcast</a>
 
     caso de uso cuando
 <em>
-un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>
-</em>
+un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> quiera enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> ha iniciado sesión en el sistema</td>
+Un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> ha iniciado sesión en el sistema.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -4687,8 +4632,7 @@ Un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una 
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de la bandeja de entrada del <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>
-</td>
+Actualización de la bandeja de entrada del <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4815,15 +4759,13 @@ Broadcast</a>
 
     caso de uso cuando
 <em>
-un <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> también necesite enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> a otro <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>
-</em>
+un <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> también necesite enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> a otro <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -4841,7 +4783,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de la bandeja de entrada del <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> receptor</td>
+Actualización de la bandeja de entrada del <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> receptor.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4967,15 +4909,13 @@ Broadcast</a>
 
     caso de uso cuando
 <em>
-necesite enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> individual a cualquier <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+necesite enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> individual a cualquier <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -4993,7 +4933,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de la bandeja de entrada del <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> receptor</td>
+Actualización de la bandeja de entrada del <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> receptor.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -5102,14 +5042,19 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
 </li>
 <li>
 <a href="#IRQ-0008" title="Adquisiciones">
                                 [IRQ-0008] 
 Adquisiciones</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0002" title="Préstamos">
@@ -5122,24 +5067,19 @@ Préstamos</a>
 Libros</a>
 </li>
 <li>
-<a href="#CRQ-0010" title="Stock bajo">
-                                [CRQ-0010] 
-Stock bajo</a>
-</li>
-<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
 </li>
 <li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#CRQ-0010" title="Stock bajo">
+                                [CRQ-0010] 
+Stock bajo</a>
 </li>
 </td>
 </tr>
@@ -5150,14 +5090,13 @@ Ejemplares</a>
 
     caso de uso cuando
 <em>
-sea necesaria alguna modificación en los libros de la biblioteca o en los materiales del almacén</em>
+sea necesaria alguna modificación en los libros de la biblioteca o en los materiales del almacén.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -5175,8 +5114,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
-</td>
+Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -5285,24 +5223,24 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
-<a href="#IRQ-0008" title="Adquisiciones">
-                                [IRQ-0008] 
-Adquisiciones</a>
-</li>
-<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
 </li>
 <li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0008" title="Adquisiciones">
+                                [IRQ-0008] 
+Adquisiciones</a>
 </li>
 <li>
 <a href="#IRQ-0005" title="Productos del inventario">
@@ -5318,15 +5256,13 @@ Productos del inventario</a>
 
     caso de uso cuando
 <em>
-haya que crear un nuevo <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>
-</em>
+haya que crear un nuevo <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -5344,8 +5280,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
-</td>
+Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -5454,14 +5389,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
-</li>
-<li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
 </li>
 <li>
 <a href="#IRQ-0004" title="Empleados">
@@ -5469,9 +5404,9 @@ Productos del inventario</a>
 Empleados</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
 </li>
 </td>
 </tr>
@@ -5482,15 +5417,13 @@ Ejemplares</a>
 
     caso de uso cuando
 <em>
-haya que eliminar algún <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
-</em>
+haya que eliminar algún <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>
-</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -5508,8 +5441,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
-</td>
+Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -5612,21 +5544,21 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
-<a href="#IRQ-0010" title="Proveedores">
-                                [IRQ-0010] 
-Proveedores</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#CRQ-0009" title="Proveedores">
                                 [CRQ-0009] 
+Proveedores</a>
+</li>
+<li>
+<a href="#IRQ-0010" title="Proveedores">
+                                [IRQ-0010] 
 Proveedores</a>
 </li>
 <li>
@@ -5643,13 +5575,13 @@ Empleados</a>
 
     caso de uso cuando
 <em>
-haya que crear un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> nuevo</em>
+haya que crear un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> nuevo.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -5667,7 +5599,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de los proveedores del sistema</td>
+Actualización de los proveedores del sistema.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -5776,6 +5708,11 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
 <a href="#IRQ-0010" title="Proveedores">
                                 [IRQ-0010] 
 Proveedores</a>
@@ -5784,11 +5721,6 @@ Proveedores</a>
 <a href="#CRQ-0009" title="Proveedores">
                                 [CRQ-0009] 
 Proveedores</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
 </li>
 </td>
 </tr>
@@ -5799,14 +5731,13 @@ Empleados</a>
 
     caso de uso cuando
 <em>
-haya que realizar modificaciones en la información de un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>
-</em>
+haya que realizar modificaciones en la información de un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -5824,8 +5755,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de la información del <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>
-</td>
+Actualización de la información del <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -5926,22 +5856,22 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
-<a href="#CRQ-0009" title="Proveedores">
-                                [CRQ-0009] 
-Proveedores</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#CRQ-0009" title="Proveedores">
+                                [CRQ-0009] 
+Proveedores</a>
 </li>
 <li>
 <a href="#IRQ-0010" title="Proveedores">
@@ -5957,13 +5887,13 @@ Proveedores</a>
 
     caso de uso cuando
 <em>
-haya que eliminar un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> nuevo</em>
+haya que eliminar un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> nuevo.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -5981,7 +5911,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de los proveedores del sistema</td>
+Actualización de los proveedores del sistema.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -6084,22 +6014,22 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
-                                [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
+                                [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
 <a href="#IRQ-0007" title="Sucursales">
                                 [IRQ-0007] 
 Sucursales</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -6110,14 +6040,13 @@ Sucursales</a>
 
     caso de uso cuando
 <em>
-haya que realizar modificaciones en la información de una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>
-</em>
+haya que realizar modificaciones en la información de una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta</td>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y su sesión está abierta.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -6135,8 +6064,7 @@ El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta l
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Actualización de la información de la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>
-</td>
+Actualización de la información de la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -6240,12 +6168,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
-                                [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
-</li>
-<li>
 <a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
+</li>
+<li>
+<a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
+                                [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
 </li>
 </td>
 </tr>
@@ -6593,12 +6521,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#CRQ-0006" title="Préstamo interbibliotecario">
-                                [CRQ-0006]  Préstamo interbibliotecario</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
+<a href="#CRQ-0006" title="Préstamo interbibliotecario">
+                                [CRQ-0006]  Préstamo interbibliotecario</a>
 </li>
 </td>
 </tr>
@@ -6713,12 +6641,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 </td>
 </tr>
@@ -6738,7 +6666,7 @@ Cristóbal Guerrero Salguero</a>
 <ul>
 <li>
 <a name="DAT-0045" />
-el nombre de un producto, las unidades que hay en el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> actualmente de dicho producto y el código</li>
+el nombre de un producto, las unidades que hay en el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> actualmente de dicho producto y el código.</li>
 </ul>
 </td>
 </tr>
@@ -6832,12 +6760,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
 <a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
                                 [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
+</li>
+<li>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 </td>
 </tr>
@@ -7066,16 +6994,16 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
+                                [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
-                                [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 </td>
 </tr>
@@ -7095,7 +7023,7 @@ las adquisiciones.
 <ul>
 <li>
 <a name="DAT-0048" />
-el nombre del producto adquirido, las unidades de producto, el precio, el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> y fecha de <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>.</li>
+el nombre del producto adquirido, las unidades de producto, el precio, el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> y fecha de <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>.</li>
 </ul>
 </td>
 </tr>
@@ -7334,7 +7262,7 @@ los ejemplares.
 <ul>
 <li>
 <a name="DAT-0055" />
-El ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico)</li>
+El ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).</li>
 </ul>
 </td>
 </tr>
@@ -7450,7 +7378,7 @@ los <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de
 <ul>
 <li>
 <a name="DAT-0094" />
-El emisor, el receptor, el texto, la fecha en que se envía y un borrador.</li>
+el emisor, el receptor, el texto, la fecha en que se envía y un borrador.</li>
 </ul>
 </td>
 </tr>
@@ -7557,6 +7485,16 @@ Cristóbal Guerrero Salguero</a>
 Ejemplares</a>
 </li>
 <li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
@@ -7566,16 +7504,6 @@ Socios</a>
                                 [IRQ-0002] 
 Préstamos</a>
 </li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
-</li>
 </td>
 </tr>
 <tr>
@@ -7583,7 +7511,7 @@ Productos del inventario</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Si un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> que ha solicitado un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> no devuelve el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> en el plazo correcto y/o lo devuelve en un mal estado, el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> debe marcar como irresponsable a dicho <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.
+si un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> que ha solicitado un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> no devuelve el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> en el plazo correcto y/o lo devuelve en un mal estado, el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> debe marcar como irresponsable a dicho <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.
 <br />
 </em>
 </td>
@@ -7673,7 +7601,7 @@ Socios</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Los socios que estén en la lista de clientes irresponsables desaparecerán pasado el periodo de irresponsabilidad de 30 días, si el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o un <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> cancela su estado de irresponsable.</em>
+los socios que estén en la lista de clientes irresponsables desaparecerán pasado el periodo de irresponsabilidad de 30 días, si el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o un <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> cancela su estado de irresponsable.</em>
 </td>
 </tr>
 <tr>
@@ -7746,14 +7674,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0002" title="Préstamos">
                                 [IRQ-0002] 
 Préstamos</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7762,7 +7690,7 @@ Préstamos</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-El sistema impedirá la creación de un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> si el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> asignado al <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> es irresponsable.</em>
+el sistema impedirá la creación de un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> si el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> asignado al <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> es irresponsable.</em>
 </td>
 </tr>
 <tr>
@@ -7834,14 +7762,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0002" title="Préstamos">
                                 [IRQ-0002] 
 Préstamos</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7850,7 +7778,7 @@ Préstamos</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> no puede realizar un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> si ya dispone de uno que aún no ha concluido.</em>
+un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> no puede realizar un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> si ya dispone de uno que aún no ha concluido.</em>
 </td>
 </tr>
 <tr>
@@ -7922,14 +7850,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
-</li>
-<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
+</li>
+<li>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
 </li>
 </td>
 </tr>
@@ -7938,7 +7866,7 @@ Libros</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-La fecha de vencimiento de un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> depende del tamaño del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a>:
+la fecha de vencimiento de un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> depende del tamaño del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a>:
 <br />-Para los libros de tamaño CORTO, el sistema asignará al <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> una duración de 15 días.
 <br />-Para los libros de tamaño MEDIO, el sistema asignará al <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> una duración de 30 días.
 <br />-Para los libros de tamaño LARGO, el sistema asignará al <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> una duración de 50 días.
@@ -8022,24 +7950,24 @@ Cristóbal Guerrero Salguero</a>
 Ejemplares</a>
 </li>
 <li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
-</li>
-<li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
-</li>
-<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
 </li>
 <li>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
+</li>
+<li>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
+</li>
+<li>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
 </li>
 </td>
 </tr>
@@ -8048,7 +7976,7 @@ Productos del inventario</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-En cualquier caso, la duración de un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a> a una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> no puede extenderse más de 60 días.</em>
+en cualquier caso, la duración de un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a> a una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> no puede extenderse más de 60 días.</em>
 </td>
 </tr>
 <tr>
@@ -8130,14 +8058,14 @@ Ejemplares</a>
 Libros</a>
 </li>
 <li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
-</li>
-<li>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
+</li>
+<li>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
 </li>
 <li>
 <a href="#IRQ-0007" title="Sucursales">
@@ -8151,7 +8079,7 @@ Sucursales</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Una misma <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> no puede pedir un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a> si ya dispone de 3 vigentes.</em>
+una misma <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> no puede pedir un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a> si ya dispone de 3 vigentes.</em>
 </td>
 </tr>
 <tr>
@@ -8218,14 +8146,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0008" title="Adquisiciones">
-                                [IRQ-0008] 
-Adquisiciones</a>
-</li>
-<li>
 <a href="#IRQ-0010" title="Proveedores">
                                 [IRQ-0010] 
 Proveedores</a>
+</li>
+<li>
+<a href="#IRQ-0008" title="Adquisiciones">
+                                [IRQ-0008] 
+Adquisiciones</a>
 </li>
 </td>
 </tr>
@@ -8234,7 +8162,7 @@ Proveedores</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-La información de los proveedores y las adquisiciones deberá quedar almacenada en el sistema y no puede eliminarse.</em>
+la información de los proveedores y las adquisiciones deberá quedar almacenada en el sistema y no puede eliminarse.</em>
 </td>
 </tr>
 <tr>
@@ -8306,14 +8234,14 @@ Cristóbal Guerrero Salguero</a>
 Empleados</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 </td>
 </tr>
@@ -8322,7 +8250,7 @@ Productos del inventario</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Cuando un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o un objeto del <a href="#GLO-0106" title="Hace referencia a todo material que forma parte del inventario de la biblioteca que no es un libro o un artículo de lectura. Está formado por el código del producto.">material bibliotecario</a> tenga un stock menor o igual que 4 unidades, el sistema deberá enviar una alerta a un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> que inicie sesión como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>.</em>
+cuando un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o un objeto del <a href="#GLO-0106" title="Hace referencia a todo material que forma parte del inventario de la biblioteca que no es un libro o un artículo de lectura. Está formado por el código del producto.">material bibliotecario</a> tenga un stock menor o igual que 4 unidades, el sistema deberá enviar una alerta a un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> que inicie sesión como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>.</em>
 </td>
 </tr>
 <tr>
@@ -8406,7 +8334,7 @@ Sucursales</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Cuando una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> solicite un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>, el sistema deberá enviar una notificación al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</em>
+cuando una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> solicite un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>, el sistema deberá enviar una notificación al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>.</em>
 </td>
 </tr>
 <tr>
@@ -8484,7 +8412,7 @@ Socios</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-El sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> pueda modificar la duración del periodo que debe pasar un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> irresponsable </em>
+el sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> pueda modificar la duración del periodo que debe pasar un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> irresponsable.</em>
 </td>
 </tr>
 <tr>
@@ -8568,7 +8496,7 @@ Libros</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-El sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> pueda modificar la duración establecida que cada tipo de <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> (CORTO, MEDIO, LARGO) asigna a un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
+el sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> pueda modificar la duración establecida que cada tipo de <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> (CORTO, MEDIO, LARGO) asigna a un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.</em>
 </td>
 </tr>
 <tr>
@@ -8635,6 +8563,11 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
+</li>
+<li>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
@@ -8643,11 +8576,6 @@ Productos del inventario</a>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
                                 [IRQ-0006] 
 Préstamos interbibliotecarios</a>
-</li>
-<li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
 </li>
 <li>
 <a href="#IRQ-0011" title="Ejemplares">
@@ -8661,7 +8589,7 @@ Ejemplares</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-El sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> pueda modificar el número de préstamos interbibliotecarios que una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> puede tener vigentes.</em>
+el sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> pueda modificar el número de préstamos interbibliotecarios que una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> puede tener vigentes.</em>
 </td>
 </tr>
 <tr>
@@ -8738,7 +8666,7 @@ Cristóbal Guerrero Salguero</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Solo el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> puede enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido al resto de empleados.</em>
+solo el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> puede enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido al resto de empleados.</em>
 </td>
 </tr>
 <tr>
@@ -8922,27 +8850,27 @@ Ninguno</td>
 Requisitos no funcionales del sistema</h2><a name="SEC-0041" />
 <h3 align="left">6.4.1 
 Requisitos de fiablidad del sistema</h3><a name="PRG-0020" />
-<p>No procede
+<p>No procede.
 <br />
 </p>
 <a name="SEC-0042" />
 <h3 align="left">6.4.2 
 Requisitos de usabilidad del sistema</h3><a name="PRG-0085" />
-<p>No procede</p>
+<p>No procede.</p>
 <a name="SEC-0043" />
 <h3 align="left">6.4.3 
 Requistos de mantebilidad del sistema</h3><a name="PRG-0086" />
-<p>No procede</p>
+<p>No procede.</p>
 <a name="SEC-0044" />
 <h3 align="left">6.4.4 
 Requisitos de eficiencia del sistema</h3><a name="PRG-0021" />
-<p>No procede
+<p>No procede.
 <br />
 </p>
 <a name="SEC-0045" />
 <h3 align="left">6.4.5 
 Requistos de portabilidad del sistema</h3><a name="PRG-0022" />
-<p>No procede
+<p>No procede.
 <br />
 </p>
 <a name="SEC-0046" />
@@ -9073,7 +9001,7 @@ Cristóbal Guerrero Salguero</a>
 <em>
 cumplir los siguientes requisitos de seguridad: 
 <br />- La contraseña de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> debe tener al menos 6 caracteres, siendo obligatorios, como mínimo, un número, una letra mayúscula y una minúscula.
-<br />- El nombre de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> de un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> en el sistema debe ser único, no tener símbolos ni caracteres especiales y tener una longitud de entre 3 y 15 caracteres.</em>
+<br />- El nombre de <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> de un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> en el sistema debe ser único, no tener símbolos ni carácteres especiales y tener una longitud de entre 3 y 15 carácteres.</em>
 </td>
 </tr>
 <tr>
@@ -9174,11 +9102,11 @@ None</td>
 <a name="SEC-0048" />
 <h3 align="left">6.4.7 
 Otros requisitos no funcionales del sistema</h3><a name="PRG-0087" />
-<p>No procede</p>
+<p>No procede.</p>
 <a name="SEC-0029" />
 <h2 align="left">6.5 
 Restricciones técnicas del sistema</h2><a name="PRG-0024" />
-<p>No procede</p>
+<p>No procede.</p>
 <a name="SEC-0030" />
 <h2 align="left">6.6 
 Requisitos de integración del sistema</h2><a name="NFR-0009" />
@@ -12913,7 +12841,7 @@ Documentación relevante</h1><a name="PRG-0027" />
 <a name="SEC-0034" />
 <h1 align="left">C 
 Glosario de acrónimos y abreviaturas</h1><a name="PRG-0026" />
-<p>No procede</p>
+<p>No procede.</p>
 <a name="SEC-0047" />
 <h1 align="left">D 
 Participantes y organizaciones</h1><a name="SEC-0082" />
@@ -13104,7 +13032,7 @@ IR - G1 - OM -01</th>
 </tr>
 <tr>
 <th align="left" valign="top">Fax</th>
-<td align="left" valign="top" colspan="1">No procede</td>
+<td align="left" valign="top" colspan="1">No consta</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>

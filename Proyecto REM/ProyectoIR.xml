@@ -310,7 +310,7 @@ None</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0056">
 <rem:name>
-<rem:ref oid="GLO-0056">Adquisición</rem:ref></rem:name>
+<rem:ref oid="GLO-0100">Adquisición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -322,7 +322,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Conjunto final compuesto por las líneas de <rem:ref oid="GLO-0056">adquisición</rem:ref> de los materiales solicitados para la biblioteca.</rem:text>
+<rem:text> Conjunto final compuesto por las líneas de <rem:ref oid="GLO-0100">adquisición</rem:ref> de los materiales solicitados para la biblioteca.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0006">
@@ -443,7 +443,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Reúne información acerca de la <rem:ref oid="GLO-0056">adquisición</rem:ref> de un <rem:ref oid="GLO-0104">material</rem:ref> en particular.</rem:text>
+<rem:text> Reúne información acerca de la <rem:ref oid="GLO-0100">adquisición</rem:ref> de un <rem:ref oid="GLO-0104">material</rem:ref> en particular.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0061">
@@ -514,7 +514,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text> <rem:ref oid="GLO-0056">Adquisición</rem:ref> temporal, por parte de un <rem:ref oid="GLO-0095">socio</rem:ref>, de un <rem:ref oid="GLO-0098">libro</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca.</rem:text>
+<rem:text> <rem:ref oid="GLO-0100">Adquisición</rem:ref> temporal, por parte de un <rem:ref oid="GLO-0095">socio</rem:ref>, de un <rem:ref oid="GLO-0098">libro</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0005">
@@ -686,7 +686,7 @@ Fortalezas de la situación actual</rem:name>
 <rem:day>28</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 None</rem:comments>
@@ -913,7 +913,7 @@ Ninguno</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0002 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -952,7 +952,7 @@ Alta <rem:ref oid="GLO-0008">usuario</rem:ref> in situ</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0002 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -991,7 +991,7 @@ Alta <rem:ref oid="GLO-0008">usuario</rem:ref> a domicilio</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0002 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1249,7 +1249,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>No procede</rem:text>
+<rem:text>No procede.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -1353,7 +1353,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> el <rem:ref oid="GLO-0109">secretario</rem:ref> o el <rem:ref oid="GLO-0108">gerente</rem:ref> podrán tramitar préstamos con el <rem:ref oid="GLO-0095">socio</rem:ref> que lo solicite, así como modificar la información de dicho <rem:ref oid="GLO-0096">préstamo</rem:ref> o su duración</rem:text>
+<rem:text> el <rem:ref oid="GLO-0109">secretario</rem:ref> o el <rem:ref oid="GLO-0108">gerente</rem:ref> podrán tramitar préstamos con el <rem:ref oid="GLO-0095">socio</rem:ref> que lo solicite, así como modificar la información de dicho <rem:ref oid="GLO-0096">préstamo</rem:ref> o su duración.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0082">
@@ -1511,7 +1511,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-gestionar la información relevante para la gestión de los diferentes tipos de personal (<rem:ref oid="GLO-0108">gerente</rem:ref>, <rem:ref oid="GLO-0109">secretario</rem:ref> y <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>)<br/></rem:description>
+gestionar la información relevante para la gestión de los diferentes tipos de personal (<rem:ref oid="GLO-0108">gerente</rem:ref>, <rem:ref oid="GLO-0109">secretario</rem:ref> y <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>).<br/></rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0004">
@@ -1803,7 +1803,7 @@ Ninguno</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1822,7 +1822,7 @@ Ninguno</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1841,7 +1841,7 @@ Ninguno</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1860,7 +1860,7 @@ Ninguno</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1879,7 +1879,7 @@ Ninguno</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1942,11 +1942,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-se tramite un <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:triggeringEvent>
+se tramite un <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0095">socio</rem:ref> solicita un <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0095">socio</rem:ref> solicita un <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:precondition>
 <rem:postcondition>
-El <rem:ref oid="GLO-0096">préstamo</rem:ref> se ha creado correctamente</rem:postcondition>
+El <rem:ref oid="GLO-0096">préstamo</rem:ref> se ha creado correctamente.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 2
@@ -1957,7 +1957,7 @@ El <rem:ref oid="GLO-0096">préstamo</rem:ref> se ha creado correctamente</rem:po
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:description>
+solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1966,7 +1966,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz con un listado de socios</rem:description>
+recibe la petición y muestra una interfaz con un listado de socios.</rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0006">
 <rem:condition>
@@ -1986,7 +1986,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-selecciona al cliente que solicita el <rem:ref oid="GLO-0096">préstamo</rem:ref><br/></rem:description>
+selecciona al cliente que solicita el <rem:ref oid="GLO-0096">préstamo</rem:ref>.<br/></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1995,7 +1995,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz con un listado de libros</rem:description>
+recibe la petición y muestra una interfaz con un listado de libros.<br/></rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0007">
 <rem:condition>
@@ -2015,7 +2015,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-selecciona el <rem:ref oid="GLO-0098">libro</rem:ref> deseado por el <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+selecciona el <rem:ref oid="GLO-0098">libro</rem:ref> deseado por el <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2024,7 +2024,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita una confirmación para la creación del <rem:ref oid="GLO-0096">préstamo</rem:ref><br/></rem:description>
+solicita una confirmación para la creación del <rem:ref oid="GLO-0096">préstamo</rem:ref>.<br/></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2033,7 +2033,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-confirma la creación del <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:description>
+confirma la creación del <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2042,7 +2042,7 @@ Ninguno</rem:comments>
 <rem:number>8</rem:number>
 <rem:systemAction>
 <rem:description>
-crea el <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:description>
+crea el <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2088,11 +2088,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-finalice un <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:triggeringEvent>
+finalice un <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0095">socio</rem:ref> llega a la biblioteca para devolver un <rem:ref oid="GLO-0098">libro</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0095">socio</rem:ref> llega a la biblioteca para devolver un <rem:ref oid="GLO-0098">libro</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Finalizar <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:postcondition>
+Finalizar <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 2
@@ -2103,7 +2103,7 @@ Finalizar <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-solicita al sistema la terminación de un <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:description>
+solicita al sistema la terminación de un <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2112,7 +2112,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz con un listado de préstamos vigentes</rem:description>
+recibe la petición y muestra una interfaz con un listado de préstamos vigentes.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2121,7 +2121,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-busca en el sistema el <rem:ref oid="GLO-0096">préstamo</rem:ref> del <rem:ref oid="GLO-0095">socio</rem:ref> y lo selecciona para su terminación</rem:description>
+busca en el sistema el <rem:ref oid="GLO-0096">préstamo</rem:ref> del <rem:ref oid="GLO-0095">socio</rem:ref> y lo selecciona para su terminación.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2130,7 +2130,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz de actualización de <rem:ref oid="GLO-0105">ejemplar</rem:ref></rem:description>
+recibe la petición y muestra una interfaz de actualización de <rem:ref oid="GLO-0105">ejemplar</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2139,7 +2139,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-comprueba el estado del <rem:ref oid="GLO-0098">libro</rem:ref> y lo contempla</rem:description>
+comprueba el estado del <rem:ref oid="GLO-0098">libro</rem:ref> y lo contempla.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2148,11 +2148,11 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita una confirmación para terminar el <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:description>
+solicita una confirmación para terminar el <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0012">
 <rem:condition>
-Si el estado del <rem:ref oid="GLO-0098">libro</rem:ref> es crítico</rem:condition>
+ el estado del <rem:ref oid="GLO-0098">libro</rem:ref> es crítico</rem:condition>
 <rem:actorAction actor = "ACT-0004">
 <rem:description>
 es puesto como irresponsable</rem:description>
@@ -2168,7 +2168,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-confirma la terminación del <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:description>
+confirma la terminación del <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2177,7 +2177,7 @@ Ninguno</rem:comments>
 <rem:number>8</rem:number>
 <rem:systemAction>
 <rem:description>
-termina el <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:description>
+termina el <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2186,7 +2186,7 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-almacena el <rem:ref oid="GLO-0098">libro</rem:ref></rem:description>
+almacena el <rem:ref oid="GLO-0098">libro</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:stepException oid = "STX-0001">
 <rem:condition>
@@ -2224,7 +2224,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0022">
 <rem:name>
-Realizar <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:name>
+Realizar <rem:ref oid="GLO-0100">adquisición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2243,11 +2243,11 @@ None</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-haya que realizar alguna <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:triggeringEvent>
+haya que realizar alguna <rem:ref oid="GLO-0100">adquisición</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-Los materiales de una compra previa han llegado</rem:precondition>
+Los materiales de una compra previa han llegado.</rem:precondition>
 <rem:postcondition>
-Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -2258,7 +2258,7 @@ Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postconditio
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0011">
 <rem:description>
-solicita al sistema una nueva <rem:ref oid="GLO-0056">adquisición</rem:ref><br/></rem:description>
+solicita al sistema una nueva <rem:ref oid="GLO-0100">adquisición</rem:ref>.<br/></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2267,7 +2267,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz con un listado de proveedores</rem:description>
+recibe la petición y muestra una interfaz con un listado de proveedores.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2276,7 +2276,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0011">
 <rem:description>
-selecciona el <rem:ref oid="GLO-0102">proveedor</rem:ref> deseado</rem:description>
+selecciona el <rem:ref oid="GLO-0102">proveedor</rem:ref> deseado.</rem:description>
 </rem:actorAction>
 <rem:stepException oid = "STX-0013">
 <rem:condition>
@@ -2296,7 +2296,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz con un listado de materiales</rem:description>
+recibe la petición y muestra una interfaz con un listado de materiales.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2305,7 +2305,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0011">
 <rem:description>
-selecciona que y cuanto de cada uno de ellos</rem:description>
+selecciona que y cuanto de cada uno de ellos.</rem:description>
 </rem:actorAction>
 <rem:stepException oid = "STX-0014">
 <rem:condition>
@@ -2325,7 +2325,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita una confirmación para la <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:description>
+solicita una confirmación para la <rem:ref oid="GLO-0100">adquisición</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2334,7 +2334,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0011">
 <rem:description>
-confirma la <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:description>
+confirma la <rem:ref oid="GLO-0100">adquisición</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2343,7 +2343,7 @@ Ninguno</rem:comments>
 <rem:number>8</rem:number>
 <rem:systemAction>
 <rem:description>
-crea la <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:description>
+crea la <rem:ref oid="GLO-0100">adquisición</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2389,11 +2389,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-se cree un <rem:ref oid="GLO-0101">empleado</rem:ref></rem:triggeringEvent>
+se cree un <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-Un nuevo <rem:ref oid="GLO-0101">empleado</rem:ref> va a ser contratado<br/></rem:precondition>
+Un nuevo <rem:ref oid="GLO-0101">empleado</rem:ref> va a ser contratado.<br/></rem:precondition>
 <rem:postcondition>
-Actualización de la lista de empleados</rem:postcondition>
+Actualización de la lista de empleados.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -2404,7 +2404,7 @@ Actualización de la lista de empleados</rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0101">empleado</rem:ref></rem:description>
+solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2413,7 +2413,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-procesa la petición y muestra la interfaz de creación de nuevo <rem:ref oid="GLO-0101">empleado</rem:ref></rem:description>
+procesa la petición y muestra la interfaz de creación de nuevo <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2422,7 +2422,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-rellena con la información necesaria del nuevo <rem:ref oid="GLO-0101">empleado</rem:ref></rem:description>
+rellena con la información necesaria del nuevo <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2431,7 +2431,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición, muestra una interfaz con el nombre de ususario y contraseña creado aleatoriamente y pide confirmación al <rem:ref oid="GLO-0108">gerente</rem:ref></rem:description>
+recibe la petición, muestra una interfaz con el nombre de ususario y contraseña creado aleatoriamente y pide confirmación al <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0015">
 <rem:condition>
@@ -2451,7 +2451,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-confirma la creación del nuevo <rem:ref oid="GLO-0101">empleado</rem:ref></rem:description>
+confirma la creación del nuevo <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2460,7 +2460,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-guarda el nuevo <rem:ref oid="GLO-0101">empleado</rem:ref></rem:description>
+guarda el nuevo <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2469,7 +2469,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-provee al nuevo <rem:ref oid="GLO-0101">empleado</rem:ref> de su numbre de <rem:ref oid="GLO-0008">usuario</rem:ref> y contraseña provisionales</rem:description>
+provee al nuevo <rem:ref oid="GLO-0101">empleado</rem:ref> de su numbre de <rem:ref oid="GLO-0008">usuario</rem:ref> y contraseña provisionales.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2497,11 +2497,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-sea necesario eliminar un <rem:ref oid="GLO-0101">empleado</rem:ref> del sistema</rem:triggeringEvent>
+sea necesario eliminar un <rem:ref oid="GLO-0101">empleado</rem:ref> del sistema.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta.</rem:precondition>
 <rem:postcondition>
-Actualización de los empleados</rem:postcondition>
+Actualización de los empleados.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -2533,9 +2533,9 @@ None</rem:comments>
 <rem:triggeringEvent>
 haya que realizar modificaciones en la información de un <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta.</rem:precondition>
 <rem:postcondition>
-Actualización de la información del <rem:ref oid="GLO-0101">empleado</rem:ref></rem:postcondition>
+Actualización de la información del <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -2583,11 +2583,11 @@ None</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-se tramite un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref></rem:triggeringEvent>
+se tramite un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-Hay una petición de <rem:ref oid="GLO-0096">préstamo</rem:ref> de una <rem:ref oid="GLO-0097">sucursal</rem:ref></rem:precondition>
+Hay una petición de <rem:ref oid="GLO-0096">préstamo</rem:ref> de una <rem:ref oid="GLO-0097">sucursal</rem:ref>.</rem:precondition>
 <rem:postcondition>
-El <rem:ref oid="GLO-0096">préstamo</rem:ref> ha sido registrado correctamente y llega a la <rem:ref oid="GLO-0097">sucursal</rem:ref> correspondiente</rem:postcondition>
+El <rem:ref oid="GLO-0096">préstamo</rem:ref> ha sido registrado correctamente y llega a la <rem:ref oid="GLO-0097">sucursal</rem:ref> correspondiente.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -2598,7 +2598,7 @@ El <rem:ref oid="GLO-0096">préstamo</rem:ref> ha sido registrado correctamente y
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref></rem:description>
+solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2607,7 +2607,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz con un listado de solicitudes de sucursales</rem:description>
+recibe la petición y muestra una interfaz con un listado de solicitudes de sucursales.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2616,7 +2616,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-selecciona una de las sucursales</rem:description>
+selecciona una de las sucursales.</rem:description>
 </rem:actorAction>
 <rem:stepException oid = "STX-0017">
 <rem:condition>
@@ -2636,7 +2636,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita una confirmación para la creación del <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref></rem:description>
+solicita una confirmación para la creación del <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2645,7 +2645,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-confirma la creación del <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref></rem:description>
+confirma la creación del <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2654,7 +2654,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-crea el <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref></rem:description>
+crea el <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2663,7 +2663,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-envía el <rem:ref oid="GLO-0104">material</rem:ref> préstado a la <rem:ref oid="GLO-0097">sucursal</rem:ref></rem:description>
+envía el <rem:ref oid="GLO-0104">material</rem:ref> préstado a la <rem:ref oid="GLO-0097">sucursal</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2709,9 +2709,9 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0004"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0095">socio</rem:ref> in situ</rem:triggeringEvent>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0095">socio</rem:ref> in situ.</rem:triggeringEvent>
 <rem:precondition>
-Alguien solicita su afiliación como <rem:ref oid="GLO-0095">socio</rem:ref></rem:precondition>
+Alguien solicita su afiliación como <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:precondition>
 <rem:postcondition>
 La persona queda registrada en el sistema como <rem:ref oid="GLO-0095">socio</rem:ref> y adquiere su carnet.</rem:postcondition>
 <rem:frequency>
@@ -2724,7 +2724,7 @@ La persona queda registrada en el sistema como <rem:ref oid="GLO-0095">socio</re
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2733,7 +2733,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-procesa la petición y muestra la interfaz de creación de nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+procesa la petición y muestra la interfaz de creación de nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2742,7 +2742,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-rellena con la información necesaria del nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+rellena con la información necesaria del nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2751,7 +2751,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y solicita una confirmación para la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref><br/></rem:description>
+recibe la petición y solicita una confirmación para la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.<br/></rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0016">
 <rem:condition>
@@ -2771,7 +2771,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-confirma la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+confirma la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2789,7 +2789,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
- se la entrega al <rem:ref oid="GLO-0095">socio</rem:ref> en cuestión</rem:description>
+ se la entrega al <rem:ref oid="GLO-0095">socio</rem:ref> en cuestión.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2817,11 +2817,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0095">socio</rem:ref> vía web</rem:triggeringEvent>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0095">socio</rem:ref> vía web.</rem:triggeringEvent>
 <rem:precondition>
-un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0095">socio</rem:ref> vía web</rem:precondition>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera darse de alta como <rem:ref oid="GLO-0095">socio</rem:ref> vía web.</rem:precondition>
 <rem:postcondition>
-La persona queda registrada en el sistema como <rem:ref oid="GLO-0095">socio</rem:ref></rem:postcondition>
+La persona queda registrada en el sistema como <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 5
@@ -2832,7 +2832,7 @@ La persona queda registrada en el sistema como <rem:ref oid="GLO-0095">socio</re
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0004">
 <rem:description>
-solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+solicita al sistema la creación de un nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2841,7 +2841,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-procesa la petición y muestra la interfaz de creación de nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+procesa la petición y muestra la interfaz de creación de nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2850,7 +2850,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0004">
 <rem:description>
-rellena con la información necesaria del nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+rellena con la información necesaria del nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2859,7 +2859,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita una confirmación para la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref><br/></rem:description>
+solicita una confirmación para la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.<br/></rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0018">
 <rem:condition>
@@ -2879,7 +2879,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0004">
 <rem:description>
-confirma la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+confirma la creación del nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2888,7 +2888,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-guarda el nuevo <rem:ref oid="GLO-0095">socio</rem:ref></rem:description>
+guarda el nuevo <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2897,7 +2897,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:actorAction actor = "ACT-0003">
 <rem:description>
-provee fabrica la tarjeta de asociado</rem:description>
+provee fabrica la tarjeta de asociado.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2906,7 +2906,7 @@ Ninguno</rem:comments>
 <rem:number>8</rem:number>
 <rem:actorAction actor = "ACT-0005">
 <rem:description>
-entrega el carnet al <rem:ref oid="GLO-0095">socio</rem:ref> en cuestión</rem:description>
+entrega el carnet al <rem:ref oid="GLO-0095">socio</rem:ref> en cuestión.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2936,9 +2936,9 @@ None</rem:comments>
 <rem:triggeringEvent>
 haya que establecer a un <rem:ref oid="GLO-0095">socio</rem:ref> como irresponsable.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> o <rem:ref oid="GLO-0109">secretario</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> o <rem:ref oid="GLO-0109">secretario</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización del estado de un <rem:ref oid="GLO-0095">socio</rem:ref></rem:postcondition>
+Actualización del estado de un <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -2968,11 +2968,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-haya que reestablecer manualmente a un <rem:ref oid="GLO-0095">socio</rem:ref> como responsable</rem:triggeringEvent>
+haya que reestablecer manualmente a un <rem:ref oid="GLO-0095">socio</rem:ref> como responsable.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> o <rem:ref oid="GLO-0109">secretario</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> o <rem:ref oid="GLO-0109">secretario</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización del estado de un <rem:ref oid="GLO-0095">socio</rem:ref></rem:postcondition>
+Actualización del estado de un <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3002,11 +3002,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-cumpla el plazo de irresponsabilidad de un <rem:ref oid="GLO-0095">socio</rem:ref></rem:triggeringEvent>
+cumpla el plazo de irresponsabilidad de un <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El periodo de irresponsabilidad de un <rem:ref oid="GLO-0095">socio</rem:ref> ya ha finalizado</rem:precondition>
+El periodo de irresponsabilidad de un <rem:ref oid="GLO-0095">socio</rem:ref> ya ha finalizado.</rem:precondition>
 <rem:postcondition>
-Actualización del estado de un <rem:ref oid="GLO-0095">socio</rem:ref></rem:postcondition>
+Actualización del estado de un <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3036,11 +3036,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-sea necesaria alguna modificación en la información de un <rem:ref oid="GLO-0095">socio</rem:ref></rem:triggeringEvent>
+sea necesaria alguna modificación en la información de un <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización en la información de un <rem:ref oid="GLO-0095">socio</rem:ref></rem:postcondition>
+Actualización en la información de un <rem:ref oid="GLO-0095">socio</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3070,11 +3070,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-un <rem:ref oid="GLO-0095">socio</rem:ref> tenga que ser eliminado del sistema</rem:triggeringEvent>
+un <rem:ref oid="GLO-0095">socio</rem:ref> tenga que ser eliminado del sistema.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización de los socios del sistema</rem:postcondition>
+Actualización de los socios del sistema.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3122,11 +3122,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-el <rem:ref oid="GLO-0108">gerente</rem:ref> quiera difundir un <rem:ref oid="GLO-0110">mensaje</rem:ref> al resto de empleados</rem:triggeringEvent>
+el <rem:ref oid="GLO-0108">gerente</rem:ref> quiera difundir un <rem:ref oid="GLO-0110">mensaje</rem:ref> al resto de empleados.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0108">gerente</rem:ref> desea enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido</rem:precondition>
+El <rem:ref oid="GLO-0108">gerente</rem:ref> desea enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido.</rem:precondition>
 <rem:postcondition>
-Se actualiza la bandeja de entrada del resto de empleados</rem:postcondition>
+Se actualiza la bandeja de entrada del resto de empleados.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 2
@@ -3137,7 +3137,7 @@ Se actualiza la bandeja de entrada del resto de empleados</rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-solicita al sistema difundir un <rem:ref oid="GLO-0110">mensaje</rem:ref></rem:description>
+solicita al sistema difundir un <rem:ref oid="GLO-0110">mensaje</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3146,7 +3146,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-recibe la petición y muestra una interfaz de <rem:ref oid="GLO-0008">usuario</rem:ref> para escribir el <rem:ref oid="GLO-0110">mensaje</rem:ref></rem:description>
+recibe la petición y muestra una interfaz de <rem:ref oid="GLO-0008">usuario</rem:ref> para escribir el <rem:ref oid="GLO-0110">mensaje</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3155,7 +3155,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-redacta un <rem:ref oid="GLO-0110">mensaje</rem:ref> y lo envía</rem:description>
+redacta un <rem:ref oid="GLO-0110">mensaje</rem:ref> y lo envía.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3164,7 +3164,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita confirmación para la creación del <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido</rem:description>
+solicita confirmación para la creación del <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3173,7 +3173,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-confirma la creación del <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido</rem:description>
+confirma la creación del <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3182,7 +3182,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-envía dicho <rem:ref oid="GLO-0110">mensaje</rem:ref> a la bandeja de entrada del resto de empleados</rem:description>
+envía dicho <rem:ref oid="GLO-0110">mensaje</rem:ref> a la bandeja de entrada del resto de empleados.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3210,11 +3210,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> al <rem:ref oid="GLO-0108">gerente</rem:ref></rem:triggeringEvent>
+un <rem:ref oid="GLO-0008">usuario</rem:ref> quiera enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> al <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-Un <rem:ref oid="GLO-0101">empleado</rem:ref> ha iniciado sesión en el sistema</rem:precondition>
+Un <rem:ref oid="GLO-0101">empleado</rem:ref> ha iniciado sesión en el sistema.</rem:precondition>
 <rem:postcondition>
-Actualización de la bandeja de entrada del <rem:ref oid="GLO-0108">gerente</rem:ref></rem:postcondition>
+Actualización de la bandeja de entrada del <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3244,11 +3244,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-un <rem:ref oid="GLO-0109">secretario</rem:ref> también necesite enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> a otro <rem:ref oid="GLO-0109">secretario</rem:ref></rem:triggeringEvent>
+un <rem:ref oid="GLO-0109">secretario</rem:ref> también necesite enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> a otro <rem:ref oid="GLO-0109">secretario</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0109">secretario</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0109">secretario</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización de la bandeja de entrada del <rem:ref oid="GLO-0109">secretario</rem:ref> receptor</rem:postcondition>
+Actualización de la bandeja de entrada del <rem:ref oid="GLO-0109">secretario</rem:ref> receptor.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3278,11 +3278,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-necesite enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> individual a cualquier <rem:ref oid="GLO-0101">empleado</rem:ref></rem:triggeringEvent>
+necesite enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> individual a cualquier <rem:ref oid="GLO-0101">empleado</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización de la bandeja de entrada del <rem:ref oid="GLO-0008">usuario</rem:ref> receptor</rem:postcondition>
+Actualización de la bandeja de entrada del <rem:ref oid="GLO-0008">usuario</rem:ref> receptor.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3330,11 +3330,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-sea necesaria alguna modificación en los libros de la biblioteca o en los materiales del almacén</rem:triggeringEvent>
+sea necesaria alguna modificación en los libros de la biblioteca o en los materiales del almacén.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3364,11 +3364,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-haya que crear un nuevo <rem:ref oid="GLO-0104">material</rem:ref></rem:triggeringEvent>
+haya que crear un nuevo <rem:ref oid="GLO-0104">material</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3398,11 +3398,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-haya que eliminar algún <rem:ref oid="GLO-0104">material</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:triggeringEvent>
+haya que eliminar algún <rem:ref oid="GLO-0104">material</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref></rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>.</rem:precondition>
 <rem:postcondition>
-Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref></rem:postcondition>
+Actualización del <rem:ref oid="GLO-0002">inventario</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3450,11 +3450,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-haya que crear un <rem:ref oid="GLO-0102">proveedor</rem:ref> nuevo</rem:triggeringEvent>
+haya que crear un <rem:ref oid="GLO-0102">proveedor</rem:ref> nuevo.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta.</rem:precondition>
 <rem:postcondition>
-Actualización de los proveedores del sistema</rem:postcondition>
+Actualización de los proveedores del sistema.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 2
@@ -3484,11 +3484,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-haya que realizar modificaciones en la información de un <rem:ref oid="GLO-0102">proveedor</rem:ref></rem:triggeringEvent>
+haya que realizar modificaciones en la información de un <rem:ref oid="GLO-0102">proveedor</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta.</rem:precondition>
 <rem:postcondition>
-Actualización de la información del <rem:ref oid="GLO-0102">proveedor</rem:ref></rem:postcondition>
+Actualización de la información del <rem:ref oid="GLO-0102">proveedor</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 6
@@ -3518,11 +3518,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-haya que eliminar un <rem:ref oid="GLO-0102">proveedor</rem:ref> nuevo</rem:triggeringEvent>
+haya que eliminar un <rem:ref oid="GLO-0102">proveedor</rem:ref> nuevo.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta.</rem:precondition>
 <rem:postcondition>
-Actualización de los proveedores del sistema</rem:postcondition>
+Actualización de los proveedores del sistema.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 3
@@ -3570,11 +3570,11 @@ None</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-haya que realizar modificaciones en la información de una <rem:ref oid="GLO-0097">sucursal</rem:ref></rem:triggeringEvent>
+haya que realizar modificaciones en la información de una <rem:ref oid="GLO-0097">sucursal</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta</rem:precondition>
+El <rem:ref oid="GLO-0008">usuario</rem:ref> se ha autentificado como <rem:ref oid="GLO-0108">gerente</rem:ref> y su sesión está abierta.</rem:precondition>
 <rem:postcondition>
-Actualización de la información de la <rem:ref oid="GLO-0097">sucursal</rem:ref></rem:postcondition>
+Actualización de la información de la <rem:ref oid="GLO-0097">sucursal</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:value>
 1
@@ -3814,7 +3814,7 @@ None</rem:comments>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0045">
 <rem:description>
-el nombre de un producto, las unidades que hay en el <rem:ref oid="GLO-0002">inventario</rem:ref> actualmente de dicho producto y el código</rem:description>
+el nombre de un producto, las unidades que hay en el <rem:ref oid="GLO-0002">inventario</rem:ref> actualmente de dicho producto y el código.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -3934,7 +3934,7 @@ las adquisiciones</rem:relevantConcept>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0048">
 <rem:description>
-el nombre del producto adquirido, las unidades de producto, el precio, el <rem:ref oid="GLO-0102">proveedor</rem:ref> y fecha de <rem:ref oid="GLO-0056">adquisición</rem:ref>.</rem:description>
+el nombre del producto adquirido, las unidades de producto, el precio, el <rem:ref oid="GLO-0102">proveedor</rem:ref> y fecha de <rem:ref oid="GLO-0100">adquisición</rem:ref>.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -3992,7 +3992,7 @@ Ejemplares</rem:name>
 <rem:day>8</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4014,7 +4014,7 @@ los ejemplares</rem:relevantConcept>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0055">
 <rem:description>
-El ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico)</rem:description>
+El ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -4054,7 +4054,7 @@ los <rem:ref oid="GLO-0083">mensajes</rem:ref></rem:relevantConcept>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0094">
 <rem:description>
-El emisor, el receptor, el texto, la fecha en que se envía y un borrador.</rem:description>
+el emisor, el receptor, el texto, la fecha en que se envía y un borrador.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -4090,7 +4090,7 @@ Devolución de <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4099,7 +4099,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Si un <rem:ref oid="GLO-0095">socio</rem:ref> que ha solicitado un <rem:ref oid="GLO-0096">préstamo</rem:ref> no devuelve el <rem:ref oid="GLO-0098">libro</rem:ref> en el plazo correcto y/o lo devuelve en un mal estado, el <rem:ref oid="GLO-0109">secretario</rem:ref> debe marcar como irresponsable a dicho <rem:ref oid="GLO-0095">socio</rem:ref>.<br/></rem:description>
+si un <rem:ref oid="GLO-0095">socio</rem:ref> que ha solicitado un <rem:ref oid="GLO-0096">préstamo</rem:ref> no devuelve el <rem:ref oid="GLO-0098">libro</rem:ref> en el plazo correcto y/o lo devuelve en un mal estado, el <rem:ref oid="GLO-0109">secretario</rem:ref> debe marcar como irresponsable a dicho <rem:ref oid="GLO-0095">socio</rem:ref>.<br/></rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0002">
@@ -4114,7 +4114,7 @@ Irresponsabilidad</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4123,7 +4123,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Los socios que estén en la lista de clientes irresponsables desaparecerán pasado el periodo de irresponsabilidad de 30 días, si el <rem:ref oid="GLO-0108">gerente</rem:ref> o un <rem:ref oid="GLO-0109">secretario</rem:ref> cancela su estado de irresponsable.</rem:description>
+los socios que estén en la lista de clientes irresponsables desaparecerán pasado el periodo de irresponsabilidad de 30 días, si el <rem:ref oid="GLO-0108">gerente</rem:ref> o un <rem:ref oid="GLO-0109">secretario</rem:ref> cancela su estado de irresponsable.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0003">
@@ -4138,7 +4138,7 @@ Los socios que estén en la lista de clientes irresponsables desaparecerán pasado
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4147,7 +4147,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-El sistema impedirá la creación de un <rem:ref oid="GLO-0096">préstamo</rem:ref> si el <rem:ref oid="GLO-0095">socio</rem:ref> asignado al <rem:ref oid="GLO-0096">préstamo</rem:ref> es irresponsable.</rem:description>
+el sistema impedirá la creación de un <rem:ref oid="GLO-0096">préstamo</rem:ref> si el <rem:ref oid="GLO-0095">socio</rem:ref> asignado al <rem:ref oid="GLO-0096">préstamo</rem:ref> es irresponsable.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0004">
@@ -4162,7 +4162,7 @@ El sistema impedirá la creación de un <rem:ref oid="GLO-0096">préstamo</rem:ref>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4171,7 +4171,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Un <rem:ref oid="GLO-0095">socio</rem:ref> no puede realizar un <rem:ref oid="GLO-0096">préstamo</rem:ref> si ya dispone de uno que aún no ha concluido.</rem:description>
+un <rem:ref oid="GLO-0095">socio</rem:ref> no puede realizar un <rem:ref oid="GLO-0096">préstamo</rem:ref> si ya dispone de uno que aún no ha concluido.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0005">
@@ -4186,7 +4186,7 @@ Fecha de vencimiento</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4195,7 +4195,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-La fecha de vencimiento de un <rem:ref oid="GLO-0096">préstamo</rem:ref> depende del tamaño del <rem:ref oid="GLO-0098">libro</rem:ref>:<br/>-Para los libros de tamaño CORTO, el sistema asignará al <rem:ref oid="GLO-0096">préstamo</rem:ref> una duración de 15 días.<br/>-Para los libros de tamaño MEDIO, el sistema asignará al <rem:ref oid="GLO-0096">préstamo</rem:ref> una duración de 30 días.<br/>-Para los libros de tamaño LARGO, el sistema asignará al <rem:ref oid="GLO-0096">préstamo</rem:ref> una duración de 50 días.<br/>Por tanto, la fecha de vencimiento se calcula sumando la duración del <rem:ref oid="GLO-0096">préstamo</rem:ref> a la fecha de tramitación.<br/></rem:description>
+la fecha de vencimiento de un <rem:ref oid="GLO-0096">préstamo</rem:ref> depende del tamaño del <rem:ref oid="GLO-0098">libro</rem:ref>:<br/>-Para los libros de tamaño CORTO, el sistema asignará al <rem:ref oid="GLO-0096">préstamo</rem:ref> una duración de 15 días.<br/>-Para los libros de tamaño MEDIO, el sistema asignará al <rem:ref oid="GLO-0096">préstamo</rem:ref> una duración de 30 días.<br/>-Para los libros de tamaño LARGO, el sistema asignará al <rem:ref oid="GLO-0096">préstamo</rem:ref> una duración de 50 días.<br/>Por tanto, la fecha de vencimiento se calcula sumando la duración del <rem:ref oid="GLO-0096">préstamo</rem:ref> a la fecha de tramitación.<br/></rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0006">
@@ -4210,7 +4210,7 @@ La fecha de vencimiento de un <rem:ref oid="GLO-0096">préstamo</rem:ref> depende
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4219,7 +4219,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-En cualquier caso, la duración de un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref> a una <rem:ref oid="GLO-0097">sucursal</rem:ref> no puede extenderse más de 60 días.</rem:description>
+en cualquier caso, la duración de un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref> a una <rem:ref oid="GLO-0097">sucursal</rem:ref> no puede extenderse más de 60 días.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0007">
@@ -4234,7 +4234,7 @@ En cualquier caso, la duración de un <rem:ref oid="GLO-0099">préstamo interbibli
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4243,7 +4243,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Una misma <rem:ref oid="GLO-0097">sucursal</rem:ref> no puede pedir un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref> si ya dispone de 3 vigentes.</rem:description>
+una misma <rem:ref oid="GLO-0097">sucursal</rem:ref> no puede pedir un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref> si ya dispone de 3 vigentes.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0009">
@@ -4267,7 +4267,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-La información de los proveedores y las adquisiciones deberá quedar almacenada en el sistema y no puede eliminarse.</rem:description>
+la información de los proveedores y las adquisiciones deberá quedar almacenada en el sistema y no puede eliminarse.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0010">
@@ -4291,7 +4291,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Cuando un <rem:ref oid="GLO-0098">libro</rem:ref> o un objeto del <rem:ref oid="GLO-0106">material bibliotecario</rem:ref> tenga un stock menor o igual que 4 unidades, el sistema deberá enviar una alerta a un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0108">gerente</rem:ref> o como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>.</rem:description>
+cuando un <rem:ref oid="GLO-0098">libro</rem:ref> o un objeto del <rem:ref oid="GLO-0106">material bibliotecario</rem:ref> tenga un stock menor o igual que 4 unidades, el sistema deberá enviar una alerta a un <rem:ref oid="GLO-0008">usuario</rem:ref> que inicie sesión como <rem:ref oid="GLO-0108">gerente</rem:ref> o como <rem:ref oid="GLO-0071">gestor del almacén</rem:ref>.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0011">
@@ -4315,7 +4315,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Cuando una <rem:ref oid="GLO-0097">sucursal</rem:ref> solicite un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref>, el sistema deberá enviar una notificación al <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:description>
+cuando una <rem:ref oid="GLO-0097">sucursal</rem:ref> solicite un <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref>, el sistema deberá enviar una notificación al <rem:ref oid="GLO-0108">gerente</rem:ref>.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0012">
@@ -4339,7 +4339,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-El sistema deberá permitir que el <rem:ref oid="GLO-0108">gerente</rem:ref> pueda modificar la duración del periodo que debe pasar un <rem:ref oid="GLO-0095">socio</rem:ref> como <rem:ref oid="GLO-0095">socio</rem:ref> irresponsable </rem:description>
+el sistema deberá permitir que el <rem:ref oid="GLO-0108">gerente</rem:ref> pueda modificar la duración del periodo que debe pasar un <rem:ref oid="GLO-0095">socio</rem:ref> como <rem:ref oid="GLO-0095">socio</rem:ref> irresponsable.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0013">
@@ -4363,7 +4363,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-El sistema deberá permitir que el <rem:ref oid="GLO-0108">gerente</rem:ref> pueda modificar la duración establecida que cada tipo de <rem:ref oid="GLO-0098">libro</rem:ref> (CORTO, MEDIO, LARGO) asigna a un <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
+el sistema deberá permitir que el <rem:ref oid="GLO-0108">gerente</rem:ref> pueda modificar la duración establecida que cada tipo de <rem:ref oid="GLO-0098">libro</rem:ref> (CORTO, MEDIO, LARGO) asigna a un <rem:ref oid="GLO-0096">préstamo</rem:ref>.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0014">
@@ -4387,7 +4387,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-El sistema deberá permitir que el <rem:ref oid="GLO-0108">gerente</rem:ref> pueda modificar el número de préstamos interbibliotecarios que una <rem:ref oid="GLO-0097">sucursal</rem:ref> puede tener vigentes.</rem:description>
+el sistema deberá permitir que el <rem:ref oid="GLO-0108">gerente</rem:ref> pueda modificar el número de préstamos interbibliotecarios que una <rem:ref oid="GLO-0097">sucursal</rem:ref> puede tener vigentes.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0015">
@@ -4411,7 +4411,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:description>
-Solo el <rem:ref oid="GLO-0108">gerente</rem:ref> puede enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido al resto de empleados.</rem:description>
+solo el <rem:ref oid="GLO-0108">gerente</rem:ref> puede enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido al resto de empleados.</rem:description>
 </rem:constraintRequirement>
 </rem:section>
 <rem:section
@@ -4530,7 +4530,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>No procede<br/></rem:text>
+<rem:text>No procede.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -4565,7 +4565,7 @@ No procede</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>No procede</rem:text>
+<rem:text>No procede.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -4600,7 +4600,7 @@ No procede</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>No procede</rem:text>
+<rem:text>No procede.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -4623,7 +4623,7 @@ None</rem:comments>
 <rem:paragraph
  oid = "PRG-0021">
 <rem:name>
-</rem:name>
+No procede</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4635,7 +4635,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>No procede<br/></rem:text>
+<rem:text>No procede.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -4670,7 +4670,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 None</rem:comments>
-<rem:text>No procede<br/></rem:text>
+<rem:text>No procede.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -4703,7 +4703,7 @@ None</rem:comments>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0004 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4736,7 +4736,7 @@ None</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-cumplir los siguientes requisitos de seguridad: <br/>- La contraseña de <rem:ref oid="GLO-0008">usuario</rem:ref> debe tener al menos 6 caracteres, siendo obligatorios, como mínimo, un número, una letra mayúscula y una minúscula.<br/>- El nombre de <rem:ref oid="GLO-0008">usuario</rem:ref> de un <rem:ref oid="GLO-0101">empleado</rem:ref> en el sistema debe ser único, no tener símbolos ni caracteres especiales y tener una longitud de entre 3 y 15 caracteres.</rem:description>
+cumplir los siguientes requisitos de seguridad: <br/>- La contraseña de <rem:ref oid="GLO-0008">usuario</rem:ref> debe tener al menos 6 caracteres, siendo obligatorios, como mínimo, un número, una letra mayúscula y una minúscula.<br/>- El nombre de <rem:ref oid="GLO-0008">usuario</rem:ref> de un <rem:ref oid="GLO-0101">empleado</rem:ref> en el sistema debe ser único, no tener símbolos ni carácteres especiales y tener una longitud de entre 3 y 15 carácteres.</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement
  oid = "NFR-0008">
@@ -4795,7 +4795,7 @@ No procede</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>No procede</rem:text>
+<rem:text>No procede.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -4831,7 +4831,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>No procede</rem:text>
+<rem:text>No procede.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -6320,7 +6320,7 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Biblioteca Rafael Alberti</rem:place>
 <rem:results>1. Especificación de los actores de negocio principales <br/>- Descripción breve de cada actor <br/>2. Especificación de los requisitos del sistema. <br/>- Descricpión de cada elemento de la biblioteca y la información que el sistema almacena de cada uno de ellos <br/>- Descripción detallada de los casos de uso de los actores de negocio <br/>- Especificación de las reglas de negocio que debe cumplir el sistema <br/>- Especificación de los principales requisitos no funcionales del sistema</rem:results>
-	<rem:attenders stakeholders ="STK-0004 STK-0001 STK-0002 STK-0003 "/>
+	<rem:attenders stakeholders ="STK-0003 STK-0002 STK-0004 STK-0001 "/>
 </rem:meeting>
 </rem:section>
 <rem:section
@@ -6379,7 +6379,7 @@ None</rem:comments>
 <rem:paragraph
  oid = "PRG-0026">
 <rem:name>
-</rem:name>
+No procede</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6391,7 +6391,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>No procede</rem:text>
+<rem:text>No procede.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -6407,7 +6407,7 @@ Participantes y organizaciones</rem:name>
 <rem:day>29</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
@@ -6566,7 +6566,7 @@ IR - G1 - OM -01</rem:name>
 Ninguno</rem:comments>
 <rem:address>Avenida de la Reina Mercedes</rem:address>
 <rem:telephone>954 55 68 17</rem:telephone>
-<rem:fax>No procede</rem:fax>
+<rem:fax>No consta</rem:fax>
 </rem:organization>
 <rem:organization
  oid = "ORG-0002">
@@ -6767,7 +6767,7 @@ Diagramas de la arquitectura del sistema</rem:name>
 <rem:day>8</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0003 "/>
+<rem:authors stakeholders ="STK-0003 STK-0002 "/>
 <rem:sources stakeholders ="STK-0005 "/>
 <rem:comments>
 None</rem:comments>
@@ -6903,7 +6903,7 @@ None</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0100">
 <rem:name>
-<rem:ref oid="GLO-0056">Adquisición</rem:ref></rem:name>
+<rem:ref oid="GLO-0100">Adquisición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6915,7 +6915,7 @@ None</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Compra total de <rem:ref oid="GLO-0104">material</rem:ref>. Esta asociado mediante lineaAdquisición con <rem:ref oid="GLO-0104">material</rem:ref>. Una <rem:ref oid="GLO-0056">adquisición</rem:ref> esta realizada por el <rem:ref oid="GLO-0107">GestorAlmacén</rem:ref> y la suministra un <rem:ref oid="GLO-0102">proveedor</rem:ref>. Está formada por fecha.</rem:text>
+<rem:text> Compra total de <rem:ref oid="GLO-0104">material</rem:ref>. Esta asociado mediante lineaAdquisición con <rem:ref oid="GLO-0104">material</rem:ref>. Una <rem:ref oid="GLO-0100">adquisición</rem:ref> esta realizada por el <rem:ref oid="GLO-0107">GestorAlmacén</rem:ref> y la suministra un <rem:ref oid="GLO-0102">proveedor</rem:ref>. Está formada por fecha.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0105">
@@ -6983,7 +6983,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Tipo de <rem:ref oid="GLO-0101">Empleado</rem:ref>. Gestiona el <rem:ref oid="GLO-0104">Material</rem:ref> y realiza una <rem:ref oid="GLO-0056">Adquisición</rem:ref>.</rem:text>
+<rem:text> Tipo de <rem:ref oid="GLO-0101">Empleado</rem:ref>. Gestiona el <rem:ref oid="GLO-0104">Material</rem:ref> y realiza una <rem:ref oid="GLO-0100">Adquisición</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0098">
@@ -7017,7 +7017,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el <rem:ref oid="GLO-0002">inventario</rem:ref> actualmente de dicho producto,</rem:text>
+<rem:text> Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el <rem:ref oid="GLO-0002">inventario</rem:ref> actualmente de dicho producto,</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0106">
@@ -7068,7 +7068,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Es la <rem:ref oid="GLO-0056">adquisición</rem:ref> temporal, por parte de un <rem:ref oid="GLO-0095">socio</rem:ref>, de un <rem:ref oid="GLO-0098">libro</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca. Se compone del <rem:ref oid="GLO-0095">socio</rem:ref> que lo solicita, el <rem:ref oid="GLO-0109">secretario</rem:ref> que lo tramita, el <rem:ref oid="GLO-0098">libro</rem:ref> solicitado, el ISBN del <rem:ref oid="GLO-0105">ejemplar</rem:ref>, la fecha de tramitación, fecha de vencimiento, la duración y el estado del <rem:ref oid="GLO-0098">libro</rem:ref> en la entrega.</rem:text>
+<rem:text> Es la <rem:ref oid="GLO-0100">adquisición</rem:ref> temporal, por parte de un <rem:ref oid="GLO-0095">socio</rem:ref>, de un <rem:ref oid="GLO-0098">libro</rem:ref> del <rem:ref oid="GLO-0002">inventario</rem:ref> de la biblioteca. Se compone del <rem:ref oid="GLO-0095">socio</rem:ref> que lo solicita, el <rem:ref oid="GLO-0109">secretario</rem:ref> que lo tramita, el <rem:ref oid="GLO-0098">libro</rem:ref> solicitado, el ISBN del <rem:ref oid="GLO-0105">ejemplar</rem:ref>, la fecha de tramitación, fecha de vencimiento, la duración y el estado del <rem:ref oid="GLO-0098">libro</rem:ref> en la entrega.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0099">
@@ -7102,7 +7102,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>  Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una <rem:ref oid="GLO-0056">Adquisición</rem:ref>. Está fromado por nombre, teléfono, email y paginaWeb.</rem:text>
+<rem:text>  Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una <rem:ref oid="GLO-0100">Adquisición</rem:ref>. Está fromado por nombre, teléfono, email y paginaWeb.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0109">
@@ -7396,7 +7396,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0101">
 <rem:name>
-Realizar <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:name>
+Realizar <rem:ref oid="GLO-0100">adquisición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7413,7 +7413,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0038">
 <rem:name>
-Realizar <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:name>
+Realizar <rem:ref oid="GLO-0100">adquisición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7506,7 +7506,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0102">
 <rem:name>
-Tramitar <rem:ref oid="GLO-0096">préstamo</rem:ref> inerbibliotecario</rem:name>
+Tramitar <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7755,7 +7755,7 @@ Tramitar <rem:ref oid="GLO-0096">préstamo</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El proceso comienza con un <rem:ref oid="GLO-0095">socio</rem:ref> solicitando a un <rem:ref oid="GLO-0109">secretario</rem:ref> un <rem:ref oid="GLO-0096">préstamo</rem:ref>. En ese momento el <rem:ref oid="GLO-0109">secretario</rem:ref> buscará entre una lista de socios suministrada y de ser posible seleccionará al <rem:ref oid="GLO-0095">socio</rem:ref> que solicita el <rem:ref oid="GLO-0096">préstamo</rem:ref>. Las condiciones para que sea apto para <rem:ref oid="GLO-0096">préstamo</rem:ref> son dos, que sea responsable y que no tenga otro <rem:ref oid="GLO-0096">préstamo</rem:ref> activo. Tras este paso se mostrará una lista de libros con la información de si estan disponibles o no para su <rem:ref oid="GLO-0096">préstamo</rem:ref>. Por último el sistema asocia una duración al <rem:ref oid="GLO-0096">préstamo</rem:ref> y solicita una confirmación. Una vez confirmado el <rem:ref oid="GLO-0096">préstamo</rem:ref> se crea y se actualiza el <rem:ref oid="GLO-0002">inventario</rem:ref> del <rem:ref oid="GLO-0098">libro</rem:ref> en cuestión.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -7808,7 +7808,7 @@ Tramitar devolución</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El proceso comienza cuando un <rem:ref oid="GLO-0095">socio</rem:ref> llega con la intención de devolver el <rem:ref oid="GLO-0098">libro</rem:ref> de su <rem:ref oid="GLO-0096">préstamo</rem:ref> activo. El <rem:ref oid="GLO-0109">secretario</rem:ref> que lo atienda lo buscará en la lista de préstamos activos y seleccionara, añadiendo la información del estado actual del <rem:ref oid="GLO-0098">libro</rem:ref>. Solicita una cofirmación a esta acción y tras ello el sistema finaliza el <rem:ref oid="GLO-0096">préstamo</rem:ref>, actualizando el <rem:ref oid="GLO-0002">inventario</rem:ref> del <rem:ref oid="GLO-0098">libro</rem:ref> en cuestión. En caso de que el <rem:ref oid="GLO-0098">libro</rem:ref> estuviese en estado crítico, este no sería guardado de nuevo por lo que no se actualizaría el <rem:ref oid="GLO-0002">inventario</rem:ref> y el <rem:ref oid="GLO-0095">socio</rem:ref> se actualizaría a irresponsable.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -7832,7 +7832,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0112">
 <rem:name>
-Realizar <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:name>
+Realizar <rem:ref oid="GLO-0100">adquisición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7849,7 +7849,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0090">
 <rem:name>
-Realizar <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:name>
+Realizar <rem:ref oid="GLO-0100">adquisición</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7861,7 +7861,7 @@ Realizar <rem:ref oid="GLO-0056">adquisición</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El proceso comienza cuando el <rem:ref oid="GLO-0071">gestor del almacén</rem:ref> quiere registrar una compra realizada. De la lista de proveedores suministrada selecciona de cual es la compra que acaba de llegar y tras ello hace un despliegue de los materiales que estan asociados a esa proveedora para seleccionar que y cuanta cantidad de cada producto se ha comprado. Tras completar la lista deseada, se pide una confirmación y se procede a guardar la <rem:ref oid="GLO-0100">adquisición</rem:ref> y a actualizar el <rem:ref oid="GLO-0002">inventario</rem:ref> con los productos anotados.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -7914,7 +7914,7 @@ Crear <rem:ref oid="GLO-0101">empleado</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El proceso comienza con el <rem:ref oid="GLO-0108">gerente</rem:ref> accediendo a la vista de la lista de empleados y desde allí querer añadir uno nuevo. Se le mostrará un formulario con la información requerida que debera rellenar y una vez completado,  el sistema le suministrá un <rem:ref oid="GLO-0008">usuario</rem:ref> y contraseña aleatorios que debera enviar al <rem:ref oid="GLO-0101">empleado</rem:ref> en cuestión para que este pueda iniciar sesión y cambiar posteriormente estos parámetros. El sistema solicita una confirmación y una vez dada, guarda el nuevo <rem:ref oid="GLO-0101">empleado</rem:ref> en el sistema.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -7967,7 +7967,7 @@ Tramitar <rem:ref oid="GLO-0099">préstamo interbibliotecario</rem:ref></rem:name
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El proceso empieza con el <rem:ref oid="GLO-0108">gerente</rem:ref> accediendo a la lista de peticiones de <rem:ref oid="GLO-0096">préstamo</rem:ref> de otras sucursales. En esta lista se muestra automáticamente si este <rem:ref oid="GLO-0096">préstamo</rem:ref> es posible mediante dos factores, si el <rem:ref oid="GLO-0096">préstamo</rem:ref> es posible por la cantidad almacenada, y si la biblioteca objetivo cumple o no con la regla de negocio del límite de préstamos simultáneos. En caso de que ambas restricciones se cumplan, el <rem:ref oid="GLO-0108">gerente</rem:ref> esta capacitado para aceptar la petición dando comienzo al envío de los materiales mediante el <rem:ref oid="GLO-0069">servicio de mensajería</rem:ref> y guardando el <rem:ref oid="GLO-0096">préstamo</rem:ref> en el sistema.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -8020,7 +8020,7 @@ Crear nuevo <rem:ref oid="GLO-0095">socio</rem:ref> (in situ)</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El proceso comienza cuando una persona desde su casa se interesa por afiliarse a la biblioteca desde la propia biblioteca, en ese momento al <rem:ref oid="GLO-0109">secretario</rem:ref> que le atienda se le muestra un formulario con la informacion necesaria para llevar a cabo tal acción. Una vez relleno el sistema solicita confirmación y tras darla, se guarda en el sistema y comienza el proceso de crear el carnet de <rem:ref oid="GLO-0095">socio</rem:ref> y se lo entrega en el momento.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -8055,7 +8055,60 @@ Crear nuevo <rem:ref oid="GLO-0095">socio</rem:ref> (online)</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El proceso comienza cuando una persona desde su casa se interesa por afiliarse a la biblioteca desde la web, en ese momento se le muestra un formulario con la información necesaria para llevar a cabo tal acción. Una vez relleno el sistema solicita confirmación y tras darla, se guarda en el sistema y comienza el proceso de crear y entregar a domicilio el carnet de <rem:ref oid="GLO-0095">socio</rem:ref> llevado a cabo por el sistema de mensajería.<br/></rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0120">
+<rem:name>
+<rem:ref oid="GLO-0083">Mensajes</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.2.7 </rem:number>
+<rem:section
+ oid = "SEC-0121">
+<rem:name>
+Enviar <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>4.2.7.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0111">
+<rem:name>
+Enviar <rem:ref oid="GLO-0110">mensaje</rem:ref> difundido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este proceso permite al <rem:ref oid="GLO-0108">gerente</rem:ref> enviar un <rem:ref oid="GLO-0110">mensaje</rem:ref> dirigido a todos sus empleados. El sistema le suministra al <rem:ref oid="GLO-0108">gerente</rem:ref> un <rem:ref oid="GLO-0110">mensaje</rem:ref> vacío para que este lo rellene con el <rem:ref oid="GLO-0110">mensaje</rem:ref> deseado. Una vez relleno se le pide una confirmación y este <rem:ref oid="GLO-0110">mensaje</rem:ref> debería llegar al buzón de entrada de todos los empleados.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -8146,565 +8199,64 @@ None
 None
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0012"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0009"  target = "IRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0010"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0009"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "IRQ-0011"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0011"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0010"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0011"  target = "IRQ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0006"  target = "IRQ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0010"  target = "IRQ-0011" >
+<rem:trace source = "CRQ-0009"  target = "IRQ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0011"  target = "IRQ-0007" >
+<rem:trace source = "UC-0036"  target = "OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0013"  target = "IRQ-0002" >
+<rem:trace source = "CRQ-0010"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0010"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0013"  target = "IRQ-0003" >
+<rem:trace source = "CRQ-0010"  target = "IRQ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0014"  target = "IRQ-0005" >
+<rem:trace source = "CRQ-0011"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0011"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0002"  target = "IRQ-0011" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0036"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0014"  target = "IRQ-0006" >
+<rem:trace source = "CRQ-0009"  target = "IRQ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0002" >
+<rem:trace source = "UC-0036"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0022"  target = "OBJ-0003" >
+<rem:trace source = "UC-0036"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0022"  target = "OBJ-0006" >
+<rem:trace source = "CRQ-0006"  target = "IRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0034"  target = "OBJ-0005" >
+<rem:trace source = "IRQ-0005"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0014"  target = "IRQ-0007" >
+<rem:trace source = "CRQ-0003"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0034"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0014"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0020"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0013"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0039"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0040"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0027"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0015"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0038"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0013"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0037"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0020"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0026"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0037"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0035"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0015"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0025"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "CRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0041"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0028"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0028"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0041"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "CRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "CRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "CRQ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "CRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "CRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0035"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "CRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "CRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "CRQ-0013" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "CRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "IRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0026"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0027"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "CRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0035"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0034"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0036"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "CRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "CRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "CRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0037"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0037"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0038"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "GLO-0056" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0040"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0015"  target = "CRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0013"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0039"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0015"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "IRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "CRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "IRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "CRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0025"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0040"  target = "CRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0009"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0015"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0013"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0020"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "IRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "CRQ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0020"  target = "CRQ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0020"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0041"  target = "CRQ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0028"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0028"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0041"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0041"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0029"  target = "CRQ-0014" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "CRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0040"  target = "CRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "IRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0025"  target = "IRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0015"  target = "IRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "CRQ-0015" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "CRQ-0015" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0025"  target = "CRQ-0015" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0039"  target = "IRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0012"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "IRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0039"  target = "CRQ-0015" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0004"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0005"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
+<rem:trace source = "CRQ-0002"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0004"  target = "IRQ-0002" >
@@ -8713,65 +8265,566 @@ None
 <rem:trace source = "CRQ-0006"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0003"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "CRQ-0007"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "CRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0005"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0007"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "CRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0005"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0005"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0026"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0035"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0013"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0012"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0011"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0027"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0014"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0038"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0013"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0025"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0039"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0013" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0036"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0034"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0035"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0035"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0026"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0039"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0025"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0027"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0038"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "CRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "CRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0037"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "CRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0025"  target = "IRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0040"  target = "CRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0039"  target = "IRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "CRQ-0015" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0025"  target = "CRQ-0015" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0041"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "CRQ-0015" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0029"  target = "CRQ-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "IRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0028"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "CRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "GLO-0056" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0015"  target = "IRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0012"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "IRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0039"  target = "CRQ-0015" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
 <rem:predefinedValueType
- oid = "PVT-0005">
+ oid = "PVT-0003">
 <rem:name>
-Date</rem:name>
+Natural</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8782,9 +8835,9 @@ Date</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
+Predefined OCL type</rem:comments>
 <rem:description>
-Dates</rem:description>
+Natural numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -8811,27 +8864,6 @@ Real numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
  oid = "PVT-0004">
 <rem:name>
 String</rem:name>
@@ -8848,27 +8880,6 @@ String</rem:name>
 Predefined OCL type</rem:comments>
 <rem:description>
 Alphanumeric strings</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -8894,38 +8905,83 @@ Integer numbers</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>to be analyzed</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>TBD</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verified</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rejected</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>to be analyzed</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>to be approved/rejected</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>TBD</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>to be performed</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rejected</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>TBD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>not solved</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>solved</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>not solved</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>under negotiation</rem:name>
 </rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>not solved</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>under negotiation</rem:name>
 </rem:defectStatusValue>
@@ -8935,109 +8991,10 @@ Integer numbers</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>solved</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>not solved</rem:name>
-</rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificability</rem:name>
-<rem:description>
-<![CDATA[It cannot be verified that the requirement or requirements are satisfied by the system]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>No consistency</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not consistent, i.e. they are in conflict]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No achievability</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements cannot be implemented with current technology o under reasonable cost]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosity</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements can be expressed in a more concise way without altering their meaning]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>No understanding</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements cannot be understood by some reader]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necessity</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>TBD</rem:name>
-<rem:description>
-<![CDATA[To Be Determined]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambiguity</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements, although understandable, have more than one possible interpretation]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Wrong level of detail</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not stated at the right level of detail, i.e. they are too abstract or too detailed]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
 <rem:name>No stability</rem:name>
 <rem:description>
 <![CDATA[The stability of the requirement or requirements have not been estimated]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Design-dependence</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements contain design-dependant elements]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>No completeness</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements do not describe everything the system is supposed to do, do not describe the responses of the system to all realizable situations, or include to-be-determined (TBD) elements]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecision</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not stated in a precise way, i.e. using numerical quantities whenever possible with the right level of precision]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancy</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are redundant or contain redundant elements]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No traceability</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Other</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements have another kind of defect]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Wrong organization</rem:name>
-<rem:description>
-<![CDATA[The requirement or requirements are not correctly organized according to applied standards or the document does not contain mandatory sections]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
@@ -9046,23 +9003,116 @@ Integer numbers</rem:description>
 <![CDATA[The priority, i.e. the importance and urgency of the requirement or requirements have not been determined]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Wrong level of detail</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not stated at the right level of detail, i.e. they are too abstract or too detailed]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Wrong organization</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not correctly organized according to applied standards or the document does not contain mandatory sections]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Other</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements have another kind of defect]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No traceability</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not traced to their origins, either higher-level requirements (i.e. objectives) or stakeholders]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements can be expressed in a more concise way without altering their meaning]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificability</rem:name>
+<rem:description>
+<![CDATA[It cannot be verified that the requirement or requirements are satisfied by the system]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>TBD</rem:name>
+<rem:description>
+<![CDATA[To Be Determined]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>No consistency</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not consistent, i.e. they are in conflict]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancy</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are redundant or contain redundant elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>No understanding</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements cannot be understood by some reader]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambiguity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements, although understandable, have more than one possible interpretation]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necessity</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not necessary because they do not satisfy any customers' or users' need]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Design-dependence</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements contain design-dependant elements]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecision</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements are not stated in a precise way, i.e. using numerical quantities whenever possible with the right level of precision]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No achievability</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements cannot be implemented with current technology o under reasonable cost]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>No completeness</rem:name>
+<rem:description>
+<![CDATA[The requirement or requirements do not describe everything the system is supposed to do, do not describe the responses of the system to all realizable situations, or include to-be-determined (TBD) elements]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>would be nice</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>TBD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>important</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>TBD</rem:name>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>TBD</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>low</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>high</rem:name>
@@ -9070,74 +9120,77 @@ Integer numbers</rem:description>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>medium</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>low</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>TBD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>under construction</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>needs verification</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>needs validation</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>needs verification</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>under construction</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validated</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>is cancelled</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>TBD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>is cancelled</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>resumes</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>year(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>day(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>TBD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>second(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hour(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>hundreth(s) of a second</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>day(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minute(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>month(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>week(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>month(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>year(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>tenth(s) of a second</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hour(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minute(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>second(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>hundreth(s) of a second</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>millisecond(s)</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>can wait</rem:name>
-</rem:urgencyValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>tenth(s) of a second</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>under pressure</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>immediately</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>TBD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>can wait</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>immediately</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
