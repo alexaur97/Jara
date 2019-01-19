@@ -459,36 +459,67 @@ Introducción al dominio del problema</h2><a name="PRG-0012" />
 <p>Cuando se registra un nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>, este tiene la opción de hacerlo en la propia biblioteca o de manera online. En ambos casos se precisa de cierta información que es dada al <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> de la biblioteca. En el caso presencial una vez dada esta información se procede a crear el carnet y entregar en el acto, mientras que en el caso online se abren dos posibilidades, que el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> quiera recogerlo en la biblioteca, en cuyo caso procede como en el caso anterior, o que prefiera recibirlo a domicilio con lo que deberá dar información adicional para que el <a href="#GLO-0069" title="Entidad encargada del reparto de los carnets de socio a domicilio y del transporte del material de un préstamo interbibliotecario.">servicio de mensajería</a> pueda entregar el carnet a domicilio.
 <br />
 <br />
-<br />Durante el proceso de <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>, el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> solicita un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> e informa al personal de la biblioteca de ello.  Esto activa una cadena de eventos que suceden en un orden especifico y pueden dar lugar a tres casos diferenciados.
-<br />Lo primero que se realiza es la comprobacion de su responsabilidad como <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> de la biblioteca, control que de no pasar se le informaría y cumpliría su correspondiente sanción.
-<br />Tras esto se comprueba la disponibilidad del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> y se le informa en caso negativo el proceso termina aqui y en caso afirmativo el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> es completado con la entrega del <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a>.
-<br />Tras un tiempo establecido se lleva a cabo la devolución del <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a> e inmediatamente tras su entrega será analizado en cuestión de su estado, llegando a declarar como irresponsable al <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> si su estado es decrepito.
+<br />Durante el proceso de <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>, el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> solicita un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> e informa al personal de la biblioteca de ello.  Esto activa una cadena de eventos que suceden en un orden específico y pueden dar lugar a tres casos diferenciados.
+<br />Lo primero que se realiza es la comprobación de su responsabilidad como <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> de la biblioteca, control que de no pasar se le informaría y cumpliría su correspondiente sanción.
+<br />Tras esto se comprueba la disponibilidad del <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> y se le informa en caso negativo el proceso termina aquí y en caso afirmativo el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> es completado con la entrega del <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a>.
+<br />Tras un tiempo establecido se lleva a cabo la devolución del <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a> e inmediatamente tras su entrega será analizado en cuestión de su estado, llegando a declarar como irresponsable al <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> si su estado es crítico.
 <br />
 <br />
 <br />La puesta en contacto con el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> la lleva a cabo el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> de la biblioteca, que la informa de la necesidad de un <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> específico ya sean libros u otro <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> de oficina. 
 <br />El <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> se encarga del envió del <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> y una vez en la biblioteca es trabajo del <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> almacenar este <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> y en caso de ser un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> clasificarlo y colocarlo en su respectiva estantería.
 <br />
-<br />Los empleados pueden enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> a otros empleados. En concreto, el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> puede enviárselo a todos los demás tipos de empeados, y viceversa. Los secretarios, además, pueden enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> a otros secretarios.
+<br />Los empleados pueden enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> a otros empleados. En concreto, el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> puede enviárselo a todos los demás tipos de empleados, y viceversa. Los secretarios, además, pueden enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> a otros secretarios.
 <br />
 <br />Por último, en el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> entre bibliotecas actúan el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> y <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> de ambas. Comienza con el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> de la solicitante poniéndose en contacto con el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> de otra biblioteca e informando del <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> solicitado.
-<br />Este delega el trabajo de buscar y concretar si tal <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> es posible y sea cual sea el caso le responde al primero. En caso afirmativo el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> de la biblioteca prestamista se pone en contacto con el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> de la receptora y envía el paquete con los materiales para su posterior clasificación y archivamiento.
-<br />
-</p>
+<br />Este delega el trabajo de buscar y concretar si tal <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> es posible y sea cual sea el caso le responde al primero. En caso afirmativo el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> de la biblioteca prestamista se pone en contacto con el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> de la receptora y envía el paquete con los materiales para su posterior clasificación y archivamiento.</p>
 <a name="SEC-0009" />
 <h2 align="left">2.2 
-Glosario de términos del dominio del problema</h2><a name="GLO-0006" />
+Glosario de términos del dominio del problema</h2><a name="GLO-0056" />
+<p align="left">
+<b> Adquisición:</b> Conjunto final compuesto por las líneas de <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a> de los materiales solicitados para la biblioteca.</p>
+<a name="GLO-0006" />
 <p align="left">
 <b> Central:</b> Biblioteca principal.</p>
+<a name="GLO-0059" />
+<p align="left">
+<b> Ejemplar:</b> Volúmen que pertenece a una obra concreta.</p>
+<a name="GLO-0065" />
+<p align="left">
+<b> Empleado:</b> Hace referencia a los actores del sistema. Existen 3 tipos de actores: el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, el <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a> y los secretarios. Cada uno de ellos cumple una función en la biblioteca.</p>
+<a name="GLO-0063" />
+<p align="left">
+<b> Gerente:</b> Actor del sistema que se encarga de la dirección de la biblioteca y la gestión de los préstamos interbibliotecarios.</p>
 <a name="GLO-0002" />
 <p align="left">
 <b> Inventario:</b> Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.</p>
+<a name="GLO-0062" />
+<p align="left">
+<b> Libro:</b> Se encarga de almacenar la información sobre una obra en particular.</p>
+<a name="GLO-0058" />
+<p align="left">
+<b> Línea de adquisición :</b> Reúne información acerca de la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a> de un <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> en particular.</p>
+<a name="GLO-0061" />
+<p align="left">
+<b> Material:</b> Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.</p>
+<a name="GLO-0060" />
+<p align="left">
+<b> Material bibliotecario:</b> Hace referencia a todo <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> que forma parte del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca que no es un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o un artículo de lectura.</p>
+<a name="GLO-0110" />
+<p align="left">
+<b> Mensaje:</b> Correo electrónico entre empleados.</p>
 <a name="GLO-0003" />
 <p align="left">
 <b> Préstamo:</b>
-<a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">Adquisición</a> temporal, por parte de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>, de un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca.</p>
+<a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">Adquisición</a> temporal, por parte de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>, de un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca.</p>
 <a name="GLO-0005" />
 <p align="left">
 <b> Préstamo interbibliotecario:</b> Intercambio entre dos bibliotecas de uno o más materiales.</p>
+<a name="GLO-0057" />
+<p align="left">
+<b> Proveedor:</b> Encargado de suministrar a la biblioteca los materiales que ésta solicita.</p>
+<a name="GLO-0064" />
+<p align="left">
+<b> Secretario:</b> Actor del sistema que se encarga de tramitar préstamos a los socios.</p>
 <a name="GLO-0004" />
 <p align="left">
 <b> Socio:</b>
@@ -499,39 +530,6 @@ Glosario de términos del dominio del problema</h2><a name="GLO-0006" />
 <a name="GLO-0008" />
 <p align="left">
 <b> Usuario:</b> Persona que hace uso de los servicios que presta la biblioteca.</p>
-<a name="GLO-0056" />
-<p align="left">
-<b> Adquisicion:</b> Conjunto final compuesto por las líneas de <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a> de los materiales solicitados para la biblioteca</p>
-<a name="GLO-0057" />
-<p align="left">
-<b> Proveedor:</b> Encargado de suministrar a la biblioteca los materiales que ésta solicita.</p>
-<a name="GLO-0058" />
-<p align="left">
-<b> Linea de adquisición :</b> Reúne información acerca de la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a> de un <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> en particular.</p>
-<a name="GLO-0059" />
-<p align="left">
-<b> Ejemplar:</b> Volúmen que pertenece a una obra concreta.</p>
-<a name="GLO-0060" />
-<p align="left">
-<b> Material bibliotecario:</b> Hace referencia a todo <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> que forma parte del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca que no es un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o un artículo de lectura.</p>
-<a name="GLO-0061" />
-<p align="left">
-<b> Material:</b> Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.</p>
-<a name="GLO-0062" />
-<p align="left">
-<b> Libro:</b> Se encarga de almacenar la información sobre una obra en particular</p>
-<a name="GLO-0063" />
-<p align="left">
-<b> Gerente:</b> Actor del sistema que se encarga de la dirección de la biblioteca y la gestión de los préstamos interbibliotecarios</p>
-<a name="GLO-0064" />
-<p align="left">
-<b> Secretario:</b> Actor del sistema que se encarga de tramitar préstamos a los socios.</p>
-<a name="GLO-0065" />
-<p align="left">
-<b> Empleado:</b> Hace referencia a los actores del sistema. Existen 3 tipos de actores: el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, el <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a> y los secretarios. Cada uno de ellos cumple una función en la biblioteca.</p>
-<a name="GLO-0110" />
-<p align="left">
-<b> Mensaje:</b> Correo electrónico entre empleados.</p>
 <a name="SEC-0003" />
 <h1 align="left">3 
 Descripción de la situación actual</h1><a name="SEC-0010" />
@@ -576,7 +574,7 @@ Descripción de actores de negocio actuales</h3><a name="GLO-0066" />
 <a name="GLO-0071" />
 <p align="left">
 <b> Gestor del almacén:</b>
-<a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a> que se encarga de la gestión y organización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca y de las adquisiciones</p>
+<a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a> que se encarga de la gestión y organización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca y de las adquisiciones.</p>
 <a name="SEC-0016" />
 <h3 align="left">3.2.2 
 Descripción de procesos de negocio actuales</h3><a name="SEC-0085" />
@@ -652,7 +650,7 @@ Descripción de los subsistemas del sistema a desarrollar</h1><a name="GLO-0023" 
 <b> Gestión de socios:</b> un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> podrá desplegar la lista de socios irresponsables, establecer un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como irresponsable, reestablecerlo como responsable y crearlo, y modificarlo o eliminarlo si el <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> es el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>. Así mismo, un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> sin autentificarse podrá darse de alta como <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> y reservar su carnet.</p>
 <a name="GLO-0078" />
 <p align="left">
-<b> Gestión de proveedores:</b> el <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a> podrá registrar su solicitud y pagar en efectivo al <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>, consultar datos del <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> y registrar un nuevo <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>.</p>
+<b> Gestión de proveedores:</b> el <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a> podrá registrar su solicitud y pagar en efectivo al <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>, consultar datos del <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> y registrar un nuevo <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>.</p>
 <a name="GLO-0079" />
 <p align="left">
 <b> Gestión de personal:</b> el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> podrá crear empleados, eliminarlos y modificar su información.</p>
@@ -664,11 +662,10 @@ Descripción de los subsistemas del sistema a desarrollar</h1><a name="GLO-0023" 
 <b> Gestión de préstamos:</b> el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> o el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> podrán tramitar préstamos con el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> que lo solicite, así como modificar la información de dicho <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> o su duración</p>
 <a name="GLO-0082" />
 <p align="left">
-<b> Gestión de inventario:</b> El <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a> podrá modificar la información del almacén y de los libros de la biblioteca, crear nuevos materiales/libros en el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y eliminarlos.</p>
+<b> Gestión de inventario:</b> El <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a> podrá modificar la información del almacén y de los libros de la biblioteca, crear nuevos materiales/libros en el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y eliminarlos.</p>
 <a name="GLO-0083" />
 <p align="left">
-<b> Mensajes:</b> Cualquier <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> podrá visualizar su bandeja de entrada, 
-<br />Los secretarios y el <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a> podrán enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, los secretarios podrán enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> a otros secretarios, y el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> podrá enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> individuales al <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> que elija, o bien un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido a todos los empleados.</p>
+<b> Mensajes:</b> Cualquier <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> podrá visualizar su bandeja de entrada. Los secretarios y el <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a> podrán enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> al <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, los secretarios podrán enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> a otros secretarios, y el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> podrá enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> individuales al <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> que elija, o bien un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido a todos los empleados.</p>
 <a name="GLO-0084" />
 <p align="left">
 <b> Estadísticas:</b> Cualquier <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> podrá desplegar un tablón de <a href="#GLO-0084" title="Cualquier empleado podrá desplegar un tablón de estadísticas con información relacionada con los préstamos y con los socios de la biblioteca.">estadísticas</a> con información relacionada con los préstamos y con los socios de la biblioteca.</p>
@@ -865,7 +862,7 @@ Cristóbal Guerrero Salguero</a>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-gestionar la información relevante para la gestión de los diferentes tipos de personal (<a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> y <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a>)
+gestionar la información relevante para la gestión de los diferentes tipos de personal (<a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>, <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> y <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>)
 <br />
 </em>
 </td>
@@ -1088,7 +1085,7 @@ Cristóbal Guerrero Salguero</a>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-gestionar todos los procesos y trámites que se relacionan con el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y el proceso de compra (ya sea de materiales bibliotecarios o libros), guardar la información acerca de la cantidad y el estado de los objetos almacenados, y guardar datos estadísticos relativos al <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>,</em>
+gestionar todos los procesos y trámites que se relacionan con el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y el proceso de compra (ya sea de materiales bibliotecarios o libros), guardar la información acerca de la cantidad y el estado de los objetos almacenados, y guardar datos estadísticos relativos al <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>.</em>
 </td>
 </tr>
 <tr>
@@ -1182,7 +1179,7 @@ Especificación de actores del sistema</h3><a name="ACT-0011" />
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">ACT-0011</th>
 <th align="left" valign="top" width="100%">
-<a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">Gestor del almacén</a>
+<a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">Gestor del almacén</a>
 </th>
 </tr>
 <tr>
@@ -1219,7 +1216,7 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
     Este actor representa
-<em>la persona que se encarga de administrar el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca y realizar adquisiciones de nuevos materiales</em>
+<em>la persona que se encarga de administrar el <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca y realizar adquisiciones de nuevos materiales.</em>
 </td>
 </tr>
 <tr>
@@ -1508,7 +1505,7 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Descripción</th>
 <td align="left" valign="top">
     Este actor representa
-<em>la empresa que se encarga del transporte y entrega a domicilio del carné de <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.
+<em>la empresa que se encarga del transporte y entrega a domicilio del carnet de <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.
 <br />
 </em>
 </td>
@@ -1570,6 +1567,10 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
 </li>
@@ -1578,8 +1579,13 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
+</li>
+<li>
+<a href="#CRQ-0004" title="Préstamo múltiple">
+                                [CRQ-0004]  Préstamo múltiple</a>
 </li>
 <li>
 <a href="#CRQ-0001" title="Devolución de préstamo">
@@ -1587,42 +1593,8 @@ Cristóbal Guerrero Salguero</a>
 Devolución de préstamo</a>
 </li>
 <li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
-</li>
-<li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
-</li>
-<li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
-<a href="#CRQ-0005" title="Fecha de vencimiento">
-                                [CRQ-0005] 
-Fecha de vencimiento</a>
-</li>
-<li>
 <a href="#CRQ-0003" title="Préstamo socio irresponsable">
                                 [CRQ-0003]  Préstamo socio irresponsable</a>
-</li>
-<li>
-<a href="#CRQ-0004" title="Préstamo múltiple">
-                                [CRQ-0004]  Préstamo múltiple</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -1630,9 +1602,34 @@ Fecha de vencimiento</a>
 Socios</a>
 </li>
 <li>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
+</li>
+<li>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
+</li>
+<li>
 <a href="#CRQ-0013" title="Duración préstamo">
                                 [CRQ-0013] 
 Duración préstamo</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
+<a href="#CRQ-0005" title="Fecha de vencimiento">
+                                [CRQ-0005] 
+Fecha de vencimiento</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -1865,45 +1862,20 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
+</li>
+<li>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
-</li>
-<li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#CRQ-0002" title="Irresponsabilidad">
@@ -1911,9 +1883,34 @@ Devolución de préstamo</a>
 Irresponsabilidad</a>
 </li>
 <li>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
+</li>
+<li>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
+</li>
+<li>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
 </li>
 </td>
 </tr>
@@ -2117,7 +2114,7 @@ Adquisiciones</h4><a name="UC-0022" />
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0022</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Realizar <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
+Realizar <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
 </th>
 </tr>
 <tr>
@@ -2154,6 +2151,10 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
@@ -2162,42 +2163,13 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#CRQ-0010" title="Stock bajo">
                                 [CRQ-0010] 
 Stock bajo</a>
 </li>
 <li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
 <a href="#CRQ-0009" title="Proveedores">
                                 [CRQ-0009] 
-Proveedores</a>
-</li>
-<li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
-</li>
-<li>
-<a href="#IRQ-0008" title="Adquisiciones">
-                                [IRQ-0008] 
-Adquisiciones</a>
-</li>
-<li>
-<a href="#IRQ-0010" title="Proveedores">
-                                [IRQ-0010] 
 Proveedores</a>
 </li>
 <li>
@@ -2206,14 +2178,39 @@ Proveedores</a>
 Irresponsabilidad</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 <li>
 <a href="#CRQ-0001" title="Devolución de préstamo">
                                 [CRQ-0001] 
 Devolución de préstamo</a>
+</li>
+<li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
+</li>
+<li>
+<a href="#IRQ-0008" title="Adquisiciones">
+                                [IRQ-0008] 
+Adquisiciones</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0010" title="Proveedores">
+                                [IRQ-0010] 
+Proveedores</a>
+</li>
+<li>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
 </li>
 </td>
 </tr>
@@ -2224,7 +2221,7 @@ Devolución de préstamo</a>
 
     caso de uso cuando
 <em>
-haya que realizar alguna <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
+haya que realizar alguna <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
 </em>
 </td>
 </tr>
@@ -2241,10 +2238,10 @@ Los materiales de una compra previa han llegado</td>
 <tr>
 <a name="STP-0060" />
 <td align="center" valign="top">1</td>
-<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales"> Gestor del almacén (ACT-0011)
+<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
-solicita al sistema una nueva <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
+solicita al sistema una nueva <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
 <br />
 </em>
 </td>
@@ -2261,7 +2258,7 @@ recibe la petición y muestra una interfaz con un listado de proveedores</em>
 <tr>
 <a name="STP-0008" />
 <td align="center" valign="top">3</td>
-<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales"> Gestor del almacén (ACT-0011)
+<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
 selecciona el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> deseado</em>
@@ -2279,7 +2276,7 @@ recibe la petición y muestra una interfaz con un listado de materiales</em>
 <tr>
 <a name="STP-0061" />
 <td align="center" valign="top">5</td>
-<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales"> Gestor del almacén (ACT-0011)
+<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
 selecciona que y cuanto de cada uno de ellos</em>
@@ -2291,17 +2288,17 @@ selecciona que y cuanto de cada uno de ellos</em>
 <td>El
      
     sistema<em>
-solicita una confirmación para la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
+solicita una confirmación para la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
 </em>
 </td>
 </tr>
 <tr>
 <a name="STP-0012" />
 <td align="center" valign="top">7</td>
-<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales"> Gestor del almacén (ACT-0011)
+<td>El actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
-confirma la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
+confirma la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
 </em>
 </td>
 </tr>
@@ -2311,7 +2308,7 @@ confirma la <a href="#GLO-0100" title="Compra total de material. Esta asociado m
 <td>El
      
     sistema<em>
-crea la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
+crea la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>
 </em>
 </td>
 </tr>
@@ -2331,7 +2328,7 @@ Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o ma
 <td align="center" valign="top">3</td>
 <td>Si<em>
 no existe el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> deseado,
-                            </em>el actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales"> Gestor del almacén (ACT-0011)
+                            </em>el actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
 deberá crear el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>
@@ -2346,7 +2343,7 @@ deberá crear el <a href="#GLO-0102" title="Encargado de suministrar a la bibliot
 <td align="center" valign="top">5</td>
 <td>Si<em>
 no existe el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> deseado,
-                            </em>el actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales"> Gestor del almacén (ACT-0011)
+                            </em>el actor<a href="#ACT-0011" title="Este actor representa la persona que se encarga de administrar el inventario de la biblioteca y realizar adquisiciones de nuevos materiales."> Gestor del almacén (ACT-0011)
     </a>
 <em>
 deberá crear el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>
@@ -2448,14 +2445,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
-</li>
-<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
 </li>
 </td>
 </tr>
@@ -2733,32 +2730,26 @@ Actualización de los empleados</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        year(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -2825,8 +2816,7 @@ Empleados</a>
 
     caso de uso cuando
 <em>
-haya que realizar modificaciones en la información de un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>
-</em>
+haya que realizar modificaciones en la información de un <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a>.</em>
 </td>
 </tr>
 <tr>
@@ -2882,32 +2872,26 @@ Actualización de la información del <a href="#GLO-0101" title="Hace referencia a
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        month(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">under pressure</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">needs validation</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">medium</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -2960,10 +2944,6 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
                                 [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
 </li>
@@ -2972,19 +2952,31 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
+</li>
+<li>
+<a href="#CRQ-0007" title="Préstamo interbibliotecario múltiple">
+                                [CRQ-0007]  Préstamo interbibliotecario múltiple</a>
+</li>
+<li>
+<a href="#CRQ-0006" title="Préstamo interbibliotecario">
+                                [CRQ-0006]  Préstamo interbibliotecario</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
+<a href="#CRQ-0011" title="Solicitud préstamo interbibliotecario">
+                                [CRQ-0011] 
+Solicitud préstamo interbibliotecario</a>
 </li>
 <li>
 <a href="#IRQ-0011" title="Ejemplares">
@@ -2997,17 +2989,9 @@ Ejemplares</a>
 Sucursales</a>
 </li>
 <li>
-<a href="#CRQ-0006" title="Préstamo interbibliotecario">
-                                [CRQ-0006]  Préstamo interbibliotecario</a>
-</li>
-<li>
-<a href="#CRQ-0011" title="Solicitud préstamo interbibliotecario">
-                                [CRQ-0011] 
-Solicitud préstamo interbibliotecario</a>
-</li>
-<li>
-<a href="#CRQ-0007" title="Préstamo interbibliotecario múltiple">
-                                [CRQ-0007]  Préstamo interbibliotecario múltiple</a>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
 </li>
 <li>
 <a href="#CRQ-0014" title="Cantidad préstamos interbibliotecarios">
@@ -3099,7 +3083,7 @@ crea el <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de un
 <tr>
 <a name="STP-0020" />
 <td align="center" valign="top">7</td>
-<td>El actor<a href="#ACT-0005" title="Este actor representa la empresa que se encarga del transporte y entrega a domicilio del carné de socio."> Servicio de mensajería (ACT-0005)
+<td>El actor<a href="#ACT-0005" title="Este actor representa la empresa que se encarga del transporte y entrega a domicilio del carnet de socio."> Servicio de mensajería (ACT-0005)
     </a>
 <em>
 envía el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> préstado a la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>
@@ -3539,7 +3523,7 @@ provee fabrica la tarjeta de asociado</em>
 <tr>
 <a name="STP-0090" />
 <td align="center" valign="top">8</td>
-<td>El actor<a href="#ACT-0005" title="Este actor representa la empresa que se encarga del transporte y entrega a domicilio del carné de socio."> Servicio de mensajería (ACT-0005)
+<td>El actor<a href="#ACT-0005" title="Este actor representa la empresa que se encarga del transporte y entrega a domicilio del carnet de socio."> Servicio de mensajería (ACT-0005)
     </a>
 <em>
 entrega el carnet al <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> en cuestión</em>
@@ -3655,22 +3639,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#CRQ-0002" title="Irresponsabilidad">
@@ -3678,13 +3652,23 @@ Devolución de préstamo</a>
 Irresponsabilidad</a>
 </li>
 <li>
+<a href="#CRQ-0003" title="Préstamo socio irresponsable">
+                                [CRQ-0003]  Préstamo socio irresponsable</a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
+</li>
+<li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
 </li>
 <li>
-<a href="#CRQ-0003" title="Préstamo socio irresponsable">
-                                [CRQ-0003]  Préstamo socio irresponsable</a>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -3695,7 +3679,7 @@ Socios</a>
 
     caso de uso cuando
 <em>
-haya que establecer a un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como irresponsable</em>
+haya que establecer a un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como irresponsable.</em>
 </td>
 </tr>
 <tr>
@@ -3752,32 +3736,26 @@ Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la bi
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        month(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -3827,12 +3805,17 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
 <a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -3843,11 +3826,6 @@ Socios</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
-</li>
-<li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
 </li>
 </td>
 </tr>
@@ -3915,32 +3893,26 @@ Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la bi
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        month(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -3994,14 +3966,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
-</li>
-<li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
+</li>
+<li>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
 </li>
 <li>
 <a href="#CRQ-0012" title="Duración irresponsabilidad">
@@ -4074,32 +4046,26 @@ Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la bi
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        month(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -4150,17 +4116,22 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#CRQ-0001" title="Devolución de préstamo">
                                 [CRQ-0001] 
 Devolución de préstamo</a>
+</li>
+<li>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -4171,11 +4142,6 @@ Socios</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
-</li>
-<li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
 </li>
 <li>
 <a href="#CRQ-0012" title="Duración irresponsabilidad">
@@ -4249,32 +4215,26 @@ Actualización en la información de un <a href="#GLO-0095" title="Es el usuario d
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        month(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">under pressure</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -4325,12 +4285,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#IRQ-0004" title="Empleados">
@@ -4407,32 +4367,26 @@ Actualización de los socios del sistema</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        year(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">medium</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -4490,6 +4444,15 @@ Cristóbal Guerrero Salguero</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0012" title="Mensajes">
+                                [IRQ-0012]  Mensajes</a>
+</li>
+<li>
+<a href="#CRQ-0015" title="Broadcast">
+                                [CRQ-0015] 
+Broadcast</a>
 </li>
 </td>
 </tr>
@@ -4681,6 +4644,15 @@ Cristóbal Guerrero Salguero</a>
                                 [IRQ-0004] 
 Empleados</a>
 </li>
+<li>
+<a href="#IRQ-0012" title="Mensajes">
+                                [IRQ-0012]  Mensajes</a>
+</li>
+<li>
+<a href="#CRQ-0015" title="Broadcast">
+                                [CRQ-0015] 
+Broadcast</a>
+</li>
 </td>
 </tr>
 <tr>
@@ -4747,32 +4719,26 @@ Actualización de la bandeja de entrada del <a href="#GLO-0108" title="Tipo de Em
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        day(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">under pressure</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -4830,6 +4796,15 @@ Cristóbal Guerrero Salguero</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#CRQ-0015" title="Broadcast">
+                                [CRQ-0015] 
+Broadcast</a>
+</li>
+<li>
+<a href="#IRQ-0012" title="Mensajes">
+                                [IRQ-0012]  Mensajes</a>
 </li>
 </td>
 </tr>
@@ -4897,32 +4872,26 @@ Actualización de la bandeja de entrada del <a href="#GLO-0109" title="Tipo de Em
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        day(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">would be nice</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">under pressure</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">medium</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -4936,7 +4905,7 @@ None</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0025</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> individuales (<a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>)</th>
+Enviar <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> individuales (<a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a>)</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -4979,6 +4948,15 @@ Cristóbal Guerrero Salguero</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0012" title="Mensajes">
+                                [IRQ-0012]  Mensajes</a>
+</li>
+<li>
+<a href="#CRQ-0015" title="Broadcast">
+                                [CRQ-0015] 
+Broadcast</a>
 </li>
 </td>
 </tr>
@@ -5046,32 +5024,26 @@ Actualización de la bandeja de entrada del <a href="#GLO-0008" title="Persona qu
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        week(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -5130,19 +5102,19 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
+</li>
+<li>
 <a href="#IRQ-0008" title="Adquisiciones">
                                 [IRQ-0008] 
 Adquisiciones</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
 </li>
 <li>
 <a href="#IRQ-0003" title="Libros">
@@ -5155,19 +5127,19 @@ Libros</a>
 Stock bajo</a>
 </li>
 <li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
                                 [IRQ-0006] 
 Préstamos interbibliotecarios</a>
 </li>
 <li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
-</li>
-<li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 </td>
 </tr>
@@ -5184,7 +5156,7 @@ sea necesaria alguna modificación en los libros de la biblioteca o en los materi
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>
 </td>
 </tr>
 <tr>
@@ -5235,32 +5207,26 @@ Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o ma
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        week(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -5311,12 +5277,17 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 <li>
 <a href="#IRQ-0008" title="Adquisiciones">
@@ -5332,11 +5303,6 @@ Libros</a>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
 </li>
 <li>
 <a href="#IRQ-0005" title="Productos del inventario">
@@ -5359,7 +5325,7 @@ haya que crear un nuevo <a href="#GLO-0104" title="Es el conjunto de todos los l
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>
 </td>
 </tr>
 <tr>
@@ -5410,32 +5376,26 @@ Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o ma
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        week(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -5494,14 +5454,9 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
 </li>
 <li>
 <a href="#IRQ-0005" title="Productos del inventario">
@@ -5509,9 +5464,14 @@ Empleados</a>
 Productos del inventario</a>
 </li>
 <li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 </td>
 </tr>
@@ -5529,7 +5489,7 @@ haya que eliminar algún <a href="#GLO-0104" title="Es el conjunto de todos los l
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a>
+El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>
 </td>
 </tr>
 <tr>
@@ -5580,32 +5540,26 @@ Actualización del <a href="#GLO-0002" title="Conjunto de todos los libros y/o ma
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        month(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -5744,32 +5698,26 @@ Actualización de los proveedores del sistema</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+2
+veces por
+                         
+                        year(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -5828,6 +5776,11 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
+<a href="#IRQ-0010" title="Proveedores">
+                                [IRQ-0010] 
+Proveedores</a>
+</li>
+<li>
 <a href="#CRQ-0009" title="Proveedores">
                                 [CRQ-0009] 
 Proveedores</a>
@@ -5836,11 +5789,6 @@ Proveedores</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
-</li>
-<li>
-<a href="#IRQ-0010" title="Proveedores">
-                                [IRQ-0010] 
-Proveedores</a>
 </li>
 </td>
 </tr>
@@ -5908,32 +5856,26 @@ Actualización de la información del <a href="#GLO-0102" title="Encargado de sumi
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+6
+veces por
+                         
+                        year(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -5992,11 +5934,6 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
-<a href="#IRQ-0010" title="Proveedores">
-                                [IRQ-0010] 
-Proveedores</a>
-</li>
-<li>
 <a href="#CRQ-0009" title="Proveedores">
                                 [CRQ-0009] 
 Proveedores</a>
@@ -6005,6 +5942,11 @@ Proveedores</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0010" title="Proveedores">
+                                [IRQ-0010] 
+Proveedores</a>
 </li>
 </td>
 </tr>
@@ -6070,32 +6012,26 @@ Actualización de los proveedores del sistema</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+3
+veces por
+                         
+                        year(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">under pressure</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -6231,32 +6167,26 @@ Actualización de la información de la <a href="#GLO-0097" title="Biblioteca que 
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+1
+veces por
+                         
+                        month(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -6310,12 +6240,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
+</li>
+<li>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 </td>
 </tr>
@@ -6335,7 +6265,7 @@ los socios.
 <ul>
 <li>
 <a name="DAT-0042" />
-el nombre, apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. También debe almacenar si el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> es irresponsable; por defecto será responsable. </li>
+el nombre, apellidos, una foto opcional, una dirección, un número de teléfono y un correo electrónico opcional. También debe almacenar si el <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> es irresponsable; por defecto será responsable. </li>
 </ul>
 </td>
 </tr>
@@ -6544,12 +6474,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
+</li>
+<li>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 </td>
 </tr>
@@ -6663,12 +6593,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#CRQ-0006" title="Préstamo interbibliotecario">
                                 [CRQ-0006]  Préstamo interbibliotecario</a>
+</li>
+<li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 </td>
 </tr>
@@ -7136,16 +7066,16 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
-                                [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
+</li>
+<li>
+<a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
+                                [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 </td>
 </tr>
@@ -7165,7 +7095,7 @@ las adquisiciones.
 <ul>
 <li>
 <a name="DAT-0048" />
-el nombre del producto adquirido, las unidades de producto, el precio, el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> y fecha de <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>.</li>
+el nombre del producto adquirido, las unidades de producto, el precio, el <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> y fecha de <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a>.</li>
 </ul>
 </td>
 </tr>
@@ -7379,12 +7309,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
+</li>
+<li>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 </td>
 </tr>
@@ -7436,27 +7366,19 @@ El ISBN, el código de identificación, la editorial, la edición y el estado (Buen
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -7470,7 +7392,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">IRQ-0012</th>
 <th align="left" valign="top" width="100%" colspan="2">
-<a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">Mensajes</a>
+<a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">Mensajes</a>
 </th>
 </tr>
 <tr>
@@ -7494,19 +7416,30 @@ Alejandro Ugarte Ruiz</a>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
 <td colspan="2">
     El sistema deberá almacenar la información correspondiente a 
 <em>
-los <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a>.
+los <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a>.
 				</em>
     En concreto:
 </td>
@@ -7549,27 +7482,19 @@ El emisor, el receptor, el texto, la fecha en que se envía y un borrador.</li>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -7627,9 +7552,9 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -7642,14 +7567,14 @@ Socios</a>
 Préstamos</a>
 </li>
 <li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
-</li>
-<li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
 </li>
 </td>
 </tr>
@@ -7665,27 +7590,19 @@ Si un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a 
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -7740,14 +7657,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7761,27 +7678,19 @@ Los socios que estén en la lista de clientes irresponsables desaparecerán pasado
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -7858,27 +7767,19 @@ El sistema impedirá la creación de un <a href="#GLO-0096" title="Es la adquisici
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -7954,27 +7855,19 @@ Un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la 
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8056,27 +7949,19 @@ La fecha de vencimiento de un <a href="#GLO-0096" title="Es la adquisición tempo
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8132,9 +8017,9 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0007" title="Sucursales">
@@ -8142,19 +8027,19 @@ Libros</a>
 Sucursales</a>
 </li>
 <li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
-</li>
-<li>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
                                 [IRQ-0006] 
 Préstamos interbibliotecarios</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
+</li>
+<li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
 </li>
 </td>
 </tr>
@@ -8168,27 +8053,19 @@ En cualquier caso, la duración de un <a href="#GLO-0099" title="Es el intercambi
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8243,14 +8120,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
-</li>
-<li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
 </li>
 <li>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
@@ -8258,14 +8135,14 @@ Productos del inventario</a>
 Préstamos interbibliotecarios</a>
 </li>
 <li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
+</li>
+<li>
 <a href="#IRQ-0007" title="Sucursales">
                                 [IRQ-0007] 
 Sucursales</a>
-</li>
-<li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
 </li>
 </td>
 </tr>
@@ -8279,27 +8156,19 @@ Una misma <a href="#GLO-0097" title="Biblioteca que depende de la principal y de
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8324,13 +8193,25 @@ Proveedores</th>
 <tr>
 <th align="left" valign="top">Autores</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0002">
+Raúl Navarro Cruz</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Fuentes</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -8358,27 +8239,19 @@ La información de los proveedores y las adquisiciones deberá quedar almacenada e
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8428,14 +8301,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0005" title="Productos del inventario">
@@ -8449,32 +8322,24 @@ Productos del inventario</a>
 <td align="left" valign="top">
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
-Cuando un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o un objeto del <a href="#GLO-0106" title="Hace referencia a todo material que forma parte del inventario de la biblioteca que no es un libro o un artículo de lectura. Está formado por el código del producto.">material bibliotecario</a> tenga un stock menor o igual que 4 unidades, el sistema deberá enviar una alerta a un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> que inicie sesión como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a>.</em>
+Cuando un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o un objeto del <a href="#GLO-0106" title="Hace referencia a todo material que forma parte del inventario de la biblioteca que no es un libro o un artículo de lectura. Está formado por el código del producto.">material bibliotecario</a> tenga un stock menor o igual que 4 unidades, el sistema deberá enviar una alerta a un <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> que inicie sesión como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o como <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones.">gestor del almacén</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8525,14 +8390,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
-</li>
-<li>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
                                 [IRQ-0006] 
 Préstamos interbibliotecarios</a>
+</li>
+<li>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
 </li>
 </td>
 </tr>
@@ -8546,27 +8411,19 @@ Cuando una <a href="#GLO-0097" title="Biblioteca que depende de la principal y d
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8632,27 +8489,19 @@ El sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. T
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8724,27 +8573,19 @@ El sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. T
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">under pressure</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8825,27 +8666,96 @@ El sistema deberá permitir que el <a href="#GLO-0108" title="Tipo de Empleado. T
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">high</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="CRQ-0015" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">CRQ-0015</th>
+<th align="left" valign="top" width="100%">
+Broadcast</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 19/01/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0003">
+José Antonio Souto Villegas</a>
+<br />
+</li>
+</ul>
 </td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Cristóbal Guerrero Salguero</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#IRQ-0012" title="Mensajes">
+                                [IRQ-0012]  Mensajes</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
+<em>
+Solo el <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> puede enviar un <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> difundido al resto de empleados.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">immediately</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">validated</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8907,27 +8817,19 @@ desplegar una lista de los socios que han sido marcados como irresponsables para
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">important</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -8994,27 +8896,19 @@ desplegar un apartado de <a href="#GLO-0084" title="Cualquier empleado podrá des
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">immediately</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">validated</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="1">high</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -9893,6 +9787,44 @@ Información sobre trazabilidad</h2><a name="TRM-0001" />
                 -
             </td>
 </tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0015" title="Broadcast">CRQ-0015</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
 </table>
 <p align="center">
 <b>Matriz de rastreabilidad</b>:
@@ -10156,8 +10088,8 @@ Reglas de negocio frente a información</p>
 <a href="&#xA;                        #IRQ-0012" title="Mensajes">IRQ-0012</a>
 </th>
 <td align="center" valign="top">
-                -
-            </td>
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
 <td align="center" valign="top">
                 -
             </td>
@@ -10858,6 +10790,9 @@ Casos de uso frente a objetivos</p>
 <th align="center" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #CRQ-0014" title="Cantidad préstamos interbibliotecarios">CRQ-0014</a>
 </th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0015" title="Broadcast">CRQ-0015</a>
+</th>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -10894,8 +10829,8 @@ Casos de uso frente a objetivos</p>
                 -
             </td>
 <td align="center" valign="top">
-                -
-            </td>
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
 <td align="center" valign="top">
                 -
             </td>
@@ -10935,11 +10870,35 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #UC-0008" title="Enviar mensaje a secretario">UC-0008</a>
 </th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -10992,26 +10951,8 @@ Casos de uso frente a objetivos</p>
                 -
             </td>
 <td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11077,6 +11018,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -11166,6 +11110,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11183,6 +11130,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -11320,6 +11270,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11397,6 +11350,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11432,6 +11388,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -11551,6 +11510,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11613,6 +11575,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -11705,6 +11670,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11782,6 +11750,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11818,8 +11789,8 @@ Casos de uso frente a objetivos</p>
                 -
             </td>
 <td align="center" valign="top">
-                -
-            </td>
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
 <td align="center" valign="top">
                 -
             </td>
@@ -11859,6 +11830,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -11876,6 +11850,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -12013,6 +11990,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -12039,6 +12019,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -12167,6 +12150,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -12244,6 +12230,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -12285,6 +12274,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -12398,6 +12390,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -12415,6 +12410,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -12552,11 +12550,35 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #UC-0039" title="Enviar mensaje difundido">UC-0039</a>
 </th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -12609,26 +12631,8 @@ Casos de uso frente a objetivos</p>
                 -
             </td>
 <td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -12706,6 +12710,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
                 -
             </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
@@ -12768,6 +12775,9 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+<td align="center" valign="top">
+                -
+            </td>
 <td align="center" valign="top">
                 -
             </td>

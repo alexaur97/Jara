@@ -309,7 +309,7 @@ Modelo de clases del sistema</h1><a name="SEC-0060" />
 <h2 align="left">3.1 
 Diagramas de clases del sistema</h2><a name="GRF-0044" />
 <p align="center">
-<img src="" title="" />
+<img src="..\Imágenes\Diagrama completo.png" title="..\Imágenes\Diagrama completo.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -319,7 +319,7 @@ Diagrama de clases del sistema</p>
 <h2 align="left">3.2 
 Descripción de las clases del sistema</h2><a name="GLO-0100" />
 <p align="left">
-<b> Adquisición:</b> Compra total de <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>. Esta asociado mediante lineaAdquisición con <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>. Una <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a> esta realizada por el <a href="#GLO-0107" title="Tipo de Empleado. Gestiona el Material y realiza una Adquisición.">GestorAlmacén</a> y la suministra un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>. Está formada por fecha.</p>
+<b> Adquisición:</b> Compra total de <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>. Esta asociado mediante lineaAdquisición con <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>. Una <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a> esta realizada por el <a href="#GLO-0107" title="Tipo de Empleado. Gestiona el Material y realiza una Adquisición.">GestorAlmacén</a> y la suministra un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>. Está formada por fecha.</p>
 <a name="GLO-0105" />
 <p align="left">
 <b> Ejemplar:</b> Es una unidad de un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">Libro</a> determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).</p>
@@ -333,7 +333,7 @@ Descripción de las clases del sistema</h2><a name="GLO-0100" />
 </p>
 <a name="GLO-0107" />
 <p align="left">
-<b> GestorAlmacén:</b> Tipo de <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a>. Gestiona el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">Material</a> y realiza una <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">Adquisición</a>.</p>
+<b> GestorAlmacén:</b> Tipo de <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a>. Gestiona el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">Material</a> y realiza una <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">Adquisición</a>.</p>
 <a name="GLO-0098" />
 <p align="left">
 <b> Libro:</b> Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario  y el tamaño del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a>: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).</p>
@@ -345,16 +345,16 @@ Descripción de las clases del sistema</h2><a name="GLO-0100" />
 <b> Material bibliotecario:</b> Hace referencia a todo <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> que forma parte del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca que no es un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o un artículo de lectura. Está formado por el código del producto.</p>
 <a name="GLO-0103" />
 <p align="left">
-<b> Mensaje:</b> Hace referencia a un correo electrónico entre empleados. Los <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada, Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> disponen de emisor, receptor, texto, fecha en que se envía y comprobación de si es o no un borrador.</p>
+<b> Mensaje:</b> Hace referencia a un correo electrónico entre empleados. Los <a href="#GLO-0083" title="Cualquier empleado podrá visualizar su bandeja de entrada. Los secretarios y el gestor del almacén podrán enviar mensajes al gerente, los secretarios podrán enviar mensajes a otros secretarios, y el gerente podrá enviar mensajes individuales al empleado que elija, o bien un mensaje difundido a todos los empleados.">mensajes</a> disponen de emisor, receptor, texto, fecha en que se envía y comprobación de si es o no un borrador.</p>
 <a name="GLO-0096" />
 <p align="left">
-<b> Préstamo:</b>Es la <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a> temporal, por parte de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>, de un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca. Se compone del <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> que lo solicita, el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> que lo tramita, el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> solicitado, el ISBN del <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a>, la fecha de tramitación, fecha de vencimiento, la duración y el estado del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> en la entrega.</p>
+<b> Préstamo:</b>Es la <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">adquisición</a> temporal, por parte de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>, de un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca. Se compone del <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> que lo solicita, el <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a> que lo tramita, el <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> solicitado, el ISBN del <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a>, la fecha de tramitación, fecha de vencimiento, la duración y el estado del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> en la entrega.</p>
 <a name="GLO-0099" />
 <p align="left">
 <b> Préstamo interbibliotecario:</b> Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> prestado, las unidades de dicho <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a>, si es un <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> o es <a href="#GLO-0106" title="Hace referencia a todo material que forma parte del inventario de la biblioteca que no es un libro o un artículo de lectura. Está formado por el código del producto.">material bibliotecario</a>, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).</p>
 <a name="GLO-0102" />
 <p align="left">
-<b> Proveedor:</b>  Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">Adquisición</a>. Está fromado por nombre, teléfono, email y paginaWeb.</p>
+<b> Proveedor:</b>  Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una <a href="#GLO-0056" title="Conjunto final compuesto por las líneas de adquisición de los materiales solicitados para la biblioteca.">Adquisición</a>. Está fromado por nombre, teléfono, email y paginaWeb.</p>
 <a name="GLO-0109" />
 <p align="left">
 <b> Secretario:</b> Tipo de <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a>. Tramita un <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a>.
@@ -401,7 +401,7 @@ Préstamos</h3><a name="SEC-0099" />
 <h4 align="left">4.1.1.1 
 Tramitar préstamo</h4><a name="GRF-0036" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Tramitar préstamo.png" title="..\dagramas de secuencia final\Tramitar préstamo.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -413,7 +413,7 @@ Devoluciones</h3><a name="SEC-0100" />
 <h4 align="left">4.1.2.1 
 Tramitar devolución</h4><a name="GRF-0037" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Tramitar devolución.png" title="..\dagramas de secuencia final\Tramitar devolución.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -425,7 +425,7 @@ Adquisiciones</h3><a name="SEC-0101" />
 <h4 align="left">4.1.3.1 
 Realizar adquisición</h4><a name="GRF-0038" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Realizar adquisición.png" title="..\dagramas de secuencia final\Realizar adquisición.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -437,7 +437,7 @@ Empleados</h3><a name="SEC-0103" />
 <h4 align="left">4.1.4.1 
 Crear empleado</h4><a name="GRF-0039" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Crear empleado.png" title="..\dagramas de secuencia final\Crear empleado.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -448,7 +448,7 @@ Crear empleado</p>
 <h4 align="left">4.1.5.1 
 Tramitar préstamo inerbibliotecario</h4><a name="GRF-0040" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Tramitar préstamo interbibliotecario.png" title="..\dagramas de secuencia final\Tramitar préstamo interbibliotecario.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -460,7 +460,7 @@ Socios</h3><a name="SEC-0104" />
 <h4 align="left">4.1.6.1 
 Crear nuevo socio (in situ)</h4><a name="GRF-0041" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Crear nuevo socio inSitu.png" title="..\dagramas de secuencia final\Crear nuevo socio inSitu.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -470,7 +470,7 @@ Crear nuevo socio (in situ)</p>
 <h4 align="left">4.1.6.2 
 Crear nuevo socio (online)</h4><a name="GRF-0042" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Crear nuevo socio Online.png" title="..\dagramas de secuencia final\Crear nuevo socio Online.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
@@ -481,7 +481,7 @@ Crear nuevo socio (online)</p>
 <h4 align="left">4.1.7.1 
 Enviar mensaje difundido</h4><a name="GRF-0043" />
 <p align="center">
-<img src="" title="" />
+<img src="..\dagramas de secuencia final\Broadcast.png" title="..\dagramas de secuencia final\Broadcast.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
