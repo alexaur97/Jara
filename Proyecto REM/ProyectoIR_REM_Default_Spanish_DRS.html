@@ -117,7 +117,7 @@ Diagramas de clases del sistema</a>
 <td align="left" valign="top">3.2 </td>
 <td align="left" valign="top" width="100%" colspan="2">
 <a href="#SEC-0070">
-Glosario de términos del dominio del problema</a>
+Descripción de las clases del sistema</a>
 </td>
 </tr>
 <tr><td />
@@ -133,6 +133,110 @@ Diagramas de estado de las clases del sistema</a>
 <a href="#SEC-0052">
 Modelo de casos de uso del sistema</a>
 </th>
+</tr>
+<tr><td />
+<td align="left" valign="top">4.1 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0090">
+Diagramas de secuencia del sistema</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0092">
+Préstamos</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0093">
+Devoluciones</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.3 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0094">
+Adquisiciones</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.4 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0095">
+Empleados</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.5 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0096">
+Préstamo interbibliotecario</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.6 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0097">
+Socios</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.1.7 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0098"> Mensajes</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">4.2 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0091">
+Descripción de los diagramas de secuencia del sistema</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.2.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0107">
+Préstamo</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.2.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0109">
+Devoluciones</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.2.3 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0111">
+Adquisiciones</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.2.4 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0113">
+Empleados</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.2.5 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0115">
+Préstamos interbibliotecario</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">4.2.6 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0117">
+Socios</a>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">5 </th>
@@ -176,7 +280,7 @@ Alcance</h2><a name="PRG-0030" />
 <a name="SEC-0066" />
 <h2 align="left">1.2 
 Objetivos</h2><a name="PRG-0055" />
-<p>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los socios, las adquisiciones de <a href="#GLO-0061" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">material</a> bibliotecario (así como la gestión en el almacén) y la comunicación de la <a href="#GLO-0006" title="Biblioteca principal.">central</a> con sus diferentes sucursales.</p>
+<p>Creación de un sistema de información que permita gestionar de manera eficaz los préstamos de libros, la información y suscripción de los socios, las adquisiciones de material bibliotecario (así como la gestión en el almacén) y la comunicación de la <a href="#GLO-0006" title="Biblioteca principal.">central</a> con sus diferentes sucursales.</p>
 <a name="SEC-0050" />
 <h1 align="left">2 
 Arquitectura lógica del sistema</h1><a name="SEC-0067" />
@@ -197,67 +301,73 @@ Descripción de la arquitectura del sistema</h2><a name="PRG-0050" />
 <br />De manera genérica, los componentes de MVC se podrían definir como sigue:
 <br />
 <br />El Modelo: Es la representación de la información con la cual el sistema opera, por lo tanto gestiona todos los accesos a dicha información, tanto consultas como actualizaciones, implementando también los privilegios de acceso que se hayan descrito en las especificaciones de la aplicación (lógica de negocio).
-<br />El Controlador: Responde a eventos (usualmente acciones del <a href="#GLO-0039" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a>) e invoca peticiones al 'modelo' cuando se hace alguna solicitud sobre la información.
-<br />La Vista: Presenta el 'modelo' (información y lógica de negocio) en un formato adecuado para interactuar (usualmente la interfaz de <a href="#GLO-0039" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a>).
+<br />El Controlador: Responde a eventos (usualmente acciones del usuario) e invoca peticiones al 'modelo' cuando se hace alguna solicitud sobre la información.
+<br />La Vista: Presenta el 'modelo' (información y lógica de negocio) en un formato adecuado para interactuar (usualmente la interfaz de usuario).
 <br />
 </p>
 <a name="SEC-0051" />
 <h1 align="left">3 
 Modelo de clases del sistema</h1><a name="SEC-0060" />
 <h2 align="left">3.1 
-Diagramas de clases del sistema</h2><a name="PRG-0051" />
-<p>El diagrama de clases se encuentra en el archivo Diagrama.png, adjunto en el zip del entregable, para facilitar su correcta visualización.</p>
+Diagramas de clases del sistema</h2><a name="GRF-0044" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Diagrama de clases del sistema</p>
 <a name="SEC-0070" />
 <h2 align="left">3.2 
-Glosario de términos del dominio del problema</h2><a name="GLO-0037" />
+Descripción de las clases del sistema</h2><a name="GLO-0100" />
 <p align="left">
-<b> Socio:</b>
-<a href="#GLO-0039" title="Persona que hace uso de los servicios que presta la biblioteca.">Usuario</a> que pertenece a la biblioteca. </p>
-<a name="GLO-0035" />
+<b> Adquisición:</b> Compra total de material. Esta asociado mediante lineaAdquisición con material. Una <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a> esta realizada por el <a href="#GLO-0107" title="Tipo de Empleado. Gestiona el Material y realiza una Adquisición.">GestorAlmacén</a> y la suministra un <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a>. Está formada por fecha.</p>
+<a name="PRG-0105" />
+<p>
+</p>
+<a name="GLO-0101" />
 <p align="left">
-<b> Préstamo:</b> Adquisición temporal, por parte de un <a href="#GLO-0068" title="Usuario que pertenece a la biblioteca.">socio</a>, de un <a href="#GLO-0062" title="Se encarga de almacenar la información sobre una obra en particular">libro</a> del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca.</p>
-<a name="GLO-0036" />
+<b> Empleado:</b> Hace referencia a los actores del sistema. Es una generalizaciòn de <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">Gerente</a>, <a href="#GLO-0107" title="Tipo de Empleado. Gestiona el Material y realiza una Adquisición.">GestorAlmacén</a> y <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">Secretario</a>. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.</p>
+<a name="GLO-0108" />
 <p align="left">
-<b> PréstamoInterbibliotecario:</b> Intercambio entre la <a href="#GLO-0006" title="Biblioteca principal.">central</a> y una <a href="#GLO-0038" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar.">sucursal</a> de uno o más materiales.</p>
-<a name="GLO-0038" />
+<b> Gerente:</b> Tipo de <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a>. Tramita el PréstamoInterbibliotecario.
+<br />
+</p>
+<a name="GLO-0107" />
 <p align="left">
-<b> Sucursal:</b> Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar.</p>
-<a name="GLO-0039" />
+<b> GestorAlmacén:</b> Tipo de <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a>. Gestiona el Material y realiza una <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">Adquisición</a>.</p>
+<a name="PRG-0098" />
+<p>
+</p>
+<a name="PRG-0104" />
+<p>
+</p>
+<a name="PRG-0106" />
+<p>
+</p>
+<a name="PRG-0103" />
+<p>
+</p>
+<a name="PRG-0096" />
+<p>
+</p>
+<a name="PRG-0099" />
+<p>
+</p>
+<a name="GLO-0102" />
 <p align="left">
-<b> Usuario:</b> Persona que hace uso de los servicios que presta la biblioteca.</p>
-<a name="GLO-0040" />
+<b> Proveedor:</b>  Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">Adquisición</a>. Está fromado por nombre, teléfono, email y paginaWeb.</p>
+<a name="GLO-0109" />
 <p align="left">
-<b> Empleado:</b> Hace referencia a los actores del sistema. Existen 3 tipos de actores: el <a href="#GLO-0066" title="Persona que se encarga de la supervisión y gestión de la biblioteca.">gerente</a>, el <a href="#GLO-0071" title="Empleado que se encarga de la gestión y organización del inventario de la biblioteca y de las adquisiciones">gestor del almacén</a> y los secretarios. Cada uno de ellos cumple una función en la biblioteca.</p>
-<a name="GLO-0041" />
-<p align="left">
-<b> Secretario:</b> Actor del sistema que se encarga de tramitar préstamos a los socios.</p>
-<a name="GLO-0042" />
-<p align="left">
-<b> Gerente:</b> Actor del sistema que se encarga de la dirección de la biblioteca y la gestión de los préstamos interbibliotecarios</p>
-<a name="GLO-0043" />
-<p align="left">
-<b> GestorAlmacen:</b> Actor del sistema encargado de la gestión de los materiales del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> y de la adquisición de nuevos materiales a traves de los proveedores</p>
-<a name="GLO-0034" />
-<p align="left">
-<b> Material:</b> Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.</p>
-<a name="GLO-0044" />
-<p align="left">
-<b> MaterialBibliotecario:</b> Hace referencia a todo <a href="#GLO-0061" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">material</a> que forma parte del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a> de la biblioteca que no es un <a href="#GLO-0062" title="Se encarga de almacenar la información sobre una obra en particular">libro</a> o un artículo de lectura.</p>
-<a name="GLO-0045" />
-<p align="left">
-<b> Libro:</b> Se encarga de almacenar la información sobre una obra en particular</p>
-<a name="GLO-0046" />
-<p align="left">
-<b> Ejemplar:</b> Volúmen que pertenece a una obra concreta.</p>
-<a name="GLO-0047" />
-<p align="left">
-<b> LineaAdquisicion :</b> Reúne información acerca de la adquisición de un <a href="#GLO-0061" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">material</a> en particular.</p>
-<a name="GLO-0048" />
-<p align="left">
-<b> Adquisicion:</b> Conjunto final compuesto por las líneas de adquisición de los materialessolicitados para la biblioteca</p>
-<a name="GLO-0049" />
-<p align="left">
-<b> Proveedor:</b> Encargado de suministrar a la biblioteca los materiales que ésta solicita.</p>
+<b> Secretario:</b> Tipo de <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a>. Tramita un préstamo.
+<br />
+</p>
+<a name="PRG-0095" />
+<p>
+</p>
+<a name="PRG-0097" />
+<p>
+</p>
 <a name="SEC-0069" />
 <h2 align="left">3.3 
 Diagramas de estado de las clases del sistema</h2><a name="GRF-0031" />
@@ -274,7 +384,8 @@ Borrador mensaje</p>
 </p>
 <p align="center">
 <b>Figura 2</b>:
-                 Ejemplar</p>
+                
+Ejemplar</p>
 <a name="GRF-0033" />
 <p align="center">
 <img src="..\Imágenes\Responsabilidad.png" title="..\Imágenes\Responsabilidad.png" />
@@ -285,7 +396,151 @@ Borrador mensaje</p>
 Responsabilidad</p>
 <a name="SEC-0052" />
 <h1 align="left">4 
-Modelo de casos de uso del sistema</h1><a name="SEC-0053" />
+Modelo de casos de uso del sistema</h1><a name="SEC-0090" />
+<h2 align="left">4.1 
+Diagramas de secuencia del sistema</h2><a name="SEC-0092" />
+<h3 align="left">4.1.1 
+Préstamos</h3><a name="SEC-0099" />
+<h4 align="left">4.1.1.1 
+Tramitar préstamo</h4><a name="GRF-0036" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Tramitar préstamo</p>
+<a name="SEC-0093" />
+<h3 align="left">4.1.2 
+Devoluciones</h3><a name="SEC-0100" />
+<h4 align="left">4.1.2.1 
+Tramitar devolución</h4><a name="GRF-0037" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Tramitar devolución</p>
+<a name="SEC-0094" />
+<h3 align="left">4.1.3 
+Adquisiciones</h3><a name="SEC-0101" />
+<h4 align="left">4.1.3.1 
+Realizar adquisición</h4><a name="GRF-0038" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Realizar adquisición</p>
+<a name="SEC-0095" />
+<h3 align="left">4.1.4 
+Empleados</h3><a name="SEC-0103" />
+<h4 align="left">4.1.4.1 
+Crear empleado</h4><a name="GRF-0039" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Crear empleado</p>
+<a name="SEC-0096" />
+<h3 align="left">4.1.5 
+Préstamo interbibliotecario</h3><a name="SEC-0102" />
+<h4 align="left">4.1.5.1 
+Tramitar préstamo inerbibliotecario</h4><a name="GRF-0040" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Tramitar préstamo interbibliotecario</p>
+<a name="SEC-0097" />
+<h3 align="left">4.1.6 
+Socios</h3><a name="SEC-0104" />
+<h4 align="left">4.1.6.1 
+Crear nuevo socio (in situ)</h4><a name="GRF-0041" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Crear nuevo socio (in situ)</p>
+<a name="SEC-0105" />
+<h4 align="left">4.1.6.2 
+Crear nuevo socio (online)</h4><a name="GRF-0042" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Crear nuevo socio (online)</p>
+<a name="SEC-0098" />
+<h3 align="left">4.1.7  Mensajes</h3><a name="SEC-0106" />
+<h4 align="left">4.1.7.1 
+Enviar mensaje difundido</h4><a name="GRF-0043" />
+<p align="center">
+<img src="" title="" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Enviar mensaje difundido</p>
+<a name="SEC-0091" />
+<h2 align="left">4.2 
+Descripción de los diagramas de secuencia del sistema</h2><a name="SEC-0107" />
+<h3 align="left">4.2.1 
+Préstamo</h3><a name="SEC-0108" />
+<h4 align="left">4.2.1.1 
+Tramitar préstamo</h4><a name="PRG-0088" />
+<p>
+</p>
+<a name="SEC-0109" />
+<h3 align="left">4.2.2 
+Devoluciones</h3><a name="SEC-0110" />
+<h4 align="left">4.2.2.1 
+Tramitar devolución</h4><a name="PRG-0089" />
+<p>
+</p>
+<a name="SEC-0111" />
+<h3 align="left">4.2.3 
+Adquisiciones</h3><a name="SEC-0112" />
+<h4 align="left">4.2.3.1 
+Realizar adquisición</h4><a name="PRG-0090" />
+<p>
+</p>
+<a name="SEC-0113" />
+<h3 align="left">4.2.4 
+Empleados</h3><a name="SEC-0114" />
+<h4 align="left">4.2.4.1 
+Crear empleado</h4><a name="PRG-0091" />
+<p>
+</p>
+<a name="SEC-0115" />
+<h3 align="left">4.2.5 
+Préstamos interbibliotecario</h3><a name="SEC-0116" />
+<h4 align="left">4.2.5.1 
+Tramitar préstamo interbibliotecario</h4><a name="PRG-0092" />
+<p>
+</p>
+<a name="SEC-0117" />
+<h3 align="left">4.2.6 
+Socios</h3><a name="SEC-0118" />
+<h4 align="left">4.2.6.1 
+Crear nuevo socio (in situ)</h4><a name="PRG-0093" />
+<p>
+</p>
+<a name="SEC-0119" />
+<h4 align="left">4.2.6.2 
+Crear nuevo socio (online)</h4><a name="PRG-0094" />
+<p>
+</p>
+<a name="SEC-0053" />
 <h1 align="left">5 
 Interfaz de usuario del sistema</h1><a name="SEC-0054" />
 <h1 align="left">6 
