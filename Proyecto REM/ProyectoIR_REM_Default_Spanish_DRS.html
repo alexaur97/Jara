@@ -256,6 +256,69 @@ Interfaz de usuario del sistema</a>
 Interfaz de servicios del sistema</a>
 </th>
 </tr>
+<tr><td />
+<td align="left" valign="top">6.1 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0122">
+Diagramas de interfaz de servicio del sistema</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">6.2 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0123">
+Descripción de la interfaz de servicios del sistema</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">6.2.1 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0124">
+Servicios de Préstamos</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">6.2.2 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0125">
+Servicios de Sucursales</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">6.2.3 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0126">
+Servicios de Inventario</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">6.2.4 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0127">
+Servicios de Proveedores</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">6.2.5 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0128">
+Servicios de Mensajes</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">6.2.6 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0129">
+Servicios de Socios</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">6.2.7 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0130">
+Servicios de Empleados</a>
+</td>
+</tr>
 <tr>
 <th align="left" valign="top">7 </th>
 <th align="left" valign="top" width="100%" colspan="3">
@@ -547,7 +610,149 @@ Interfaz de usuario del sistema</h1><a name="PRG-0112" />
 <p>Esta sección se define en el conjunto de mockups se se aporta en un zip junto a los documentos PDF.</p>
 <a name="SEC-0054" />
 <h1 align="left">6 
-Interfaz de servicios del sistema</h1><a name="SEC-0068" />
+Interfaz de servicios del sistema</h1><a name="SEC-0122" />
+<h2 align="left">6.1 
+Diagramas de interfaz de servicio del sistema</h2><a name="GRF-0046" />
+<p align="center">
+<img src="..\dagramas de secuencia final\Diagrama de servicios.png" title="..\dagramas de secuencia final\Diagrama de servicios.png" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Diagrama de intefaz de servicios del sistema</p>
+<a name="SEC-0123" />
+<h2 align="left">6.2 
+Descripción de la interfaz de servicios del sistema</h2><a name="SEC-0124" />
+<h3 align="left">6.2.1 
+Servicios de Préstamos</h3><a name="PRG-0113" />
+<p>System::ObtenerPrestamosSocios(socios : Set(<a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a>))
+<br />: Set(Boolean)
+<br />- Devuelve el conjunto de verdaderos o falsos para un conjunto de socios concreto</p>
+<a name="PRG-0114" />
+<p>System::ObtenerListadoLibros()
+<br />: Set( <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">Libro</a> ) 
+<br />- Devuelve el conjunto de todos los libros del sistema</p>
+<a name="PRG-0115" />
+<p>System::ObtenerDisponibilidad(Set(<a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">Libro</a>))
+<br />: Set( Boolean )
+<br />- Indica qué libros están disponibles para prestar</p>
+<a name="PRG-0116" />
+<p>System::AsignarDuraciónPréstamo(<a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> : <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">Libro</a>)
+<br />: int
+<br />- Asigna al <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> su duración dependiendo del tamaño del <a href="#GLO-0098" title="Se encarga de almacenar la información sobre una obra en particular. Se compone del título, el autor, el género literario y el tamaño del libro: CORTO (menos de 40 páginas), MEDIO (de 41 a 200 páginas) y LARGO (más de 200 páginas).">libro</a> que recibe como parámetro</p>
+<a name="PRG-0117" />
+<p>System::CrearPréstamo()
+<br />: <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">Préstamo</a>
+<br />- Crea el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> con los datos establecidos en los pasos anteriores</p>
+<a name="PRG-0118" />
+<p>System::ObtenerListaPréstamos()
+<br />: Set( <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">Préstamo</a> )
+<br />- Devuelve el conjunto de préstamos vigentes</p>
+<a name="PRG-0119" />
+<p>System::CerrarPréstamo(<a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> : <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">Préstamo</a>)
+<br />: void
+<br />- Termina el <a href="#GLO-0096" title="Es la adquisición temporal, por parte de un socio, de un libro del inventario de la biblioteca. Se compone del socio que lo solicita, el secretario que lo tramita, el libro solicitado, el ISBN del ejemplar, la fecha de tramitación, fecha de vencimiento, la duración y el estado del libro en la entrega.">préstamo</a> que se pasa como parámetro</p>
+<a name="SEC-0125" />
+<h3 align="left">6.2.2 
+Servicios de Sucursales</h3><a name="PRG-0120" />
+<p>System::ObtenerListaPeticiones()
+<br />: Set( Petición )
+<br />- Devuelve el conjunto de peticiones que ha recibido la <a href="#GLO-0006" title="Biblioteca principal.">central</a>
+</p>
+<a name="PRG-0121" />
+<p>System::ObtenerPréstamosSucursal(<a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> : <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">Sucursal</a>)
+<br />: Set( PréstamoInterbibliotecario )
+<br />- Devuelve el conjunto de préstamos interbibliotecarios vigentes de una <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a>
+</p>
+<a name="PRG-0122" />
+<p>System::ObtenerPosibilidadPréstamo(<a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> : <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">Sucursal</a>)
+<br />: Boolean
+<br />- Indica si a la <a href="#GLO-0097" title="Biblioteca que depende de la principal y desempeña las mismas funciones que esta en en otro lugar. Está compuesta por el nombre, la dirección, el teléfono, el gerente actual y página web opcional.">sucursal</a> pasada como parámetro se le puede asignar un nuevo <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>
+</p>
+<a name="PRG-0123" />
+<p>System::CrearPréstamoInterbibliotecario()
+<br />: PréstamoInterbibliotecario
+<br />- Crea un nuevo <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a>
+</p>
+<a name="PRG-0124" />
+<p>System::InformarServicioMensajería()
+<br />: void
+<br />- Avisa al <a href="#GLO-0069" title="Entidad encargada del reparto de los carnets de socio a domicilio y del transporte del material de un préstamo interbibliotecario.">servicio de mensajería</a> de que el <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> de un <a href="#GLO-0099" title="Es el intercambio entre dos bibliotecas de uno o más materiales. Está formado por el nombre del material prestado, las unidades de dicho material, si es un libro o es material bibliotecario, la fecha de tramitación y la fecha de devolución (pudiendo ésta ser prorrogada).">préstamo interbibliotecario</a> está disponible para ser transportado</p>
+<a name="SEC-0126" />
+<h3 align="left">6.2.3 
+Servicios de Inventario</h3><a name="PRG-0125" />
+<p>System::ActualizarInventario(Map&lt;<a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">Material</a>, Integer&gt; lista)
+<br />: Set(<a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">Material</a>)
+<br />- Actualiza la información relativa al <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
+<br />
+</p>
+<a name="PRG-0126" />
+<p>System::AumentarCantidad(<a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> : <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">Material</a>, cantidad : Integer)
+<br />: <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">Material</a>
+<br />- Aumenta en una unidad la cantidad del <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">material</a> que se pasa como parámetro</p>
+<a name="PRG-0127" />
+<p>System::ActualizarEjemplar(<a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a> : <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">Ejemplar</a>, estado : String)
+<br />: <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">Ejemplar</a>
+<br />- Actualiza el estado y el stock del <a href="#GLO-0105" title="Es una unidad de un Libro determinado, que está formado por el ISBN, el código de identificación, la editorial, la edición y el estado (Buen estado, Mal estado, Crítico).">ejemplar</a> que se pasa como parámetro</p>
+<a name="SEC-0127" />
+<h3 align="left">6.2.4 
+Servicios de Proveedores</h3><a name="PRG-0128" />
+<p>System::ObtenerListaProveedores()
+<br />: Set( <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">Proveedor</a> )
+<br />- Devuelve el conjunto de proveedores guardados en el sistema
+<br />
+</p>
+<a name="PRG-0129" />
+<p>System::ObtenerListaMateriales(<a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">proveedor</a> : <a href="#GLO-0102" title="Encargado de suministrar a la biblioteca los materiales que ésta solicita. Suministra una Adquisición. Está fromado por nombre, teléfono, email y paginaWeb.">Proveedor</a>)
+<br />: Set( <a href="#GLO-0104" title="Es el conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca. Está formado por el nombre del producto y las unidades que hay en el inventario actualmente de dicho producto,">Material</a> )
+<br />- Devuelve el conjunto de materiales del <a href="#GLO-0002" title="Conjunto de todos los libros y/o materiales bibliotecarios de los que dispone una biblioteca.">inventario</a>
+</p>
+<a name="PRG-0130" />
+<p>System::CrearAdquisición()
+<br />: <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">Adquisición</a>
+<br />- Crea una nueva <a href="#GLO-0100" title="Compra total de material. Esta asociado mediante lineaAdquisición con material. Una adquisición esta realizada por el GestorAlmacén y la suministra un proveedor. Está formada por fecha.">adquisición</a>
+</p>
+<a name="SEC-0128" />
+<h3 align="left">6.2.5 
+Servicios de Mensajes</h3><a name="PRG-0131" />
+<p>System::CrearMensaje(<a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> : <a href="#GLO-0110" title="Correo electrónico entre empleados.">Mensaje</a>)
+<br />: <a href="#GLO-0110" title="Correo electrónico entre empleados.">Mensaje</a>
+<br />- Almacena un nuevo <a href="#GLO-0110" title="Correo electrónico entre empleados.">mensaje</a> en el sistema</p>
+<a name="SEC-0129" />
+<h3 align="left">6.2.6 
+Servicios de Socios</h3><a name="PRG-0132" />
+<p>System::CrearSocio(<a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> : <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a>)
+<br />: <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a>
+<br />- Crea un nuevo <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> en el sistema</p>
+<a name="PRG-0133" />
+<p>System::CrearCarnet(<a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> : <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a>)
+<br />: void
+<br />- Ordena la impresión de un carnet para un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> concreto</p>
+<a name="PRG-0134" />
+<p>System::InformarServicioMensajería(<a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> : <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a>)
+<br />: void
+<br />- Avisa al <a href="#GLO-0069" title="Entidad encargada del reparto de los carnets de socio a domicilio y del transporte del material de un préstamo interbibliotecario.">servicio de mensajería</a> de que un carnet de <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> está disponible para ser entregado</p>
+<a name="PRG-0135" />
+<p>System::PonerSocioAIrresponsable(<a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> : <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a>)
+<br />: <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a>
+<br />- Pone a false el atributo esResponsable de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> concreto</p>
+<a name="PRG-0136" />
+<p>System::ObtenerListaSocios()
+<br />: Set( <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">Socio</a> ) 
+<br />- Devuelve el conjunto de todos los socios del sistema</p>
+<a name="SEC-0130" />
+<h3 align="left">6.2.7 
+Servicios de Empleados</h3><a name="PRG-0137" />
+<p>System::ObtenerNombreYContraseñaAleatorios()
+<br />: TupleType(nombre : String, contraseña : String)
+<br />- Devuelve una tupla &lt;nombre-<a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a>, contraseña&gt; cuando se crea un nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> en el sistema</p>
+<a name="PRG-0138" />
+<p>System::CrearEmpleado()
+<br />: <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">Empleado</a>
+<br />- Crea un nuevo <a href="#GLO-0101" title="Hace referencia a los actores del sistema. Es una generalizaciòn de Gerente, GestorAlmacén y Secretario. Esta formado por nombre, apellidos, DNI, foto, correo, salario y fechaContratación.">empleado</a> en el sistema
+<br />
+</p>
+<a name="SEC-0068" />
 <h1 align="left">7 
 Información sobre trazabilidad</h1></body>
 </html>
