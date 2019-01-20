@@ -1160,12 +1160,20 @@ Proveedores</p>
 <p align="center">
 <b>Figura 5</b>:
                  Mensajes</p>
-<a name="GRF-0029" />
+<a name="GRF-0045" />
 <p align="center">
-<img src="..\Imágenes\Casos de uso\Caso de uso de inventario.png" title="..\Imágenes\Casos de uso\Caso de uso de inventario.png" />
+<img src="..\Imágenes\Casos de uso\Caso de uso de empleados.png" title="..\Imágenes\Casos de uso\Caso de uso de empleados.png" />
 </p>
 <p align="center">
 <b>Figura 6</b>:
+                
+Empleados</p>
+<a name="GRF-0029" />
+<p align="center">
+<img src="..\Imágenes\Casos de uso\Caso de uso de sucursales.png" title="..\Imágenes\Casos de uso\Caso de uso de sucursales.png" />
+</p>
+<p align="center">
+<b>Figura 7</b>:
                  Inventario</p>
 <a name="SEC-0036" />
 <h3 align="left">6.2.2 
@@ -1557,22 +1565,22 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -1983,21 +1991,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#CRQ-0003" title="Préstamo socio irresponsable">
-                                [CRQ-0003]  Préstamo socio irresponsable</a>
-</li>
-<li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -2008,6 +2007,15 @@ Socios</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#CRQ-0003" title="Préstamo socio irresponsable">
+                                [CRQ-0003]  Préstamo socio irresponsable</a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
 </li>
 <li>
 <a href="#CRQ-0002" title="Irresponsabilidad">
@@ -2155,11 +2163,6 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
@@ -2168,6 +2171,11 @@ Empleados</a>
 <a href="#CRQ-0002" title="Irresponsabilidad">
                                 [CRQ-0002] 
 Irresponsabilidad</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -2185,157 +2193,6 @@ haya que reestablecer manualmente a un <a href="#GLO-0095" title="Es el usuario 
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
 El <a href="#GLO-0008" title="Persona que hace uso de los servicios que presta la biblioteca.">usuario</a> se ha autentificado como <a href="#GLO-0108" title="Tipo de Empleado. Tramita el PréstamoInterbibliotecario.">gerente</a> o <a href="#GLO-0109" title="Tipo de Empleado. Tramita un préstamo.">secretario</a>.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-Actualización del estado de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-1
-veces por
-                         
-                        month(s)</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">vital</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">immediately</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validated</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">high</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-None</td>
-</tr>
-</table>
-<p />
-<a name="UC-0040" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0040</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Reestablecer <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> como responsable</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 19/12/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0004">
-Alejandro Ugarte Ruiz</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0005">
-Cristóbal Guerrero Salguero</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">
-<li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
-</li>
-<li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
-<a href="#CRQ-0012" title="Duración irresponsabilidad">
-                                [CRQ-0012] 
-Duración irresponsabilidad</a>
-</li>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-cumpla el plazo de irresponsabilidad de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a>.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
-El periodo de irresponsabilidad de un <a href="#GLO-0095" title="Es el usuario de la biblioteca que pertenece a la misma. Está formado por el nombre, los apellidos, una foto opcional, un número de teléfono y un correo electrónico opcional. El socio puede ser responsable o irresponsable; por defecto será responsable.">socio</a> ya ha finalizado.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -2467,11 +2324,6 @@ Cristóbal Guerrero Salguero</a>
 Devolución de préstamo</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
 <a href="#CRQ-0002" title="Irresponsabilidad">
                                 [CRQ-0002] 
 Irresponsabilidad</a>
@@ -2480,6 +2332,11 @@ Irresponsabilidad</a>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 <li>
 <a href="#CRQ-0012" title="Duración irresponsabilidad">
@@ -2628,14 +2485,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
 <a href="#IRQ-0001" title="Socios">
                                 [IRQ-0001] 
 Socios</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -2781,36 +2638,12 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
 </li>
 <li>
-<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
-                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
-</li>
-<li>
 <a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
-</li>
-<li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
-<a href="#CRQ-0002" title="Irresponsabilidad">
-                                [CRQ-0002] 
-Irresponsabilidad</a>
-</li>
-<li>
-<a href="#CRQ-0005" title="Fecha de vencimiento">
-                                [CRQ-0005] 
-Fecha de vencimiento</a>
-</li>
-<li>
-<a href="#CRQ-0003" title="Préstamo socio irresponsable">
-                                [CRQ-0003]  Préstamo socio irresponsable</a>
+<a href="#OBJ-0001" title="GESTIÓN DE SOCIOS">
+                                [OBJ-0001]  GESTIÓN DE SOCIOS</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -2823,23 +2656,47 @@ Socios</a>
 Libros</a>
 </li>
 <li>
-<a href="#CRQ-0004" title="Préstamo múltiple">
-                                [CRQ-0004]  Préstamo múltiple</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
 <a href="#IRQ-0002" title="Préstamos">
                                 [IRQ-0002] 
 Préstamos</a>
 </li>
 <li>
+<a href="#CRQ-0002" title="Irresponsabilidad">
+                                [CRQ-0002] 
+Irresponsabilidad</a>
+</li>
+<li>
+<a href="#CRQ-0005" title="Fecha de vencimiento">
+                                [CRQ-0005] 
+Fecha de vencimiento</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
+<a href="#CRQ-0004" title="Préstamo múltiple">
+                                [CRQ-0004]  Préstamo múltiple</a>
+</li>
+<li>
 <a href="#CRQ-0013" title="Duración préstamo">
                                 [CRQ-0013] 
 Duración préstamo</a>
+</li>
+<li>
+<a href="#CRQ-0003" title="Préstamo socio irresponsable">
+                                [CRQ-0003]  Préstamo socio irresponsable</a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -3074,22 +2931,22 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
+</li>
+<li>
 <a href="#OBJ-0005" title="GESTIÓN DE PRÉSTAMOS">
                                 [OBJ-0005]  GESTIÓN DE PRÉSTAMOS</a>
 </li>
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
 </li>
 <li>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
-</li>
-<li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -3102,6 +2959,11 @@ Socios</a>
 Irresponsabilidad</a>
 </li>
 <li>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
+</li>
+<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
@@ -3110,11 +2972,6 @@ Libros</a>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
-</li>
-<li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
 </li>
 </td>
 </tr>
@@ -3346,22 +3203,22 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
                                 [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#IRQ-0007" title="Sucursales">
                                 [IRQ-0007] 
 Sucursales</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -3509,18 +3366,18 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
-</li>
-<li>
-<a href="#CRQ-0007" title="Préstamo interbibliotecario múltiple">
-                                [CRQ-0007]  Préstamo interbibliotecario múltiple</a>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
 </li>
 <li>
 <a href="#CRQ-0011" title="Solicitud préstamo interbibliotecario">
                                 [CRQ-0011] 
 Solicitud préstamo interbibliotecario</a>
+</li>
+<li>
+<a href="#CRQ-0006" title="Préstamo interbibliotecario">
+                                [CRQ-0006]  Préstamo interbibliotecario</a>
 </li>
 <li>
 <a href="#IRQ-0004" title="Empleados">
@@ -3533,18 +3390,18 @@ Empleados</a>
 Ejemplares</a>
 </li>
 <li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
+</li>
+<li>
+<a href="#CRQ-0007" title="Préstamo interbibliotecario múltiple">
+                                [CRQ-0007]  Préstamo interbibliotecario múltiple</a>
 </li>
 <li>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
                                 [IRQ-0006] 
 Préstamos interbibliotecarios</a>
-</li>
-<li>
-<a href="#CRQ-0006" title="Préstamo interbibliotecario">
-                                [CRQ-0006]  Préstamo interbibliotecario</a>
 </li>
 <li>
 <a href="#CRQ-0014" title="Cantidad préstamos interbibliotecarios">
@@ -3757,17 +3614,17 @@ Cristóbal Guerrero Salguero</a>
 Empleados</a>
 </li>
 <li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#OBJ-0004" title="GESTIÓN DE SUCURSALES">
                                 [OBJ-0004]  GESTIÓN DE SUCURSALES</a>
 </li>
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
 </li>
 </td>
 </tr>
@@ -3905,12 +3762,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
+</li>
+<li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#CRQ-0009" title="Proveedores">
@@ -4061,12 +3918,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
-                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
+</li>
+<li>
+<a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
+                                [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
 <a href="#IRQ-0010" title="Proveedores">
@@ -4074,14 +3931,14 @@ Cristóbal Guerrero Salguero</a>
 Proveedores</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
 <a href="#CRQ-0009" title="Proveedores">
                                 [CRQ-0009] 
 Proveedores</a>
+</li>
+<li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
 </li>
 </td>
 </tr>
@@ -4217,10 +4074,6 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
@@ -4229,24 +4082,8 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
-</li>
-<li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
-</li>
-<li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
-</li>
-<li>
-<a href="#IRQ-0010" title="Proveedores">
-                                [IRQ-0010] 
-Proveedores</a>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
 <a href="#CRQ-0001" title="Devolución de préstamo">
@@ -4254,19 +4091,9 @@ Proveedores</a>
 Devolución de préstamo</a>
 </li>
 <li>
-<a href="#CRQ-0010" title="Stock bajo">
-                                [CRQ-0010] 
-Stock bajo</a>
-</li>
-<li>
 <a href="#CRQ-0002" title="Irresponsabilidad">
                                 [CRQ-0002] 
 Irresponsabilidad</a>
-</li>
-<li>
-<a href="#IRQ-0008" title="Adquisiciones">
-                                [IRQ-0008] 
-Adquisiciones</a>
 </li>
 <li>
 <a href="#CRQ-0009" title="Proveedores">
@@ -4274,9 +4101,39 @@ Adquisiciones</a>
 Proveedores</a>
 </li>
 <li>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0008" title="Adquisiciones">
+                                [IRQ-0008] 
+Adquisiciones</a>
+</li>
+<li>
+<a href="#IRQ-0010" title="Proveedores">
+                                [IRQ-0010] 
+Proveedores</a>
+</li>
+<li>
+<a href="#CRQ-0010" title="Stock bajo">
+                                [CRQ-0010] 
+Stock bajo</a>
+</li>
+<li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
+</li>
+<li>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
 </li>
 </td>
 </tr>
@@ -4706,13 +4563,13 @@ Cristóbal Guerrero Salguero</a>
 Empleados</a>
 </li>
 <li>
-<a href="#IRQ-0012" title="Mensajes">
-                                [IRQ-0012]  Mensajes</a>
-</li>
-<li>
 <a href="#CRQ-0015" title="Broadcast">
                                 [CRQ-0015] 
 Broadcast</a>
+</li>
+<li>
+<a href="#IRQ-0012" title="Mensajes">
+                                [IRQ-0012]  Mensajes</a>
 </li>
 </td>
 </tr>
@@ -5155,14 +5012,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
-<a href="#CRQ-0001" title="Devolución de préstamo">
-                                [CRQ-0001] 
-Devolución de préstamo</a>
-</li>
-<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Devolución de préstamo">
+                                [CRQ-0001] 
+Devolución de préstamo</a>
 </li>
 </td>
 </tr>
@@ -5652,14 +5509,14 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
+<a href="#CRQ-0010" title="Stock bajo">
+                                [CRQ-0010] 
+Stock bajo</a>
+</li>
+<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
-</li>
-<li>
-<a href="#IRQ-0008" title="Adquisiciones">
-                                [IRQ-0008] 
-Adquisiciones</a>
 </li>
 <li>
 <a href="#IRQ-0005" title="Productos del inventario">
@@ -5667,9 +5524,9 @@ Adquisiciones</a>
 Productos del inventario</a>
 </li>
 <li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
+<a href="#IRQ-0008" title="Adquisiciones">
+                                [IRQ-0008] 
+Adquisiciones</a>
 </li>
 <li>
 <a href="#IRQ-0011" title="Ejemplares">
@@ -5677,19 +5534,19 @@ Préstamos</a>
 Ejemplares</a>
 </li>
 <li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
-</li>
-<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
 </li>
 <li>
-<a href="#CRQ-0010" title="Stock bajo">
-                                [CRQ-0010] 
-Stock bajo</a>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
+</li>
+<li>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
 </li>
 </td>
 </tr>
@@ -5833,6 +5690,16 @@ Cristóbal Guerrero Salguero</a>
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
 </li>
 <li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0003" title="Libros">
+                                [IRQ-0003] 
+Libros</a>
+</li>
+<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
@@ -5846,16 +5713,6 @@ Productos del inventario</a>
 <a href="#IRQ-0008" title="Adquisiciones">
                                 [IRQ-0008] 
 Adquisiciones</a>
-</li>
-<li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
-<a href="#IRQ-0003" title="Libros">
-                                [IRQ-0003] 
-Libros</a>
 </li>
 </td>
 </tr>
@@ -5991,12 +5848,12 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 <li>
 <a href="#IRQ-0011" title="Ejemplares">
@@ -6981,16 +6838,16 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
-                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="GESTIÓN DE PROVEEDORES">
                                 [OBJ-0002]  GESTIÓN DE PROVEEDORES</a>
 </li>
 <li>
 <a href="#OBJ-0003" title="GESTIÓN DE PERSONAL">
                                 [OBJ-0003]  GESTIÓN DE PERSONAL</a>
+</li>
+<li>
+<a href="#OBJ-0006" title="GESTIÓN DE INVENTARIO">
+                                [OBJ-0006]  GESTIÓN DE INVENTARIO</a>
 </li>
 </td>
 </tr>
@@ -7583,19 +7440,9 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
-</li>
-<li>
-<a href="#IRQ-0005" title="Productos del inventario">
-                                [IRQ-0005] 
-Productos del inventario</a>
-</li>
-<li>
-<a href="#IRQ-0004" title="Empleados">
-                                [IRQ-0004] 
-Empleados</a>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0001" title="Socios">
@@ -7603,9 +7450,19 @@ Empleados</a>
 Socios</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#IRQ-0004" title="Empleados">
+                                [IRQ-0004] 
+Empleados</a>
+</li>
+<li>
+<a href="#IRQ-0005" title="Productos del inventario">
+                                [IRQ-0005] 
+Productos del inventario</a>
+</li>
+<li>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
 </li>
 </td>
 </tr>
@@ -7688,14 +7545,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0011" title="Ejemplares">
                                 [IRQ-0011] 
 Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7777,14 +7634,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0001" title="Socios">
-                                [IRQ-0001] 
-Socios</a>
-</li>
-<li>
 <a href="#IRQ-0002" title="Préstamos">
                                 [IRQ-0002] 
 Préstamos</a>
+</li>
+<li>
+<a href="#IRQ-0001" title="Socios">
+                                [IRQ-0001] 
+Socios</a>
 </li>
 </td>
 </tr>
@@ -7953,14 +7810,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0002" title="Préstamos">
-                                [IRQ-0002] 
-Préstamos</a>
-</li>
-<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
+</li>
+<li>
+<a href="#IRQ-0002" title="Préstamos">
+                                [IRQ-0002] 
+Préstamos</a>
 </li>
 </td>
 </tr>
@@ -8048,6 +7905,16 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
+</li>
+<li>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
@@ -8058,19 +7925,9 @@ Productos del inventario</a>
 Préstamos interbibliotecarios</a>
 </li>
 <li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
-</li>
-<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
-</li>
-<li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0013" title="Peticiones">
@@ -8156,6 +8013,11 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
+</li>
+<li>
 <a href="#IRQ-0003" title="Libros">
                                 [IRQ-0003] 
 Libros</a>
@@ -8174,11 +8036,6 @@ Préstamos interbibliotecarios</a>
 <a href="#IRQ-0007" title="Sucursales">
                                 [IRQ-0007] 
 Sucursales</a>
-</li>
-<li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0013" title="Peticiones">
@@ -8259,14 +8116,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0010" title="Proveedores">
-                                [IRQ-0010] 
-Proveedores</a>
-</li>
-<li>
 <a href="#IRQ-0008" title="Adquisiciones">
                                 [IRQ-0008] 
 Adquisiciones</a>
+</li>
+<li>
+<a href="#IRQ-0010" title="Proveedores">
+                                [IRQ-0010] 
+Proveedores</a>
 </li>
 </td>
 </tr>
@@ -8342,11 +8199,6 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
-</li>
-<li>
 <a href="#IRQ-0004" title="Empleados">
                                 [IRQ-0004] 
 Empleados</a>
@@ -8355,6 +8207,11 @@ Empleados</a>
 <a href="#IRQ-0005" title="Productos del inventario">
                                 [IRQ-0005] 
 Productos del inventario</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 </td>
 </tr>
@@ -8431,14 +8288,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0007" title="Sucursales">
-                                [IRQ-0007] 
-Sucursales</a>
-</li>
-<li>
 <a href="#IRQ-0006" title="Préstamos interbibliotecarios">
                                 [IRQ-0006] 
 Préstamos interbibliotecarios</a>
+</li>
+<li>
+<a href="#IRQ-0007" title="Sucursales">
+                                [IRQ-0007] 
+Sucursales</a>
 </li>
 </td>
 </tr>
@@ -8676,14 +8533,14 @@ Cristóbal Guerrero Salguero</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
-                                [IRQ-0006] 
-Préstamos interbibliotecarios</a>
-</li>
-<li>
 <a href="#IRQ-0007" title="Sucursales">
                                 [IRQ-0007] 
 Sucursales</a>
+</li>
+<li>
+<a href="#IRQ-0011" title="Ejemplares">
+                                [IRQ-0011] 
+Ejemplares</a>
 </li>
 <li>
 <a href="#IRQ-0005" title="Productos del inventario">
@@ -8691,9 +8548,9 @@ Sucursales</a>
 Productos del inventario</a>
 </li>
 <li>
-<a href="#IRQ-0011" title="Ejemplares">
-                                [IRQ-0011] 
-Ejemplares</a>
+<a href="#IRQ-0006" title="Préstamos interbibliotecarios">
+                                [IRQ-0006] 
+Préstamos interbibliotecarios</a>
 </li>
 <li>
 <a href="#IRQ-0013" title="Peticiones">
@@ -10779,29 +10636,6 @@ Información frente a objetivos</p>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #UC-0040" title="Reestablecer socio como responsable">UC-0040</a>
-</th>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #UC-0042" title="Crear nueva sucursal">UC-0042</a>
 </th>
 <td align="center" valign="top">
@@ -12819,89 +12653,6 @@ Casos de uso frente a objetivos</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #UC-0040" title="Reestablecer socio como responsable">UC-0040</a>
-</th>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
